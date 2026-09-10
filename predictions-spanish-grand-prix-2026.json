@@ -1,0 +1,1094 @@
+{
+  "exportType": "race_predictions",
+  "raceId": "madrid-2026",
+  "raceName": "Spanish Grand Prix",
+  "raceDate": "2026-09-13",
+  "isSprint": false,
+  "lineup": {
+    "status": "provisional",
+    "source": "admin",
+    "confirmedAt": null,
+    "entries": [
+      {
+        "driverId": "norris",
+        "driver": "Lando Norris",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "piastri",
+        "driver": "Oscar Piastri",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hamilton",
+        "driver": "Lewis Hamilton",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "leclerc",
+        "driver": "Charles Leclerc",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lawson",
+        "driver": "Liam Lawson",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 1,
+        "isSubstitute": true
+      },
+      {
+        "driverId": "verstappen",
+        "driver": "Max Verstappen",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "antonelli",
+        "driver": "Kimi Antonelli",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "russell",
+        "driver": "George Russell",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "alonso",
+        "driver": "Fernando Alonso",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "stroll",
+        "driver": "Lance Stroll",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "colapinto",
+        "driver": "Franco Colapinto",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "gasly",
+        "driver": "Pierre Gasly",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bearman",
+        "driver": "Ollie Bearman",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "ocon",
+        "driver": "Esteban Ocon",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "tsunoda",
+        "driver": "Yuki Tsunoda",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 1,
+        "isSubstitute": true
+      },
+      {
+        "driverId": "lindblad",
+        "driver": "Arvid Lindblad",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "albon",
+        "driver": "Alexander Albon",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "sainz",
+        "driver": "Carlos Sainz",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bortoleto",
+        "driver": "Gabriel Bortoleto",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hulkenberg",
+        "driver": "Nico Hulkenberg",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bottas",
+        "driver": "Valtteri Bottas",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "perez",
+        "driver": "Sergio Perez",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 2,
+        "isSubstitute": false
+      }
+    ]
+  },
+  "exportedAt": "2026-09-10T06:59:43.381Z",
+  "predictions": {
+    "Anthropic": {
+      "predictor": "Claude Opus 5",
+      "raceWeekend": {
+        "podium_p1": "Lando Norris",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "George Russell",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Max Verstappen takes pole and wins the inaugural Madring race, with neither Mercedes finishing on the podium\",\"reasoning\":\"The season-long pattern is overwhelming Mercedes dominance: nine wins from 13 rounds, 468 points to Ferrari's 346, Antonelli on 267 points with seven wins, six poles and 11 podiums, and a crushing Monza one-two where Antonelli won from 19th on the grid. Breaking that pattern completely — no Mercedes on the rostrum at all — is the genuinely surprising outcome, and Madrid is the most credible place for it. First, there is no form book whatsoever: a brand-new 5.416km hybrid circuit with unusually smooth virgin asphalt, 24% banking at La Monumental, 8% climbs to a blind Turn 7 and a 5% drop to Turn 8 means the competitive order can move far more than at a familiar venue — Mercedes' own trackside engineering director Andrew Shovlin has already said he expects a much tougher fight in Madrid than at Monza. Second, Verstappen was already the clear third force at Monza, only 14.7s off, with Red Bull's in-house Red Bull Ford Powertrains unit; Verstappen historically maximises unfamiliar, low-grip, wall-lined tracks where drivers must build confidence over a crest and through banking faster than rivals. Third, the conditions bite: a dry weekend rising to 32°C air and 53°C track with heat indices near the 31°C hazard threshold, and previews specifically warn that teams forced into extra cooling pay a straight-line penalty — a set-up trap that can swallow a dominant team on a circuit no one has calibrated. Fourth, Hamilton has flagged that overtaking will be difficult, so a single Saturday misjudgement locks Mercedes into the wrong grid slots with no route back. One qualifying error, one wrong cooling call, or one badly timed safety car on a debut street-hybrid layout, and the F1 2026 story of the year — Mercedes always on the podium — ends in Madrid.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Williams is the most over-narrated team of the weekend and the least equipped to deliver on it. Carlos Sainz is the hometown hero of F1's first Madrid Grand Prix in 45 years, which guarantees enormous local hype and pressure — but the actual form is dire. At Monza, Sainz finished 13th and Albon a dismal 18th, both outside the points and comfortably behind Alpine, Racing Bulls and even Audi, and Williams has slid backwards through the second half of the season while Racing Bulls and Alpine have kept developing. Madring's profile compounds the problem: a hot, low-degradation-unknown, smooth new surface with 22 corners and sustained lateral load through a 550-metre banked corner is exactly the kind of high-load, thermally punishing layout that has exposed the car's weaknesses, and Madrid's heat forces extra cooling, which the previews warn will carry a particularly noticeable straight-line penalty — punishing a team already lacking margin. Home-race pressure historically inflates error risk too, and on a debut street-hybrid circuit lined with walls, a scrappy Saturday is easy. Prediction: both cars out of the points, with at least one Williams eliminated in Q1, and Sainz's home weekend becoming the biggest anticlimax of the round. A double-zero for a team many expect to ride the Madrid wave is a clear flop.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Everyone arrives at Madring blind — but not equally blind. Ferrari is reportedly the only team that has run a car at the Madring, via a restricted filming day back in July, which gives Maranello real-world reference data on grip levels, kerb behaviour, ride height and the loads through the 24%-banked La Monumental that every rival has to discover in FP1. On a 5.416km circuit with brand-new, unusually smooth asphalt and no lap record, the ability to correlate simulation to reality quickly is worth more than raw car performance, and Ferrari starts that process a step ahead. Expectations are also on the floor after a genuinely disastrous Monza: Leclerc crashed out and triggered the red flag, Hamilton limped to sixth and was openly frustrated, and the much-hyped ADUO-2 power unit was downplayed by Vasseur and by Bearman, who called it a much smaller step than Haas's aero package. But ADUO-2 was designed around efficiency and keeping more usable energy late in the lap, which matters far more on a 22-corner hybrid layout with heavy braking zones and 340kph straights than it did at flat-out Monza. Add Hamilton's own read that overtaking will be hard and Saturday will decide everything — track position rewards the team with the best first-day understanding. Sunday's 32°C and 53°C track temps also punish teams that guess wrong on cooling and tyre prep; Ferrari has data others don't. Expect Ferrari to be a genuine front-row and podium factor, not the fourth-best team it looked like at Monza.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Oscar Piastri",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Madrid Grand Prix?",
+          "selection": "Fernando Alonso",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "7",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Racing Bulls",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many times will the Safety Car or VSC be called upon during the Grand Prix?",
+          "selection": "3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "DeepSeek": {
+      "predictor": "DeepSeek V4 Pro 0813",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Max Verstappen",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Max Verstappen takes his first win of 2026 at the new Madring.\",\"reasoning\":\"Verstappen has not won all season and Red Bull's chassis has been the problem, but the Ford power unit is among the strongest and Verstappen is a four-time champion who excels at adapting to new layouts. With no F1 data at Madrid, a dry but low-grip new surface, and Mercedes pausing development while McLaren and Ferrari face setup unknowns, a Verstappen longshot win is genuinely plausible.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Mercedes\",\"reasoning\":\"Mercedes is the favorite after Kimi Antonelli's Monza win, but that result was built on a power-unit and straight-line advantage at a circuit Toto Wolff called an outlier. Mercedes is not bringing new parts until Malaysia, while McLaren and Ferrari are still upgrading, and the corner-heavy Madring should shift the advantage toward downforce efficiency rather than Mercedes' current package.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Alpine\",\"reasoning\":\"Alpine arrives with momentum after Pierre Gasly's maiden pole and a double points finish at Monza, and the team has shown improved race pace since Zandvoort. A brand-new, low-data street circuit with 22 corners and high G-forces creates uncertainty that can reward a midfield team with a flexible rear-wing package and two drivers in form.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": []
+    },
+    "Google": {
+      "predictor": "Gemini 3.8 Flash",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Charles Leclerc"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Carlos Sainz scores a home podium in Madrid after a late-race safety car restart.\",\"reasoning\":\"The inaugural race at the tight and unforgiving IFEMA Madrid layout carries an extremely high likelihood of safety cars and chaotic attrition. Capitalizing on hometown motivation, a dialed-in low-drag Williams setup, and opportunistic alternate tire strategy, Sainz will leapfrog faltering frontrunners in the closing laps to claim a dream home podium.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Red Bull Racing\",\"reasoning\":\"The bumpy, stop-and-start layout and tight off-camber sections of the new IFEMA Madrid circuit exacerbate Red Bull's ride height sensitivity and curb-riding deficits, leaving both cars struggling for balance and trailing their primary rivals across the weekend.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Sainz\",\"reasoning\":\"Racing in front of his hometown crowd at the brand-new Madrid street circuit, Sainz's exceptional street-track precision and Williams' strong straight-line efficiency and mechanical traction will allow him to punch well above the car's baseline into the top six.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Madrid Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many times will the Safety Car or VSC be called upon during the Grand Prix?",
+          "selection": "2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Human": {
+      "predictor": "Human",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "Arvid Lindblad",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "A non-top 4 driver gets a podium",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "George Russell",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "Charles Leclerc ",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Madrid Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many times will the Safety Car or VSC be called upon during the Grand Prix?",
+          "selection": ">3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "MiniMax": {
+      "predictor": "MiniMax M2.7",
+      "raceWeekend": {
+        "podium_p1": "Lando Norris",
+        "podium_p2": "Charles Leclerc",
+        "podium_p3": "Oscar Piastri",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Fernando Alonso scores his first podium since 2023 with a vintage defensive masterclass at La Monumental, as Aston Martin's Dutch GP upgrades finally unlock genuine race pace at a circuit that rewards setup knowledge more than raw power.\",\"reasoning\":\"Aston Martin has been buried in the midfield all season but showed genuine progress at Zandvoort with significant upgrades that moved them off the very back of the grid. The Madring's characteristics—a mix of technical sections, heavy braking zones, and the banked La Monumental corner—reward setup precision and driver feel more than pure engine power. Alonso, a two-time world champion who has openly stated he has unfinished business in F1, thrives when the equipment is close enough to allow skill to matter. The new surface and unfamiliar layout create a level playing field where experienced drivers can extract more than the data suggests. Aston Martin's recent trajectory suggests the car is genuinely faster than their results show, and a dry, predictable weekend removes chaos variables that typically hurt midfield teams. If McLaren and Ferrari neutralize each other at the front and one of them encounters early trouble, Alonso's defensive prowess and race intelligence could deliver an emotional result that redefines the midfield battle.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Mercedes\",\"reasoning\":\"Mercedes enters Madrid as the nominal favorites through Antonelli's 66-point championship lead, but the underlying trajectory is concerning. Toto Wolff himself called Monza an outlier and the team is on a full development pause until Malaysia, meaning McLaren and Ferrari will outdevelop them across the next three critical corner-heavy races (Madrid, Baku, Malaysia). The Madring's 22-corner, high-downforce nature should theoretically suit Mercedes' W17, but without in-season development they are running the same package they struggled with earlier in the year on similar circuits. Antonelli's -900 odds imply a 90% win probability that doesn't account for first-lap chaos at an unfamiliar track, mechanical failure risk on a driver with limited mileage at this level, or the pressure of leading a championship while the car isn't genuinely improving. Ferrari and McLaren both bring upgrades, and the gap to the front will likely widen before it narrows again.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Alpine\",\"reasoning\":\"Alpine has quietly assembled a strong upward trajectory heading into Madrid. Gasly secured a maiden pole position at Monza and followed it with a double points finish for the team. The French squad brought targeted upgrades in Zandvoort and recovered their folding rear wing concept for Monza, showing they understand their package. Most critically, the Madring's 22-corner layout, high G-forces, and fresh asphalt will create massive uncertainty where a well-prepared midfield team can exploit chaos. Alpine has explicitly planned their downforce package for this shift, and the lack of rain removes a volatility factor that typically benefits only the front runners. With Racing Bulls struggling and Audi/Williams also on the back foot, Alpine is positioned to consolidate their P5 push in the Constructors' Championship with a strong double points haul or better.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Madrid Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many times will the Safety Car or VSC be called upon during the Grand Prix?",
+          "selection": "2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Franco Colapinto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Moonshot": {
+      "predictor": "Kimi K3",
+      "raceWeekend": {
+        "podium_p1": "Lando Norris",
+        "podium_p2": "Charles Leclerc",
+        "podium_p3": "Kimi Antonelli",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Max Verstappen wins the Spanish Grand Prix to claim his first victory of the 2026 season.\",\"reasoning\":\"Verstappen is winless through 13 rounds despite four podiums in the last six races, including P3 at Monza. A brand-new circuit with zero lap data, no tire-degradation baseline and no safety-car history is the great equalizer: adaptability and driver feel outweigh simulation work, and Verstappen is widely regarded as the grid's best improviser — the betting preview flags him as a new-circuit specialist with the strongest power unit at +1200 ([rg.org](https://rg.org/news/autosport/spanish-grand-prix-odds-madrid-predictions-picks-best-bets), [livescore.com](https://www.livescore.com/en/news/formula1/spanish-grand-prix-predictions-norris-ready-to-reign-in-spain/)). With Mercedes' package frozen and dry weather removing the chaos variable, the four-time champion finally converts at the one venue where nobody's data advantage exists.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Mercedes\",\"reasoning\":\"The market has Antonelli as a short-priced favorite (+175) after his Monza masterclass, but that win was built on a circuit that maximized Mercedes' power-unit and straight-line advantage — the exact trait corner-heavy tracks like Monaco neutralized earlier this year. The Madring is the densest corner layout of the season, Toto Wolff himself called Monza an outlier, and Mercedes is on a development pause until Malaysia while McLaren and Ferrari keep bringing parts ([rg.org](https://rg.org/news/autosport/spanish-grand-prix-odds-madrid-predictions-picks-best-bets)). With zero circuit data to validate a frozen package, Mercedes fails to win and sees at least one car finish outside the top five — a clear underperformance for the championship-leading team.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Expectations are at a season low after three straight races without a podium and a home-race disaster at Monza, but the Madring's 20-plus corner layout plays directly to the SF-26's season-long strength in medium and high-speed corners — the same trait that delivered wins in Barcelona and Britain. Unlike Mercedes, Ferrari is still bringing upgrades, and Leclerc's one-lap pace makes a front-row start realistic on a track where, with dry weather forecast, Saturday grid position is decisive ([rg.org](https://rg.org/news/autosport/spanish-grand-prix-odds-madrid-predictions-picks-best-bets)). A return to the podium and both cars in the top five would comfortably beat current expectations.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Madrid Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many times will the Safety Car or VSC be called upon during the Grand Prix?",
+          "selection": "2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "OpenAI": {
+      "predictor": "GPT-5.6 Sol",
+      "raceWeekend": {
+        "podium_p1": "Lando Norris",
+        "podium_p2": "Oscar Piastri",
+        "podium_p3": "Max Verstappen",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Sainz qualifies on the front row and finishes on the podium for Williams.\",\"reasoning\":\"This would represent a major break from Williams’ usual midfield baseline, but it is plausible at an unfamiliar circuit where driver confidence, rapid setup learning and clean execution can compress the hierarchy. Sainz’s experience, home support and ability to capitalize on strategic opportunities make him a credible beneficiary if Madrid produces a disrupted qualifying session or unusually high degradation.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Aston Martin\",\"reasoning\":\"Aston Martin will face elevated expectations in Alonso’s home race, but Madrid’s new, varied layout could expose any weakness in mechanical compliance or low-speed balance. The pressure to perform and the difficulty of correlating simulations at a brand-new circuit also increase the risk of an incorrect setup direction, leaving the team outside the points despite strong home support.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"The inaugural Madrid layout is expected to reward straight-line efficiency, braking stability and traction across its mix of fast sections and street-style corners. Those traits suit Williams’ recent design direction, while Sainz brings home-race motivation and strong technical feedback at a venue where every team starts with limited real-world data. A double-points finish would beat normal midfield expectations.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Madrid Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many times will the Safety Car or VSC be called upon during the Grand Prix?",
+          "selection": "2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "xAI": {
+      "predictor": "Grok 4.6",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "George Russell",
+        "podium_p3": "Lewis Hamilton",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Carlos Sainz takes Williams' first podium of 2026 at his home Madrid Grand Prix\",\"reasoning\":\"Williams are running a special 1981-inspired livery linking back to the last Madrid race at Jarama. Sainz, a local hero, has described the hybrid street/purpose-built layout as intense like Baku or Jeddah. On an unknown track with walls, two tunnels, high banking that will punish mistakes and potentially high tyre degradation forcing unusual strategies, a home-crowd boost plus possible incidents could let him outperform Williams' usual midfield pace.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari had a filming-day session on the unfinished Madring in July that was downplayed as only a minor advantage. Combined with Leclerc's DNF and Hamilton's distant sixth at Monza, plus the unknown tyre behaviour under the highest vertical loads of the season on brand-new low-grip asphalt, they risk failing to challenge Mercedes' dominance or McLaren's recent high-downforce form.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Aston Martin\",\"reasoning\":\"Aston Martin suffered double DNFs at high-speed Monza but the team has stated the Madring's mixed layout of fast sectors, low-speed corners, elevation changes and unique 24% banked La Monumental corner should suit their upgraded chassis and aero package far better. Spanish driver Fernando Alonso will have extra motivation on home soil at a sold-out inaugural event.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Madrid Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Madrid Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "7",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many times will the Safety Car or VSC be called upon during the Grand Prix?",
+          "selection": "2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    }
+  },
+  "generationLogs": [
+    {
+      "id": 445,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"norris\",\n  \"podium\": [\"norris\", \"piastri\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Madrid is a new semi-permanent circuit, so there is no meaningful track-specific F1 history, and forecasts, penalties, and mechanical concerns cannot be assessed reliably this far ahead. Its long straight, technical sections, and expected warm September conditions should reward aerodynamic efficiency, traction, and tyre management. McLaren's strong recent-era baseline makes Norris and Piastri the safest leading choices, while Verstappen's qualifying speed and adaptability make him the principal challenger. The major uncertainty is the competitive reset created by the 2026 regulations.\"\n}",
+      "tokensUsed": 1138,
+      "costUsd": 0.006716,
+      "createdAt": "2026-09-09T21:25:23.993Z"
+    },
+    {
+      "id": 446,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\":\"norris\",\"podium\":[\"norris\",\"leclerc\",\"piastri\"],\"sprint_pole\":null,\"sprint_winner\":null,\"reasoning\":\"The Madring's high corner density (22+ corners, few straights) makes it analogous to the Hungaroring and Zandvoort circuits where McLaren excelled. Norris is 96 points behind Antonelli with ten rounds remaining, making this a must-win weekend for his title hopes. The +350 odds (22% win probability) underestimate a driver whose car has dominated corner-heavy tracks. Leclerc gets the edge over Hamilton due to his Ferrari form and prior Madring experience from the F1 test. Piastri completes the podium as McLaren's second car should be strong on this layout. The dry, sunny forecast eliminates rain chaos variables, making qualifying position paramount. Safety cars and red flags are highly likely given the F3 test had 19 red flags, but this likely hurts midfield teams more than the front-runners who can manage incidents better. Hamilton (7th in championship) and Sainz (only drivers with actual track experience from F1 tests) have an advantage, but McLaren's raw car speed should overcome this. Norris's motivation, McLaren's cornering strength, and the high-risk nature of the track (which will catch out drivers pushing limits) all favor the British driver taking pole and converting it to a win.\"}",
+      "tokensUsed": 3793,
+      "costUsd": 0.00866401,
+      "createdAt": "2026-09-09T21:25:23.985Z"
+    },
+    {
+      "id": 447,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Williams\",\"reasoning\":\"The inaugural Madrid layout is expected to reward straight-line efficiency, braking stability and traction across its mix of fast sections and street-style corners. Those traits suit Williams’ recent design direction, while Sainz brings home-race motivation and strong technical feedback at a venue where every team starts with limited real-world data. A double-points finish would beat normal midfield expectations.\",\"is_team\":true,\"referenced_id\":\"williams\"},\"flop\":{\"name\":\"Aston Martin\",\"reasoning\":\"Aston Martin will face elevated expectations in Alonso’s home race, but Madrid’s new, varied layout could expose any weakness in mechanical compliance or low-speed balance. The pressure to perform and the difficulty of correlating simulations at a brand-new circuit also increase the risk of an incorrect setup direction, leaving the team outside the points despite strong home support.\",\"is_team\":true,\"referenced_id\":\"aston-martin\"},\"crazy_prediction\":{\"prediction\":\"Sainz qualifies on the front row and finishes on the podium for Williams.\",\"reasoning\":\"This would represent a major break from Williams’ usual midfield baseline, but it is plausible at an unfamiliar circuit where driver confidence, rapid setup learning and clean execution can compress the hierarchy. Sainz’s experience, home support and ability to capitalize on strategic opportunities make him a credible beneficiary if Madrid produces a disrupted qualifying session or unusually high degradation.\"}}",
+      "tokensUsed": 1684,
+      "costUsd": 0.009872,
+      "createdAt": "2026-09-09T21:25:24.205Z"
+    },
+    {
+      "id": 448,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Spanish Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"141\":[1375,1376,1378],\"142\":[1398],\"143\":[1419],\"144\":[1422],\"145\":[1427],\"146\":[1453],\"147\":[1462],\"148\":[1469],\"149\":[1475],\"150\":[1476]},\"reasoning\":\"Mercedes is strongly implied to be the benchmark, with Antonelli’s recent fastest-lap form supporting him for victory and Russell for pole. McLaren is favored over Ferrari on combined race pace, while Bearman is the calculated midfield upset. A new, technical street-style circuit makes two interventions and 18 classified finishers plausible; Red Bull remains the pit-stop specialist.\"}",
+      "tokensUsed": 3170,
+      "costUsd": 0.010811,
+      "createdAt": "2026-09-09T21:25:36.198Z"
+    },
+    {
+      "id": 449,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"norris\",\n  \"podium\": [\"norris\", \"leclerc\", \"antonelli\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"The inaugural Madrid Grand Prix at the Madring presents a high-downforce, technical street circuit with 22 corners and minimal straights, heavily favoring cars with strong cornering performance. McLaren has been the class of the field on similar downforce-dependent tracks, winning consecutively at Hungary and Zandvoort before the summer break, and the circuit layout is explicitly compared to those venues [skysports.com](https://www.skysports.com/f1/news/12433/13583094/spanish-gp-what-to-expect-from-new-madring-track-in-madrid-with-carlos-sainz-predicting-safety-cars-and-red-flags). Lando Norris is the betting favorite at +350, with analysts noting the track type suits McLaren's strengths and that Norris needs consecutive wins to close the 96-point gap to championship leader Kimi Antonelli [rg.org](https://rg.org/news/autosport/spanish-grand-prix-odds-madrid-predictions-picks-best-bets). Ferrari's Charles Leclerc, who has prior experience driving the Madring circuit, is expected to challenge for the podium as Ferrari's street circuit setup should be competitive [sportskhabri.com](https://sportskhabri.com/f1-2026-spanish-grand-prix-preview-and-predictions/). Championship leader Kimi Antonelli, fresh off his stunning Monza victory, rounds out the podium as Mercedes looks to maintain momentum despite the track theoretically favoring their rivals. With dry, sunny conditions forecast and no sprint format to add variables, qualifying position will be critical on this tight, barrier-lined circuit where safety cars and red flags are anticipated.\"\n}",
+      "tokensUsed": 3527,
+      "costUsd": 0.0213556,
+      "createdAt": "2026-09-09T21:25:23.996Z"
+    },
+    {
+      "id": 450,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Ferrari\",\n    \"reasoning\": \"Expectations are at a season low after three straight races without a podium and a home-race disaster at Monza, but the Madring's 20-plus corner layout plays directly to the SF-26's season-long strength in medium and high-speed corners — the same trait that delivered wins in Barcelona and Britain. Unlike Mercedes, Ferrari is still bringing upgrades, and Leclerc's one-lap pace makes a front-row start realistic on a track where, with dry weather forecast, Saturday grid position is decisive ([rg.org](https://rg.org/news/autosport/spanish-grand-prix-odds-madrid-predictions-picks-best-bets)). A return to the podium and both cars in the top five would comfortably beat current expectations.\",\n    \"is_team\": true,\n    \"referenced_id\": \"ferrari\"\n  },\n  \"flop\": {\n    \"name\": \"Mercedes\",\n    \"reasoning\": \"The market has Antonelli as a short-priced favorite (+175) after his Monza masterclass, but that win was built on a circuit that maximized Mercedes' power-unit and straight-line advantage — the exact trait corner-heavy tracks like Monaco neutralized earlier this year. The Madring is the densest corner layout of the season, Toto Wolff himself called Monza an outlier, and Mercedes is on a development pause until Malaysia while McLaren and Ferrari keep bringing parts ([rg.org](https://rg.org/news/autosport/spanish-grand-prix-odds-madrid-predictions-picks-best-bets)). With zero circuit data to validate a frozen package, Mercedes fails to win and sees at least one car finish outside the top five — a clear underperformance for the championship-leading team.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mercedes\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Max Verstappen wins the Spanish Grand Prix to claim his first victory of the 2026 season.\",\n    \"reasoning\": \"Verstappen is winless through 13 rounds despite four podiums in the last six races, including P3 at Monza. A brand-new circuit with zero lap data, no tire-degradation baseline and no safety-car history is the great equalizer: adaptability and driver feel outweigh simulation work, and Verstappen is widely regarded as the grid's best improviser — the betting preview flags him as a new-circuit specialist with the strongest power unit at +1200 ([rg.org](https://rg.org/news/autosport/spanish-grand-prix-odds-madrid-predictions-picks-best-bets), [livescore.com](https://www.livescore.com/en/news/formula1/spanish-grand-prix-predictions-norris-ready-to-reign-in-spain/)). With Mercedes' package frozen and dry weather removing the chaos variable, the four-time champion finally converts at the one venue where nobody's data advantage exists.\"\n  }\n}",
+      "tokensUsed": 6194,
+      "costUsd": 0.0518708,
+      "createdAt": "2026-09-09T21:25:24.208Z"
+    },
+    {
+      "id": 451,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\":\"norris\",\"podium\":[\"norris\",\"antonelli\",\"russell\"],\"sprint_pole\":null,\"sprint_winner\":null,\"reasoning\":\"Round 14 is F1's first race at the brand-new Madring, a 5.416km, 22-corner hybrid street/permanent circuit in Madrid with 57 laps, big elevation changes and the banked 'La Monumental' turn — a weekend with no form book, no degradation data and no pit-loss reference, so there is unusually high variance. Championship context: Antonelli leads on 267 points, 66 clear of Russell and 76 clear of Hamilton after winning at Monza from 19th on the grid, with Mercedes leading Ferrari 468-346. Mercedes is clearly the benchmark team, but Toto Wolff himself labelled Monza an outlier and Mercedes is not bringing new parts until Malaysia, relying on the existing W17 through Madrid and Baku. Crucially, Madrid puts a premium on slow/medium-speed corner performance, traction and riding bumps and kerbs — closer to Hungaroring and Zandvoort, where Norris took back-to-back poles and wins on either side of the summer break thanks to McLaren's medium-speed upgrades, and a long way from the low-downforce Monza layout that exposed McLaren (Norris 4th, Piastri 5th). Sky Sports and F1 Oversteer both flag McLaren as the likeliest to wrestle momentum back, hence Norris for pole; with overtaking looking difficult (the Turn 1/2 braking zone and the Turn 3-5 straight the only real chances, and no DRS under 2026 rules), converting pole should matter more than usual. Antonelli is the in-form driver of the season (7 wins in 13) and the natural counter-pick for the win, with Russell — who was on for victory at Monza and has not yet been given his expected engine penalty this weekend — completing the podium. Risks considered: Verstappen was third at Monza and thrives on wall-lined circuits, Leclerc avoided an engine penalty after his 50G Monza crash (only a transmission casing change), Hadjar remains out with Lawson at Red Bull and Tsunoda at Racing Bulls, and the forecast is hot, dry and sunny (~32-33C) all weekend, putting tyre degradation, cooling and a possible two-stop at the centre of strategy. F3's red-flag-strewn test suggests safety cars and Q3 red flags are a real threat to any prediction.\"}",
+      "tokensUsed": 61475,
+      "costUsd": 0.384075,
+      "createdAt": "2026-09-09T21:25:23.992Z"
+    },
+    {
+      "id": 452,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Alpine\",\n    \"reasoning\": \"Alpine has quietly assembled a strong upward trajectory heading into Madrid. Gasly secured a maiden pole position at Monza and followed it with a double points finish for the team. The French squad brought targeted upgrades in Zandvoort and recovered their folding rear wing concept for Monza, showing they understand their package. Most critically, the Madring's 22-corner layout, high G-forces, and fresh asphalt will create massive uncertainty where a well-prepared midfield team can exploit chaos. Alpine has explicitly planned their downforce package for this shift, and the lack of rain removes a volatility factor that typically benefits only the front runners. With Racing Bulls struggling and Audi/Williams also on the back foot, Alpine is positioned to consolidate their P5 push in the Constructors' Championship with a strong double points haul or better.\",\n    \"is_team\": true,\n    \"referenced_id\": \"alpine\"\n  },\n  \"flop\": {\n    \"name\": \"Mercedes\",\n    \"reasoning\": \"Mercedes enters Madrid as the nominal favorites through Antonelli's 66-point championship lead, but the underlying trajectory is concerning. Toto Wolff himself called Monza an outlier and the team is on a full development pause until Malaysia, meaning McLaren and Ferrari will outdevelop them across the next three critical corner-heavy races (Madrid, Baku, Malaysia). The Madring's 22-corner, high-downforce nature should theoretically suit Mercedes' W17, but without in-season development they are running the same package they struggled with earlier in the year on similar circuits. Antonelli's -900 odds imply a 90% win probability that doesn't account for first-lap chaos at an unfamiliar track, mechanical failure risk on a driver with limited mileage at this level, or the pressure of leading a championship while the car isn't genuinely improving. Ferrari and McLaren both bring upgrades, and the gap to the front will likely widen before it narrows again.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mercedes\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Fernando Alonso scores his first podium since 2023 with a vintage defensive masterclass at La Monumental, as Aston Martin's Dutch GP upgrades finally unlock genuine race pace at a circuit that rewards setup knowledge more than raw power.\",\n    \"reasoning\": \"Aston Martin has been buried in the midfield all season but showed genuine progress at Zandvoort with significant upgrades that moved them off the very back of the grid. The Madring's characteristics—a mix of technical sections, heavy braking zones, and the banked La Monumental corner—reward setup precision and driver feel more than pure engine power. Alonso, a two-time world champion who has openly stated he has unfinished business in F1, thrives when the equipment is close enough to allow skill to matter. The new surface and unfamiliar layout create a level playing field where experienced drivers can extract more than the data suggests. Aston Martin's recent trajectory suggests the car is genuinely faster than their results show, and a dry, predictable weekend removes chaos variables that typically hurt midfield teams. If McLaren and Ferrari neutralize each other at the front and one of them encounters early trouble, Alonso's defensive prowess and race intelligence could deliver an emotional result that redefines the midfield battle.\"\n  }\n}",
+      "tokensUsed": 4503,
+      "costUsd": 0.0095407,
+      "createdAt": "2026-09-09T21:25:24.203Z"
+    },
+    {
+      "id": 453,
+      "predictorId": "deepseek-deepseek-v4-pro-0813-f936349c",
+      "predictorName": "DeepSeek V4 Pro 0813",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Alpine\",\n    \"reasoning\": \"Alpine arrives with momentum after Pierre Gasly's maiden pole and a double points finish at Monza, and the team has shown improved race pace since Zandvoort. A brand-new, low-data street circuit with 22 corners and high G-forces creates uncertainty that can reward a midfield team with a flexible rear-wing package and two drivers in form.\",\n    \"is_team\": true,\n    \"referenced_id\": \"alpine\"\n  },\n  \"flop\": {\n    \"name\": \"Mercedes\",\n    \"reasoning\": \"Mercedes is the favorite after Kimi Antonelli's Monza win, but that result was built on a power-unit and straight-line advantage at a circuit Toto Wolff called an outlier. Mercedes is not bringing new parts until Malaysia, while McLaren and Ferrari are still upgrading, and the corner-heavy Madring should shift the advantage toward downforce efficiency rather than Mercedes' current package.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mercedes\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Max Verstappen takes his first win of 2026 at the new Madring.\",\n    \"reasoning\": \"Verstappen has not won all season and Red Bull's chassis has been the problem, but the Ford power unit is among the strongest and Verstappen is a four-time champion who excels at adapting to new layouts. With no F1 data at Madrid, a dry but low-grip new surface, and Mercedes pausing development while McLaren and Ferrari face setup unknowns, a Verstappen longshot win is genuinely plausible.\"\n  }\n}",
+      "tokensUsed": 6081,
+      "costUsd": 0.02215821,
+      "createdAt": "2026-09-09T21:25:24.207Z"
+    },
+    {
+      "id": 454,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Spanish Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"141\":[1375,1379,1376],\"142\":[1397],\"143\":[1419],\"144\":[1422],\"145\":[1431],\"146\":[1449],\"147\":[1462],\"148\":[1469],\"149\":[1473],\"150\":[1476]},\"reasoning\":\"Based on 2026 season standings, Kimi Antonelli leads with 156 points showing Mercedes dominance, Hamilton has 90 points at Ferrari, and Russell has 88 points. For Q3, expecting 6 teams (Mercedes, Ferrari, McLaren, Red Bull, Racing Bulls, Alpine). Hamilton's Barcelona experience and Ferrari's race pace suggest he could take the fastest lap despite Antonelli's season dominance. Mercedes historically excels at pitstops. New Madrid track with heavy braking suggests possible VSC/SC usage. Midfield battle sees strong rookie competition with Colapinto showing good form.\"}",
+      "tokensUsed": 5231,
+      "costUsd": 0.00941839,
+      "createdAt": "2026-09-09T21:25:36.196Z"
+    },
+    {
+      "id": 455,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"russell\", \"hamilton\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Antonelli leads the 2026 championship with 267 points and 7 wins after a stunning victory from 19th at Monza. Mercedes has the most complete car across circuit types. The new Madring hybrid street circuit (22 corners, long 24% banked La Monumental, close walls, mix of high/medium/low speed) favors balanced cars and quick adapters; Ferrari has a filming-day knowledge edge but Mercedes form and Antonelli's adaptability give them the edge in dry, hot conditions with no rain expected. Russell likely close behind; Hamilton strong in corners and on home-like Spanish tracks. Potential incidents due to new layout but top Mercedes/Ferrari expected to convert. No sprint weekend.\"\n}",
+      "tokensUsed": 138487,
+      "costUsd": 0.21695,
+      "createdAt": "2026-09-09T21:25:23.995Z"
+    },
+    {
+      "id": 456,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Spanish Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n\"answers\": {\n\"141\": [1375, 1376, 1379],\n\"142\": [1397],\n\"143\": [1419],\n\"144\": [1422],\n\"145\": [1427],\n\"146\": [1453],\n\"147\": [1462],\n\"148\": [1468],\n\"149\": [1472],\n\"150\": [1476]\n},\n\"reasoning\": \"The 2026 season picture from [formula1.com](https://www.formula1.com/) shows Mercedes dominance: Kimi Antonelli leads the championship with 156 points, nearly double Lewis Hamilton's 90, with George Russell third on 88. Antonelli also keeps collecting fastest lap awards (Monza referenced in the question brief), making him the clear pick for pole, the race win, and fastest lap at the new Madring circuit. Russell took pole at Barcelona 2026 per [coffeecornermotorsport.com](https://coffeecornermotorsport.com/), confirming Mercedes' one-lap edge, so he slots in P2, with Hamilton (2nd in the standings, Ferrari the 2nd-best car) completing the podium. Q143: Sainz is both the odds favorite and a Madrid native racing at home, with Williams looking more competitive than Alonso's Aston Martin. Q144: Mercedes, Ferrari, McLaren and Red Bull should lock up 8 Q3 spots, with two midfield cars (likely Williams/Racing Bulls) making 6 teams total. Q146 (bold pick): Red Bull's pit crew has been the benchmark for years and crew quality persists even when the car is off the pace — 25 pts is strong value. Q147: a brand-new street circuit with 22 corners and heavy braking zones historically produces interruptions (Las Vegas and Miami debuts each had 2), so 2 Safety Car/VSC periods. Q148: modern reliability is strong but first-lap chaos at a new venue should trim the field to ~17 classified finishers. Q149: Lindblad's Racing Bulls package looks the strongest of that midfield rookie group. Q150: McLaren are explicitly 'reeling Ferrari in' for P2 in the Constructors', so they should outscore Ferrari again in Madrid.\"\n}",
+      "tokensUsed": 8633,
+      "costUsd": 0.0999049,
+      "createdAt": "2026-09-09T21:25:36.200Z"
+    },
+    {
+      "id": 457,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Spanish Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"141\": [1375, 1376, 1378],\n    \"142\": [1397],\n    \"143\": [1419],\n    \"144\": [1423],\n    \"145\": [1427],\n    \"146\": [1449],\n    \"147\": [1462],\n    \"148\": [1469],\n    \"149\": [1472],\n    \"150\": [1476]\n  },\n  \"reasoning\": \"Mercedes dominant with Antonelli (267pts, Monza win from P19) and Russell; new Madring (22 corners, banked Monumental, walls, elevation) favors adapters but dry/hot weather. Podium Mercedes 1-2 with Norris 3rd as McLaren stronger on downforce vs Monza. Antonelli pole/FL per form. Sainz over Alonso (Williams 11pts vs Aston 3). 7 teams in Q3 (top4 + Racing Bulls/Alpine). Mercedes pits. 2 SC (new track incidents per Sainz). 18 finishers (reliability test). Lindblad (Racing Bulls 5th constructors) ahead midfield. McLaren scores more vs Ferrari as they close 59pt gap.\"\n}",
+      "tokensUsed": 153506,
+      "costUsd": 0.236928,
+      "createdAt": "2026-09-09T21:25:36.199Z"
+    },
+    {
+      "id": 458,
+      "predictorId": "deepseek-deepseek-v4-pro-0813-f936349c",
+      "predictorName": "DeepSeek V4 Pro 0813",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"norris\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Kimi Antonelli and Mercedes arrive with momentum after Monza, and the new high-speed Madring street circuit puts a premium on qualifying and bravery, which suits Antonelli’s current form. McLaren’s cornering strength should also work well here — Lando Norris won at similar high-downforce venues like Hungaroring and Zandvoort. Red Bull had top race pace at Monza, so Max Verstappen is a logical podium threat. No sprint weekend, so sprint fields are null. Sources: [skysports.com](https://www.skysports.com/f1/news/12433/13583094/spanish-gp-what-to-expect-from-new-madring-track-in-madrid-with-carlos-sainz-predicting-safety-cars-and-red-flags) and [sportskhabri.com](https://sportskhabri.com/f1-2026-spanish-grand-prix-preview-and-predictions/).\"\n}",
+      "tokensUsed": 6162,
+      "costUsd": 0.02031814,
+      "createdAt": "2026-09-09T21:25:23.996Z"
+    },
+    {
+      "id": 459,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Ferrari\",\"reasoning\":\"Everyone arrives at Madring blind — but not equally blind. Ferrari is reportedly the only team that has run a car at the Madring, via a restricted filming day back in July, which gives Maranello real-world reference data on grip levels, kerb behaviour, ride height and the loads through the 24%-banked La Monumental that every rival has to discover in FP1. On a 5.416km circuit with brand-new, unusually smooth asphalt and no lap record, the ability to correlate simulation to reality quickly is worth more than raw car performance, and Ferrari starts that process a step ahead. Expectations are also on the floor after a genuinely disastrous Monza: Leclerc crashed out and triggered the red flag, Hamilton limped to sixth and was openly frustrated, and the much-hyped ADUO-2 power unit was downplayed by Vasseur and by Bearman, who called it a much smaller step than Haas's aero package. But ADUO-2 was designed around efficiency and keeping more usable energy late in the lap, which matters far more on a 22-corner hybrid layout with heavy braking zones and 340kph straights than it did at flat-out Monza. Add Hamilton's own read that overtaking will be hard and Saturday will decide everything — track position rewards the team with the best first-day understanding. Sunday's 32°C and 53°C track temps also punish teams that guess wrong on cooling and tyre prep; Ferrari has data others don't. Expect Ferrari to be a genuine front-row and podium factor, not the fourth-best team it looked like at Monza.\",\"is_team\":true,\"referenced_id\":\"ferrari\"},\"flop\":{\"name\":\"Williams\",\"reasoning\":\"Williams is the most over-narrated team of the weekend and the least equipped to deliver on it. Carlos Sainz is the hometown hero of F1's first Madrid Grand Prix in 45 years, which guarantees enormous local hype and pressure — but the actual form is dire. At Monza, Sainz finished 13th and Albon a dismal 18th, both outside the points and comfortably behind Alpine, Racing Bulls and even Audi, and Williams has slid backwards through the second half of the season while Racing Bulls and Alpine have kept developing. Madring's profile compounds the problem: a hot, low-degradation-unknown, smooth new surface with 22 corners and sustained lateral load through a 550-metre banked corner is exactly the kind of high-load, thermally punishing layout that has exposed the car's weaknesses, and Madrid's heat forces extra cooling, which the previews warn will carry a particularly noticeable straight-line penalty — punishing a team already lacking margin. Home-race pressure historically inflates error risk too, and on a debut street-hybrid circuit lined with walls, a scrappy Saturday is easy. Prediction: both cars out of the points, with at least one Williams eliminated in Q1, and Sainz's home weekend becoming the biggest anticlimax of the round. A double-zero for a team many expect to ride the Madrid wave is a clear flop.\",\"is_team\":true,\"referenced_id\":\"williams\"},\"crazy_prediction\":{\"prediction\":\"Max Verstappen takes pole and wins the inaugural Madring race, with neither Mercedes finishing on the podium\",\"reasoning\":\"The season-long pattern is overwhelming Mercedes dominance: nine wins from 13 rounds, 468 points to Ferrari's 346, Antonelli on 267 points with seven wins, six poles and 11 podiums, and a crushing Monza one-two where Antonelli won from 19th on the grid. Breaking that pattern completely — no Mercedes on the rostrum at all — is the genuinely surprising outcome, and Madrid is the most credible place for it. First, there is no form book whatsoever: a brand-new 5.416km hybrid circuit with unusually smooth virgin asphalt, 24% banking at La Monumental, 8% climbs to a blind Turn 7 and a 5% drop to Turn 8 means the competitive order can move far more than at a familiar venue — Mercedes' own trackside engineering director Andrew Shovlin has already said he expects a much tougher fight in Madrid than at Monza. Second, Verstappen was already the clear third force at Monza, only 14.7s off, with Red Bull's in-house Red Bull Ford Powertrains unit; Verstappen historically maximises unfamiliar, low-grip, wall-lined tracks where drivers must build confidence over a crest and through banking faster than rivals. Third, the conditions bite: a dry weekend rising to 32°C air and 53°C track with heat indices near the 31°C hazard threshold, and previews specifically warn that teams forced into extra cooling pay a straight-line penalty — a set-up trap that can swallow a dominant team on a circuit no one has calibrated. Fourth, Hamilton has flagged that overtaking will be difficult, so a single Saturday misjudgement locks Mercedes into the wrong grid slots with no route back. One qualifying error, one wrong cooling call, or one badly timed safety car on a debut street-hybrid layout, and the F1 2026 story of the year — Mercedes always on the podium — ends in Madrid.\",\"reasoning_note\":\"Judgeable Sunday: requires Verstappen pole + win and both Antonelli and Russell outside the top three.\"}}",
+      "tokensUsed": 122344,
+      "costUsd": 0.78112,
+      "createdAt": "2026-09-09T21:25:24.204Z"
+    },
+    {
+      "id": 460,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": { \"name\": \"Aston Martin\", \"reasoning\": \"Aston Martin suffered double DNFs at high-speed Monza but the team has stated the Madring's mixed layout of fast sectors, low-speed corners, elevation changes and unique 24% banked La Monumental corner should suit their upgraded chassis and aero package far better. Spanish driver Fernando Alonso will have extra motivation on home soil at a sold-out inaugural event.\", \"is_team\": true, \"referenced_id\": \"aston-martin\" },\n  \"flop\": { \"name\": \"Ferrari\", \"reasoning\": \"Ferrari had a filming-day session on the unfinished Madring in July that was downplayed as only a minor advantage. Combined with Leclerc's DNF and Hamilton's distant sixth at Monza, plus the unknown tyre behaviour under the highest vertical loads of the season on brand-new low-grip asphalt, they risk failing to challenge Mercedes' dominance or McLaren's recent high-downforce form.\", \"is_team\": true, \"referenced_id\": \"ferrari\" },\n  \"crazy_prediction\": { \"prediction\": \"Carlos Sainz takes Williams' first podium of 2026 at his home Madrid Grand Prix\", \"reasoning\": \"Williams are running a special 1981-inspired livery linking back to the last Madrid race at Jarama. Sainz, a local hero, has described the hybrid street/purpose-built layout as intense like Baku or Jeddah. On an unknown track with walls, two tunnels, high banking that will punish mistakes and potentially high tyre degradation forcing unusual strategies, a home-crowd boost plus possible incidents could let him outperform Williams' usual midfield pace.\" }\n}",
+      "tokensUsed": 90317,
+      "costUsd": 0.237618,
+      "createdAt": "2026-09-09T21:25:24.206Z"
+    },
+    {
+      "id": 461,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Spanish Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"141\":[1378,1375,1381],\"142\":[1397],\"143\":[1420],\"144\":[1423],\"145\":[1428],\"146\":[1451],\"147\":[1463],\"148\":[1469],\"149\":[1475],\"150\":[1476]},\"reasoning\":\"Context: Round 14/16 of 2026 at the brand-new Madring (5.4km, 22 corners, banked La Monumental, 57 laps, hot/dry ~30-33C). Kimi Antonelli leads the title by 66 pts over Russell after winning Monza from P19 (7 wins, 6 poles); Mercedes lead constructors by ~120 pts. However, Sky's assessment and multiple previews say the corner-dense, high-downforce layout resembles Hungaroring/Zandvoort - the two tracks where Norris and the upgraded MCL40 won - so McLaren/Ferrari should close in, while Monza-style straight-line power matters less (Verstappen felt 'like a turtle' on straights). PODIUM: bold but informed - Norris P1 (best track-type fit, second favourite at ~+325/22% market), Antonelli P2 (overall favourite, safest points anchor), Piastri P3 for value (McLaren double podium plausible; Piastri beat Norris at Monza). POLE: Antonelli, 6 poles in 13 rounds and the bookies' pole favourite - qualifying is decisive on a low-overtaking street track. SPANISH DRIVER: Alonso over Sainz despite Sainz's ambassador/sim/track knowledge - Williams has collapsed in the pecking order (Sainz: 'only quicker than Cadillac'), while Aston's B-spec + upgraded Honda made them 'a different league' in the Zandvoort comparison, and Alonso dominates Stroll in qualifying. TEAMS IN Q3: 7 - expected yellow/red flags and disrupted sessions on a chaotic new circuit should let an extra midfield team (Alpine/Racing Bulls/Audi/Haas) break the usual 6-team pattern. FASTEST LAP: Russell - Mercedes have the strongest package and Russell is likely to be the one with a late free-air/fresh-tyre run if Antonelli is managing a lead. PITSTOP: Racing Bulls as a value play - they posted the season's quickest stop (2.03s, Austria) and 2026 award wins have been spread across McLaren, Racing Bulls, Mercedes, Audi and Ferrari. SAFETY CARS: 3 - Sainz and rivals openly expect 'safety cars, red flags and yellow flags', Vowles calls it a 'car killer', and F3's test produced 19 red flags. FINISHERS: 18 from 22 starters - he\"}",
+      "tokensUsed": 198088,
+      "costUsd": 1.20124,
+      "createdAt": "2026-09-09T21:25:36.197Z"
+    },
+    {
+      "id": 462,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"leclerc\",\n  \"podium\": [\"verstappen\", \"norris\", \"leclerc\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"The inaugural Spanish Grand Prix at Madrid's hybrid semi-street circuit favors low-to-medium speed mechanical grip and precise low-speed traction through the IFEMA exhibition complex. Charles Leclerc's trademark qualifying supremacy on street-style layouts gives him the edge for pole position. Over the full grand prix distance, Max Verstappen and Red Bull's energy recovery deployment and superior tyre degradation management make them the favorites to claim victory, closely followed by Lando Norris in McLaren's balanced chassis, with Leclerc rounding out the podium.\"\n}",
+      "tokensUsed": 1233,
+      "costUsd": 0.00280275,
+      "createdAt": "2026-09-09T21:25:23.994Z"
+    },
+    {
+      "id": 463,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Spanish Grand Prix (Round 14, 2026-09-13) at Madrid, Spain.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Sainz\",\n    \"reasoning\": \"Racing in front of his hometown crowd at the brand-new Madrid street circuit, Sainz's exceptional street-track precision and Williams' strong straight-line efficiency and mechanical traction will allow him to punch well above the car's baseline into the top six.\",\n    \"is_team\": false,\n    \"referenced_id\": \"sainz\"\n  },\n  \"flop\": {\n    \"name\": \"Red Bull Racing\",\n    \"reasoning\": \"The bumpy, stop-and-start layout and tight off-camber sections of the new IFEMA Madrid circuit exacerbate Red Bull's ride height sensitivity and curb-riding deficits, leaving both cars struggling for balance and trailing their primary rivals across the weekend.\",\n    \"is_team\": true,\n    \"referenced_id\": \"red-bull\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Carlos Sainz scores a home podium in Madrid after a late-race safety car restart.\",\n    \"reasoning\": \"The inaugural race at the tight and unforgiving IFEMA Madrid layout carries an extremely high likelihood of safety cars and chaotic attrition. Capitalizing on hometown motivation, a dialed-in low-drag Williams setup, and opportunistic alternate tire strategy, Sainz will leapfrog faltering frontrunners in the closing laps to claim a dream home podium.\"\n  }\n}",
+      "tokensUsed": 1921,
+      "costUsd": 0.00457575,
+      "createdAt": "2026-09-09T21:25:24.206Z"
+    },
+    {
+      "id": 464,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Spanish Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"141\": [1375, 1376, 1377],\n    \"142\": [1397],\n    \"143\": [1419],\n    \"144\": [1422],\n    \"145\": [1427],\n    \"146\": [1449],\n    \"147\": [1462],\n    \"148\": [1468],\n    \"149\": [1472],\n    \"150\": [1476]\n  },\n  \"reasoning\": \"Mercedes and Kimi Antonelli have shown dominant form heading into Madrid, making Antonelli the prime choice for pole, race win, and fastest lap. George Russell and Max Verstappen complete a high-probability podium. In the midfield, Sainz is well-positioned to out-qualify Alonso, Lindblad leads the young midfield cohort, and McLaren holds the momentum over Ferrari in the constructors' battle.\"\n}",
+      "tokensUsed": 5160,
+      "costUsd": 0.009624,
+      "createdAt": "2026-09-09T21:25:36.198Z"
+    }
+  ]
+}
