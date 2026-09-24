@@ -1,0 +1,1094 @@
+{
+  "exportType": "race_predictions",
+  "raceId": "azerbaijan-2026",
+  "raceName": "Azerbaijan Grand Prix",
+  "raceDate": "2026-09-26",
+  "isSprint": false,
+  "lineup": {
+    "status": "default",
+    "source": "season_default",
+    "confirmedAt": null,
+    "entries": [
+      {
+        "driverId": "norris",
+        "driver": "Lando Norris",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "piastri",
+        "driver": "Oscar Piastri",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hamilton",
+        "driver": "Lewis Hamilton",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "leclerc",
+        "driver": "Charles Leclerc",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hadjar",
+        "driver": "Isack Hadjar",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "verstappen",
+        "driver": "Max Verstappen",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "antonelli",
+        "driver": "Kimi Antonelli",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "russell",
+        "driver": "George Russell",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "alonso",
+        "driver": "Fernando Alonso",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "stroll",
+        "driver": "Lance Stroll",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "colapinto",
+        "driver": "Franco Colapinto",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "gasly",
+        "driver": "Pierre Gasly",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bearman",
+        "driver": "Ollie Bearman",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "ocon",
+        "driver": "Esteban Ocon",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lawson",
+        "driver": "Liam Lawson",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lindblad",
+        "driver": "Arvid Lindblad",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "albon",
+        "driver": "Alexander Albon",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "sainz",
+        "driver": "Carlos Sainz",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bortoleto",
+        "driver": "Gabriel Bortoleto",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hulkenberg",
+        "driver": "Nico Hulkenberg",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bottas",
+        "driver": "Valtteri Bottas",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "perez",
+        "driver": "Sergio Perez",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 2,
+        "isSubstitute": false
+      }
+    ]
+  },
+  "exportedAt": "2026-09-24T08:23:43.733Z",
+  "predictions": {
+    "Anthropic": {
+      "predictor": "Claude Opus 5",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Max Verstappen",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Mercedes is shut out of the podium in Baku, and Antonelli's championship lead over Russell shrinks to under 70 points.\",\"reasoning\":\"The defining pattern of 2026 is Mercedes at the front — Antonelli has eight wins in 14 races and leads Russell by 81 points, with the W17 the class of the field. Baku is the most plausible venue for that to break in one hit. Mercedes' recent weakness has been single-lap conversion: they have had the pace to threaten pole but failed to convert it into a front-row start in two of the last three races, and on a circuit where Friday's grid order largely dictates Saturday's result, and where wind through the castle section can wreck a qualifying lap, a compromised grid is very hard to recover from. Baku's 2.2km full-throttle run and slipstream-heavy Turn 1 also mean a car out of position gets swallowed rather than sailing past. Add the Old City walls and Baku's history of chaos (seven different winners in nine races, never a repeat winner), Antonelli's relative inexperience at a track where he had a difficult weekend last year, plus a one-practice-day schedule that punishes teams who don't nail setup immediately, and Red Bull, McLaren and Ferrari all being live for victory here. A zero-podium Mercedes weekend with Russell taking chunks out of his team-mate — or Antonelli dropping points to a non-Mercedes rival — is a genuine, evidence-based break from the season's central assumption while remaining entirely possible.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Hadjar\",\"reasoning\":\"Hadjar returns after missing three consecutive races (Zandvoort, Monza, Madrid) with a wrist injury sustained in the summer shutdown, and he is coming back at arguably the worst possible circuit for that specific injury. Baku demands more gear changes per lap (71) than any other track on the calendar, combines heavy braking zones with a narrow, bumpy, wall-lined Old City section, and punishes a centimetre of error. He also has the least preparation of anyone: the weekend is brought forward a day, so there is only one day of practice before parc fermé, and he has no recent race mileage or feel for the current RB22 balance. Meanwhile, the benchmark has been raised — Lawson scored in two of his three stand-in races, including P6 in Madrid — so anything below the top eight looks weak. On top of that he faces Verstappen, who took a grand slam here last year and will be brutally quick. I expect rust, a scrappy qualifying and a quiet or incident-shortened race relative to his eighth place and 71 points in the standings.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Williams arrive in Baku with the single biggest technical swing of anyone's season: Vowles has confirmed two brand-new chassis aimed at finally getting the FW48 under the weight limit, plus a matching aero package, described earlier in the year as effectively a B-spec car. Expectations are on the floor — ninth in the constructors' with 11 points and not a single point since Monaco in June, with typical finishes in the P15-P17 window and Q1 exits — which is exactly the setup for an over-delivery. Baku is also historically a Williams-friendly layout: low-drag, efficiency-led, with Sainz having qualified second and finished third here 12 months ago. Both drivers have deliberately talked the upgrade down (Albon: 'I doubt it'), which lowers the bar further. Add a compressed Thursday-Friday-Saturday timetable that rewards teams who arrive with a clear plan, and a circuit with the highest attrition/safety-car probability on the calendar, and one car in Q3 or in the points would comfortably beat the weekend's expectation. Taking the team for double points because the upgrade is a two-car change, not a driver-specific one.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Azerbaijan Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "7",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "19",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "DeepSeek": {
+      "predictor": "DeepSeek V4 Pro 0813",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "George Russell",
+        "podium_p3": "Max Verstappen",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Antonelli suffers a brake failure while leading, handing victory to Verstappen, who becomes the first three-time Baku winner.\",\"reasoning\":\"Baku's heavy braking zones into Turn 1 and Turn 3 put severe thermal stress on brakes, and Mercedes' dominance could be undone by a rare reliability issue. Antonelli is chasing a third straight win, making a DNF highly surprising. Verstappen has won twice at Baku and is in strong recent form, so he is well placed to capitalize.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari's straight-line speed has been a concern, and despite a power unit upgrade at Monza they still lagged behind Mercedes. Baku's 2.2km full-throttle straight will expose that weakness, likely leaving both cars struggling to reach the top five.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Piastri\",\"reasoning\":\"McLaren bring further upgrades and the returning H-Wing to Baku, a circuit that rewards low-drag efficiency. While Norris has taken three poles in the last four races, Piastri has been overshadowed; the new parts and Baku's long straight could suit his driving style, allowing him to outqualify Norris and challenge for a podium or win.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": []
+    },
+    "Google": {
+      "predictor": "Gemini 3.8 Flash",
+      "raceWeekend": {
+        "podium_p1": "Oscar Piastri",
+        "podium_p2": "Charles Leclerc",
+        "podium_p3": "Max Verstappen",
+        "pole": "Charles Leclerc"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Charles Leclerc qualifies on pole position but loses the lead before Turn 1 on lap 1 and fails to lead a single lap during the race.\",\"reasoning\":\"Leclerc possesses unmatched single-lap mastery around Baku, but Ferrari's straight-line susceptibility and tire management under race trim make the polesitter acutely vulnerable along the massive 2.2-kilometer flat-out run into Turn 1. An immediate slipstream pass at the race start and defensive safety car restarts will keep him completely locked out of the lead all afternoon.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Antonelli\",\"reasoning\":\"The Baku City Circuit is notoriously unforgiving for young drivers, demanding absolute confidence on the brakes from 350 km/h alongside zero room for error around the castle section. With Mercedes traditionally fighting tire warm-up and low-downforce balance in Azerbaijan, Antonelli faces a steep uphill battle that is likely to leave him adrift of Q3 and out of the points.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Baku heavily rewards superior straight-line efficiency and heavy-braking stability, core strengths of the Williams aerodynamic concept. Paired with the proven street-circuit execution of Carlos Sainz and Alexander Albon, Williams is positioned to leapfrog upper-midfield rivals and challenge top teams for top-six grid spots and substantial points.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Azerbaijan Grand Prix?",
+          "selection": "Gabriel Bortoleto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Pierre Gasly",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Human": {
+      "predictor": "Human",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Max Verstappen",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "Hadjar comes back with a top 5 in the race",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "Russell",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "Williams",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Azerbaijan Grand Prix?",
+          "selection": "Gabriel Bortoleto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Pierre Gasly",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "MiniMax": {
+      "predictor": "MiniMax M2.7",
+      "raceWeekend": {
+        "podium_p1": "George Russell",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Max Verstappen",
+        "pole": "George Russell"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Russell deliberately baits Antonelli into a collision while defending aggressively, ending both Mercedes drivers' races and dramatically altering the championship picture.\",\"reasoning\":\"Russell finds himself in a peculiar position at Baku: he's 70+ points behind Antonelli in the championship, making his own title hopes effectively over, while Mercedes have strategically delayed his engine change penalty for the Americas triple-header, suggesting they're fully focused on Antonelli's championship push. This creates potential tension within the team. Russell's aggressive, sometimes reckless defending at street circuits is well documented. If he feels the race is going Antonelli's way and Mercedes asks him to play support role, a moment of frustration could see Russell make an aggressive defensive move that catches Antonelli out in the castle section or another tight corner. While both drivers finishing would almost certainly still result in a Mercedes 1-2, an incident that eliminates both could hand Norris and Piastri a massive points swing that keeps the drivers' championship alive well into the final flyaway races.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Audi\",\"reasoning\":\"Audi have struggled with reliability and performance throughout 2026, and Baku presents specific challenges that could expose their weaknesses. The long 2.2km straight will punish their power unit, while the brutal braking zones and energy management demands of the 2026 regulations create additional strain on a package that has already shown fragilities. Hulkenberg has had a difficult season, and Bortoleto as a rookie on a demanding street circuit adds further risk. With the midfield extremely competitive, Audi failing to score points or finishing well outside the top 10 would represent a significant underperformance relative to their resources.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren are bringing more upgrades to Baku including the return of the H-Wing that debuted at Monza. Norris has shown excellent pace with three pole positions in the last four races, but race luck has denied him wins. The Baku circuit's low-drag requirements align with McLaren's recent development direction, and with the top four teams expected to be closely matched, McLaren's continued upgrade push could give them the edge needed for Norris to finally convert qualifying pace into a race win, especially if Mercedes' strategic planning around Russell's delayed penalty creates any opportunities.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Azerbaijan Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Pierre Gasly",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Moonshot": {
+      "predictor": "Kimi K3",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "Lando Norris",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Verstappen takes his first win of 2026 in Baku — becoming the first driver ever to win three times at the venue — while runaway championship leader Antonelli finishes off the podium and has his winning streak snapped.\",\"reasoning\":\"Antonelli is dominating the 2026 title race and chasing a third successive victory, with Mercedes widely favored on low-drag efficiency ([reuters.com](https://www.reuters.com/sports/formula1/after-karting-fun-verstappen-looks-keep-winning-feeling-going-baku-2026-09-22/), [racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp)). But Verstappen has quietly podiumed in four of the last five races across very different layouts, is already a two-time Baku winner, and Red Bull's late-season upswing is rated the most credible threat to the W17. Baku's wall-lined castle section punishes any car-driver mismatch, cold brakes into Turn 1 create rare error windows for even the dominant leader, and with Mercedes managing engine-penalty logistics and deployment compromises, the door opens for Verstappen to convert Red Bull's form curve into the win nobody has managed against Mercedes lately — with a Baku-style off-day for Antonelli completing the double upset.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari's straight-line speed deficit persisted even after their Monza power unit upgrade, and pre-race analysis expects them to be 'found wanting again' on Baku's calendar-longest straight ([racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp)). Under the 2026 rules, energy deployment and clipping management before the Turn 1 braking zone punish cars with weaker harvesting — precisely where Ferrari lagged Mercedes at Monza. Billed as part of a four-way victory fight, expect Hamilton and Leclerc instead to be cut adrift from Mercedes, McLaren and Red Bull, scrapping for minor points.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"The pre-weekend narrative anoints Mercedes as the team to fear in Baku ([racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp)), but McLaren arrive with a fresh aero upgrade package plus the return of their drag-reducing 'H-Wing' that debuted at Monza — tailor-made for Baku's 2.2km full-throttle straight ([skysports.com](https://www.skysports.com/f1/news/13590364/azerbaijan-gp-mclaren-predict-four-way-battle-for-victory-with-rivals-in-baku-after-confirming-more-upgrades-to-mcl40)). Norris has three poles in the last four races and only virtual safety car timing denied him a third win in Madrid. With their season-long development rate now meeting a circuit that rewards exactly the low-drag efficiency the H-Wing targets, McLaren can beat the favored W17s to the win and outscore them as a team.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Azerbaijan Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "7",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "OpenAI": {
+      "predictor": "GPT-5.6 Sol",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Oscar Piastri",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Charles Leclerc"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Cadillac scores points with both cars, led by Pérez finishing in the top six.\",\"reasoning\":\"A double-points result would be a major break from the normal expectation for a new team. Pérez is a proven Baku specialist, while the long straight can compress performance differences and the race's frequent safety cars create opportunities for Cadillac to gain through timing, tyre choices and clean execution.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Expectations should be high because Ferrari and Leclerc have traditionally been exceptionally quick over one lap in Baku. However, the circuit's rear-traction demands, severe setup compromise and frequent strategic interruptions could again prevent qualifying speed from translating into a podium; I expect both Ferraris to finish outside the top three.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Baku rewards straight-line efficiency, braking stability and confidence over kerbs, making it one of the best circuit profiles for Williams. Albon and Sainz provide a strong pairing for a weekend where slipstreaming and opportunistic strategy can put both cars into the points, with one capable of reaching the top six.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Azerbaijan Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Alexander Albon",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "xAI": {
+      "predictor": "Grok 4.6",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Max Verstappen",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Verstappen takes his first win of 2026\",\"reasoning\":\"Verstappen has zero victories in 14 races despite being a four-time champion and Baku specialist (won here in 2025). Red Bull showed a clear upswing with P2 in Madrid, Hadjar's return restores the preferred line-up, and the circuit's mix of long straights plus technical sections plays to their recent development. A win would be a genuine break from the season-long pattern while remaining plausible given current form and track history.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Russell\",\"reasoning\":\"Mercedes look well-suited to Baku's long straight and low-drag demands after strong recent results at Monza and Madrid, but Russell has been clearly second-best to Antonelli (P5 last time out versus the win) and has struggled to convert the car's potential. With the title fight effectively over and no Mercedes upgrades this weekend, he is the most likely of the front-runners to under-deliver relative to the team's expected four-way fight.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Williams arrive with their largest upgrade of 2026: two new lighter chassis to finally get under the minimum weight (they have been ~30kg overweight) plus aero parts. Vowles has downplayed it because rivals developed in the meantime, yet Baku historically rewards them (Sainz P3 and front-row last year) and they have scored only 11 points all season with a long drought. A points haul or even a surprise Q3 would be well above current midfield expectations.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Azerbaijan Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Azerbaijan Grand Prix?",
+          "selection": "Gabriel Bortoleto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "7",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Pierre Gasly",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        }
+      ]
+    }
+  },
+  "generationLogs": [
+    {
+      "id": 465,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"leclerc\",\n  \"podium\": [\"verstappen\", \"piastri\", \"leclerc\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Race-weekend form, upgrades, penalties and a reliable weather forecast are not yet available this far in advance, particularly with the 2026 regulation reset. Leclerc is the pole pick because of his exceptional qualifying record on Baku's low-downforce street circuit. Verstappen is favored to win through race execution and strength in braking and traction zones, while Piastri's past Baku success and McLaren's recent competitiveness make him a strong podium candidate.\"\n}",
+      "tokensUsed": 1192,
+      "costUsd": 0.007264,
+      "createdAt": "2026-09-22T14:03:22.745Z"
+    },
+    {
+      "id": 466,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"leclerc\",\n  \"podium\": [\"piastri\", \"leclerc\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Charles Leclerc boasts an unparalleled qualifying record at the Baku City Circuit with four consecutive pole positions, making him the top favorite over a single lap. However, race execution at Baku heavily favors low-drag efficiency and tire management through the long 2.2km flat-out blast and traction-heavy 90-degree corners. Oscar Piastri demonstrated exceptional racecraft and defensive mastery to win here previously, giving McLaren a distinct edge over race distance. Max Verstappen remains consistently dangerous on street layouts with Red Bull's strong straight-line speed package, rounding out the podium battle with Ferrari.\"\n}",
+      "tokensUsed": 1240,
+      "costUsd": 0.002832,
+      "createdAt": "2026-09-22T14:03:22.746Z"
+    },
+    {
+      "id": 467,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Williams\",\"reasoning\":\"Baku rewards straight-line efficiency, braking stability and confidence over kerbs, making it one of the best circuit profiles for Williams. Albon and Sainz provide a strong pairing for a weekend where slipstreaming and opportunistic strategy can put both cars into the points, with one capable of reaching the top six.\",\"is_team\":true,\"referenced_id\":\"williams\"},\"flop\":{\"name\":\"Ferrari\",\"reasoning\":\"Expectations should be high because Ferrari and Leclerc have traditionally been exceptionally quick over one lap in Baku. However, the circuit's rear-traction demands, severe setup compromise and frequent strategic interruptions could again prevent qualifying speed from translating into a podium; I expect both Ferraris to finish outside the top three.\",\"is_team\":true,\"referenced_id\":\"ferrari\"},\"crazy_prediction\":{\"prediction\":\"Cadillac scores points with both cars, led by Pérez finishing in the top six.\",\"reasoning\":\"A double-points result would be a major break from the normal expectation for a new team. Pérez is a proven Baku specialist, while the long straight can compress performance differences and the race's frequent safety cars create opportunities for Cadillac to gain through timing, tyre choices and clean execution.\"}}",
+      "tokensUsed": 1767,
+      "costUsd": 0.01071,
+      "createdAt": "2026-09-22T14:03:22.954Z"
+    },
+    {
+      "id": 468,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"russell\",\n  \"podium\": [\"russell\", \"norris\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Mercedes' W17 has shown mastery at low-drag circuits (Monza win, Spain win) - exactly what Baku's characteristics demand. Russell has been consistently strong and the team delayed his engine penalty to this weekend, suggesting they're fully committed to performance. McLaren's Norris has excellent recent qualifying form (3 poles in 4 races) and will start near the front, but Mercedes' straight-line efficiency suits Baku's 2.2km straight better. Red Bull's Verstappen has shown strong upward trajectory with podiums in 4 of the last 5 races, making him the likely third-place contender. Ferrari's straight-line speed concerns and McLaren's recent upgrade uncertainty give Mercedes the edge for pole and victory. This shapes as a tight four-way battle as McLaren themselves predicted.\"\n}",
+      "tokensUsed": 3452,
+      "costUsd": 0.0086485,
+      "createdAt": "2026-09-22T14:03:22.737Z"
+    },
+    {
+      "id": 469,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"verstappen\", \"norris\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Baku's 2.2km straight — the longest full-throttle passage on the calendar — makes low-drag efficiency the decisive factor, and the evidence points squarely at Mercedes. Kimi Antonelli won at Monza and again in Spain, the two circuits whose demands most closely mirror Baku's, with the W17 showing it can trim rear wing without losing rear stability or traction [racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp). Mercedes also delayed Russell's engine penalty to the Americas triple-header, so both cars run unpenalized. Max Verstappen is the strongest threat: he has been on the podium in four of the last five races (his only miss being a lap-one Zandvoort crash), and Red Bull's upswing has come across varied layouts, suggesting it will hold in Baku's low-drag window [racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp). Lando Norris brings strong qualifying form — three poles in the last four races and a Madrid pole that should have been a win but for VSC timing — and McLaren are bringing aero upgrades plus the returning drag-reducing H-Wing, but questions remain about McLaren's car feel on a punishing street circuit like the castle section [skysports.com](https://www.skysports.com/f1/news/13590364/azerbaijan-gp-mclaren-predict-four-way-battle-for-victory-with-rivals-in-baku-after-confirming-more-upgrades-to-mcl40) [mclaren.com](https://www.mclaren.com/racing/formula-1/2026/azerbaijan-grand-prix/preview/). Ferrari's persistent straight-line speed deficit despite its Monza PU upgrade makes them likely to be found wanting on Baku's mammoth straight [racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp). Piastri is still recovering from front-wing damage and P8 in Madrid. Prediction: Antonelli converts Mercedes' low-drag edge into pole and the win, Verstappen's consistency nets P2, and Norris's qualifying pace and McLaren's upgrades secure P3.\"\n}",
+      "tokensUsed": 4865,
+      "costUsd": 0.033659336,
+      "createdAt": "2026-09-22T14:03:22.747Z"
+    },
+    {
+      "id": 470,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"norris\",\n  \"podium\": [\"antonelli\", \"norris\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Championship state: after 14 of 23 rounds, Antonelli leads with 292 pts, ahead of Russell (211), Hamilton (191), Norris (186), Leclerc (167) and Verstappen (145). Antonelli has won 8 of 14 races, including Spa, Monza and Madrid, and Mercedes lead the constructors' on 503 pts, 145 clear of Ferrari. Note the weekend is unusual: race day is Saturday 26 September, moved off Sunday to avoid an Azerbaijani national day of mourning; weather is forecast dry and sunny, around 24-26C, so no rain variable. POLE: Norris is the logical pick and the market favourite for fastest qualifier — he has taken pole at three of the last four rounds, including Madrid, and McLaren's aero strength suits Baku's tight castle/technical middle sector. Mercedes' ERS efficiency is the threat on the 2.2km full-throttle run, but qualifying single-lap form points to Norris. RACE: I have Antonelli winning. Baku is fundamentally a power/energy-deployment circuit, which plays to the Mercedes package, and Antonelli has repeatedly converted even from bad positions (won Monza from 19th after a PU-change grid drop). In Madrid, Norris had pole and led, but a VSC-timed stop handed Antonelli the win — a scenario highly repeatable in Baku, where a safety car has featured in more than half of all races held there. Norris P2 on raw pace; McLaren's straight-line weakness (exposed at Monza, where Norris was only 4th) is my reason for not backing him to convert. Verstappen completes the podium: he has three podiums in four races (3rd Monza, 2nd Madrid), won from pole in Baku last year, and Red Bull have won four of the last five Azerbaijan GPs — plus Hadjar's confirmed return from his wrist injury restores the team's normal operating rhythm. Key omissions: Leclerc is expected to run the recovered Monza ADUO2 unit in Friday practice before switching to a fresh PU, triggering a back-of-grid or heavy grid penalty (Vasseur explicitly earmarked Baku as 'quite suitable'), so despite good Ferrari straight-line pace he is a recovery drive, not a podium bet. Russell is the biggest podium risk to my call (three podiums in his last four Baku starts, P2 there last year) but he has been off Antonelli's level recently, including a quiet 5th in Madrid. Hamilton is fast but Ferrari reliability is a concern after his Madrid brake failure. Baku remains statistically the least predictable race of the year, so this is a probability-weighted call rather than a confident one.\"\n}",
+      "tokensUsed": 109591,
+      "costUsd": 0.636615,
+      "createdAt": "2026-09-22T14:03:22.744Z"
+    },
+    {
+      "id": 471,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Azerbaijan Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"151\":[1480,1484,1479],\"152\":[1506],\"153\":[1524],\"154\":[1526],\"155\":[1533],\"156\":[1557],\"157\":[1565],\"158\":[1570],\"159\":[1576],\"160\":[1577]},\"reasoning\":\"Mercedes appears to carry the strongest baseline form into Baku, making Russell and Antonelli strong race picks. Leclerc is elevated by his exceptional qualifying record on this circuit and is the pole selection. Norris is favored for fastest lap through McLaren's race pace and strategic flexibility. Red Bull remains a bold pit-stop pick, while Williams' low-drag efficiency makes Albon attractive in the midfield comparison. I expect several attrition incidents but no early neutralization, and Ferrari's experienced two-driver lineup gives it the edge over Red Bull across the weekend.\"}",
+      "tokensUsed": 3758,
+      "costUsd": 0.016931,
+      "createdAt": "2026-09-22T14:03:35.105Z"
+    },
+    {
+      "id": 472,
+      "predictorId": "deepseek-deepseek-v4-pro-0813-f936349c",
+      "predictorName": "DeepSeek V4 Pro 0813",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n\"good_surprise\": {\n\"name\": \"Piastri\",\n\"reasoning\": \"McLaren bring further upgrades and the returning H-Wing to Baku, a circuit that rewards low-drag efficiency. While Norris has taken three poles in the last four races, Piastri has been overshadowed; the new parts and Baku's long straight could suit his driving style, allowing him to outqualify Norris and challenge for a podium or win.\",\n\"is_team\": false,\n\"referenced_id\": \"piastri\"\n},\n\"flop\": {\n\"name\": \"Ferrari\",\n\"reasoning\": \"Ferrari's straight-line speed has been a concern, and despite a power unit upgrade at Monza they still lagged behind Mercedes. Baku's 2.2km full-throttle straight will expose that weakness, likely leaving both cars struggling to reach the top five.\",\n\"is_team\": true,\n\"referenced_id\": \"ferrari\"\n},\n\"crazy_prediction\": {\n\"prediction\": \"Antonelli suffers a brake failure while leading, handing victory to Verstappen, who becomes the first three-time Baku winner.\",\n\"reasoning\": \"Baku's heavy braking zones into Turn 1 and Turn 3 put severe thermal stress on brakes, and Mercedes' dominance could be undone by a rare reliability issue. Antonelli is chasing a third straight win, making a DNF highly surprising. Verstappen has won twice at Baku and is in strong recent form, so he is well placed to capitalize.\"\n}\n}",
+      "tokensUsed": 5348,
+      "costUsd": 0.02117416,
+      "createdAt": "2026-09-22T14:03:22.956Z"
+    },
+    {
+      "id": 473,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"norris\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Mercedes dominate 2026 with Antonelli on 292 points after consecutive wins at Monza and Madrid; Baku's 2.2km straight favors their power unit while castle section suits McLaren/Ferrari. Norris took pole last time out in Madrid and is the betting second-favorite. Verstappen has strong Baku history (2025 winner) and recent podiums. Dry, windy, 26-28C weather with high SC chance. Hadjar returns to Red Bull after injury; Williams upgrades unlikely to affect front. No sprint.\"\n}",
+      "tokensUsed": 83231,
+      "costUsd": 0.159906,
+      "createdAt": "2026-09-22T14:03:22.746Z"
+    },
+    {
+      "id": 474,
+      "predictorId": "deepseek-deepseek-v4-pro-0813-f936349c",
+      "predictorName": "DeepSeek V4 Pro 0813",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"russell\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Mercedes arrives with the W17 best suited to Baku's low-drag demands ([racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp)), and Kimi Antonelli has won recent low-drag events at Monza and Spain. George Russell has no penalty, while Max Verstappen's Red Bull upswing makes him the most credible threat. McLaren brings upgrades and Lando Norris has qualifying form, but Baku's compromise may not play to McLaren's strengths ([skysports.com](https://www.skysports.com/f1/news/13590364/azerbaijan-gp-mclaren-predict-four-way-battle-for-victory-with-rivals-in-baku-after-confirming-more-upgrades-to-mcl40)).\"\n}",
+      "tokensUsed": 5726,
+      "costUsd": 0.0144019264,
+      "createdAt": "2026-09-22T14:03:22.747Z"
+    },
+    {
+      "id": 475,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": { \"name\": \"Williams\", \"reasoning\": \"Williams arrive with their largest upgrade of 2026: two new lighter chassis to finally get under the minimum weight (they have been ~30kg overweight) plus aero parts. Vowles has downplayed it because rivals developed in the meantime, yet Baku historically rewards them (Sainz P3 and front-row last year) and they have scored only 11 points all season with a long drought. A points haul or even a surprise Q3 would be well above current midfield expectations.\", \"is_team\": true, \"referenced_id\": \"williams\" },\n  \"flop\": { \"name\": \"Russell\", \"reasoning\": \"Mercedes look well-suited to Baku's long straight and low-drag demands after strong recent results at Monza and Madrid, but Russell has been clearly second-best to Antonelli (P5 last time out versus the win) and has struggled to convert the car's potential. With the title fight effectively over and no Mercedes upgrades this weekend, he is the most likely of the front-runners to under-deliver relative to the team's expected four-way fight.\", \"is_team\": false, \"referenced_id\": \"russell\" },\n  \"crazy_prediction\": { \"prediction\": \"Verstappen takes his first win of 2026\", \"reasoning\": \"Verstappen has zero victories in 14 races despite being a four-time champion and Baku specialist (won here in 2025). Red Bull showed a clear upswing with P2 in Madrid, Hadjar's return restores the preferred line-up, and the circuit's mix of long straights plus technical sections plays to their recent development. A win would be a genuine break from the season-long pattern while remaining plausible given current form and track history.\" }\n}",
+      "tokensUsed": 97372,
+      "costUsd": 0.192964,
+      "createdAt": "2026-09-22T14:03:22.955Z"
+    },
+    {
+      "id": 476,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"The pre-weekend narrative anoints Mercedes as the team to fear in Baku ([racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp)), but McLaren arrive with a fresh aero upgrade package plus the return of their drag-reducing 'H-Wing' that debuted at Monza — tailor-made for Baku's 2.2km full-throttle straight ([skysports.com](https://www.skysports.com/f1/news/13590364/azerbaijan-gp-mclaren-predict-four-way-battle-for-victory-with-rivals-in-baku-after-confirming-more-upgrades-to-mcl40)). Norris has three poles in the last four races and only virtual safety car timing denied him a third win in Madrid. With their season-long development rate now meeting a circuit that rewards exactly the low-drag efficiency the H-Wing targets, McLaren can beat the favored W17s to the win and outscore them as a team.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"flop\": {\n    \"name\": \"Ferrari\",\n    \"reasoning\": \"Ferrari's straight-line speed deficit persisted even after their Monza power unit upgrade, and pre-race analysis expects them to be 'found wanting again' on Baku's calendar-longest straight ([racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp)). Under the 2026 rules, energy deployment and clipping management before the Turn 1 braking zone punish cars with weaker harvesting — precisely where Ferrari lagged Mercedes at Monza. Billed as part of a four-way victory fight, expect Hamilton and Leclerc instead to be cut adrift from Mercedes, McLaren and Red Bull, scrapping for minor points.\",\n    \"is_team\": true,\n    \"referenced_id\": \"ferrari\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Verstappen takes his first win of 2026 in Baku — becoming the first driver ever to win three times at the venue — while runaway championship leader Antonelli finishes off the podium and has his winning streak snapped.\",\n    \"reasoning\": \"Antonelli is dominating the 2026 title race and chasing a third successive victory, with Mercedes widely favored on low-drag efficiency ([reuters.com](https://www.reuters.com/sports/formula1/after-karting-fun-verstappen-looks-keep-winning-feeling-going-baku-2026-09-22/), [racingnews365.com](https://racingnews365.com/baku-low-drag-mastery-points-to-one-f1-team-to-fear-in-azerbaijan-gp)). But Verstappen has quietly podiumed in four of the last five races across very different layouts, is already a two-time Baku winner, and Red Bull's late-season upswing is rated the most credible threat to the W17. Baku's wall-lined castle section punishes any car-driver mismatch, cold brakes into Turn 1 create rare error windows for even the dominant leader, and with Mercedes managing engine-penalty logistics and deployment compromises, the door opens for Verstappen to convert Red Bull's form curve into the win nobody has managed against Mercedes lately — with a Baku-style off-day for Antonelli completing the double upset.\"\n  }\n}",
+      "tokensUsed": 7330,
+      "costUsd": 0.062262394,
+      "createdAt": "2026-09-22T14:03:22.956Z"
+    },
+    {
+      "id": 477,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Azerbaijan Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"151\":[1479,1482,1480],\"152\":[1501],\"153\":[1524],\"154\":[1527],\"155\":[1533],\"156\":[1553],\"157\":[1564],\"158\":[1570],\"159\":[1574],\"160\":[1578]},\"reasoning\":\"Research via [formula1.com](https://www.formula1.com/en/latest/article/f1-fantasy-strategist-selection-whats-the-best-line-up-for-the-azerbaijan.6ekqxCwGUqBv5mCtJitXiM), [fanamp.com](https://www.fanamp.com/articles/fantasy-preview-azerbaijan-grand-prix-2026) and [motorsportmagazine.com](https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-fantasy/f1-fantasy-top-picks-predictions-for-the-2025-azerbaijan-gp/). Q151: Kimi Antonelli leads the 2026 championship and fantasy scoring (record 93 pts at Monza), so he's my P1; Verstappen has two Baku wins, four straight top-5s and Red Bull have won 3 of the last 4 there (P2); Russell has podiumed in 3 of the last 4 Azerbaijan GPs and is the betting favorite for P3. Leclerc is avoided due to a rumored engine penalty from his Monza crash. Q152: Antonelli is the form qualifier on the 2026 grid and Mercedes' pace is the benchmark. Q153: The Audi head-to-head is 7-7, so I take the value on Hulkenberg (15 pts), a qualifying specialist on a run of three top-10s in four races. Q154: Baku's chaotic qualifying (walls, red flags) usually scuppers at least one big-team driver, opening Q3 to a 7th team (Williams/Racing Bulls/Haas/Audi upgrades) — bold 20-pt pick over the safe 6. Q155: Norris led 2025 with six fastest laps and set FL at his last Baku visit; at 12 pts he's better value than favorite Antonelli. Q156: Mercedes are the pit-stop favorites and the Safety Car/double-stack hint plays to their strengths. Q157: Baku's tight opening sectors with 22 cars (several rookies) make an early SC/VSC likely — Yes. Q158: Aston Martin (15 DNFs) and Cadillac (11 DNFs) reliability woes plus Baku attrition suggest ~4 non-finishers from 22 — 18 classified at 15 pts is the EV sweet spot. Q159: Hulkenberg's recent form (three top-10s in four, five straight finishes) beats favorite Gasly on value. Q160: Red Bull outscore Ferrari — Verstappen's Baku pedigree plus a strong Hadjar, while Ferrari risk a Leclerc engine penalty compromising their haul.\"}",
+      "tokensUsed": 11205,
+      "costUsd": 0.080536792,
+      "createdAt": "2026-09-22T14:03:35.106Z"
+    },
+    {
+      "id": 478,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Azerbaijan Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"151\":[1481,1479,1483],\"152\":[1503],\"153\":[1524],\"154\":[1526],\"155\":[1531],\"156\":[1553],\"157\":[1564],\"158\":[1569],\"159\":[1573],\"160\":[1577]},\"reasoning\":\"Research based on historical Baku data and current 2026 grid form. Norris and McLaren are currently dominant in F1 2026, making Norris the safest pick for pole (10 pts) and race win. Antonelli (5 pts) offers excellent value as a Mercedes driver with high ceiling. Hamilton (14 pts) provides solid Ferrari coverage. Perez traditionally excels at Baku (King of Street Circuits) but his 2026 form is uncertain with Cadillac. For Q3, predicting 6 teams makes sense given the competitive midfield. Safety Car is likely at Baku due to tight street circuit and history of multi-DNF races. Fastest lap should favor a front-runner, with Antonelli as a high-value gamble. Mercedes pit crew is typically reliable. Gasly is the safest midfield pick given Alpine's consistency. Ferrari constructor is the obvious choice for most points given current form.\"}",
+      "tokensUsed": 6712,
+      "costUsd": 0.00991627,
+      "createdAt": "2026-09-22T14:03:35.103Z"
+    },
+    {
+      "id": 479,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Azerbaijan Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"151\": [1479, 1481, 1482],\n    \"152\": [1501],\n    \"153\": [1523],\n    \"154\": [1527],\n    \"155\": [1532],\n    \"156\": [1553],\n    \"157\": [1564],\n    \"158\": [1570],\n    \"159\": [1573],\n    \"160\": [1577]\n  },\n  \"reasoning\": \"Mercedes lead the 2026 championship with Antonelli on 292 points after winning the last race in Madrid (Verstappen 2nd, Norris 3rd). Baku's mix of 2.2km straight (suits Mercedes low-drag) and tight castle section plus high SC/VSC rate (every historical race had one) favors chaos and street-circuit specialists. Podium: Antonelli P1 (form + car), Norris P2 (recent wins in Hungary/Zandvoort + McLaren street pace), Verstappen P3 (Baku specialist, 2nd last time out). Pole to Antonelli on current one-lap form. Bortoleto edges Hulkenberg in Audi H2H. 7 teams typically reach Q3 (top 4 + Alpine/Racing Bulls + one more). Russell took FL in Madrid; Mercedes pitstops are elite. First-15-lap SC/VSC very likely at Baku start/Turn 1/castle. ~18 classified finishers typical amid 3-5 DNFs. Gasly leads the listed midfield. Ferrari outscores Red Bull on two-car consistency despite Verstappen threat.\"\n}",
+      "tokensUsed": 104336,
+      "costUsd": 0.196144,
+      "createdAt": "2026-09-22T14:03:35.105Z"
+    },
+    {
+      "id": 480,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Williams\",\"reasoning\":\"Williams arrive in Baku with the single biggest technical swing of anyone's season: Vowles has confirmed two brand-new chassis aimed at finally getting the FW48 under the weight limit, plus a matching aero package, described earlier in the year as effectively a B-spec car. Expectations are on the floor — ninth in the constructors' with 11 points and not a single point since Monaco in June, with typical finishes in the P15-P17 window and Q1 exits — which is exactly the setup for an over-delivery. Baku is also historically a Williams-friendly layout: low-drag, efficiency-led, with Sainz having qualified second and finished third here 12 months ago. Both drivers have deliberately talked the upgrade down (Albon: 'I doubt it'), which lowers the bar further. Add a compressed Thursday-Friday-Saturday timetable that rewards teams who arrive with a clear plan, and a circuit with the highest attrition/safety-car probability on the calendar, and one car in Q3 or in the points would comfortably beat the weekend's expectation. Taking the team for double points because the upgrade is a two-car change, not a driver-specific one.\",\"is_team\":true,\"referenced_id\":\"williams\"},\"flop\":{\"name\":\"Hadjar\",\"reasoning\":\"Hadjar returns after missing three consecutive races (Zandvoort, Monza, Madrid) with a wrist injury sustained in the summer shutdown, and he is coming back at arguably the worst possible circuit for that specific injury. Baku demands more gear changes per lap (71) than any other track on the calendar, combines heavy braking zones with a narrow, bumpy, wall-lined Old City section, and punishes a centimetre of error. He also has the least preparation of anyone: the weekend is brought forward a day, so there is only one day of practice before parc fermé, and he has no recent race mileage or feel for the current RB22 balance. Meanwhile, the benchmark has been raised — Lawson scored in two of his three stand-in races, including P6 in Madrid — so anything below the top eight looks weak. On top of that he faces Verstappen, who took a grand slam here last year and will be brutally quick. I expect rust, a scrappy qualifying and a quiet or incident-shortened race relative to his eighth place and 71 points in the standings.\",\"is_team\":false,\"referenced_id\":\"hadjar\"},\"crazy_prediction\":{\"prediction\":\"Mercedes is shut out of the podium in Baku, and Antonelli's championship lead over Russell shrinks to under 70 points.\",\"reasoning\":\"The defining pattern of 2026 is Mercedes at the front — Antonelli has eight wins in 14 races and leads Russell by 81 points, with the W17 the class of the field. Baku is the most plausible venue for that to break in one hit. Mercedes' recent weakness has been single-lap conversion: they have had the pace to threaten pole but failed to convert it into a front-row start in two of the last three races, and on a circuit where Friday's grid order largely dictates Saturday's result, and where wind through the castle section can wreck a qualifying lap, a compromised grid is very hard to recover from. Baku's 2.2km full-throttle run and slipstream-heavy Turn 1 also mean a car out of position gets swallowed rather than sailing past. Add the Old City walls and Baku's history of chaos (seven different winners in nine races, never a repeat winner), Antonelli's relative inexperience at a track where he had a difficult weekend last year, plus a one-practice-day schedule that punishes teams who don't nail setup immediately, and Red Bull, McLaren and Ferrari all being live for victory here. A zero-podium Mercedes weekend with Russell taking chunks out of his team-mate — or Antonelli dropping points to a non-Mercedes rival — is a genuine, evidence-based break from the season's central assumption while remaining entirely possible.\"}}",
+      "tokensUsed": 125517,
+      "costUsd": 0.787145,
+      "createdAt": "2026-09-22T14:03:22.954Z"
+    },
+    {
+      "id": 481,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Azerbaijan Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"151\": [1479, 1480, 1481],\n    \"152\": [1501],\n    \"153\": [1523],\n    \"154\": [1526],\n    \"156\": [1553],\n    \"155\": [1531],\n    \"157\": [1564],\n    \"158\": [1569],\n    \"159\": [1573],\n    \"160\": [1577]\n  },\n  \"reasoning\": \"Mercedes enters Baku with dominant straight-line and street-circuit form led by Kimi Antonelli and George Russell, making them frontrunners across qualifying, race pace, and pit execution. Bortoleto holds the qualifying edge at Audi, while Baku's high attrition and tight castle section favor an early safety car intervention and a typical 17-car classified finish. Gasly leads Alpine's midfield charge, and Ferrari's balanced lineup edges Red Bull on overall constructor points.\"\n}",
+      "tokensUsed": 5532,
+      "costUsd": 0.01116,
+      "createdAt": "2026-09-22T14:03:35.105Z"
+    },
+    {
+      "id": 482,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"McLaren\",\"reasoning\":\"McLaren are bringing more upgrades to Baku including the return of the H-Wing that debuted at Monza. Norris has shown excellent pace with three pole positions in the last four races, but race luck has denied him wins. The Baku circuit's low-drag requirements align with McLaren's recent development direction, and with the top four teams expected to be closely matched, McLaren's continued upgrade push could give them the edge needed for Norris to finally convert qualifying pace into a race win, especially if Mercedes' strategic planning around Russell's delayed penalty creates any opportunities.\",\"is_team\":true,\"referenced_id\":\"mclaren\"},\"flop\":{\"name\":\"Audi\",\"reasoning\":\"Audi have struggled with reliability and performance throughout 2026, and Baku presents specific challenges that could expose their weaknesses. The long 2.2km straight will punish their power unit, while the brutal braking zones and energy management demands of the 2026 regulations create additional strain on a package that has already shown fragilities. Hulkenberg has had a difficult season, and Bortoleto as a rookie on a demanding street circuit adds further risk. With the midfield extremely competitive, Audi failing to score points or finishing well outside the top 10 would represent a significant underperformance relative to their resources.\",\"is_team\":true,\"referenced_id\":\"audi\"},\"crazy_prediction\":{\"prediction\":\"Russell deliberately baits Antonelli into a collision while defending aggressively, ending both Mercedes drivers' races and dramatically altering the championship picture.\",\"reasoning\":\"Russell finds himself in a peculiar position at Baku: he's 70+ points behind Antonelli in the championship, making his own title hopes effectively over, while Mercedes have strategically delayed his engine change penalty for the Americas triple-header, suggesting they're fully focused on Antonelli's championship push. This creates potential tension within the team. Russell's aggressive, sometimes reckless defending at street circuits is well documented. If he feels the race is going Antonelli's way and Mercedes asks him to play support role, a moment of frustration could see Russell make an aggressive defensive move that catches Antonelli out in the castle section or another tight corner. While both drivers finishing would almost certainly still result in a Mercedes 1-2, an incident that eliminates both could hand Norris and Piastri a massive points swing that keeps the drivers' championship alive well into the final flyaway races.\"}}",
+      "tokensUsed": 5668,
+      "costUsd": 0.0115228,
+      "createdAt": "2026-09-22T14:03:22.953Z"
+    },
+    {
+      "id": 483,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Azerbaijan Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"151\":[1481,1479,1482],\"152\":[1503],\"153\":[1524],\"154\":[1527],\"155\":[1536],\"156\":[1554],\"157\":[1564],\"158\":[1571],\"159\":[1574],\"160\":[1578]},\"reasoning\":\"Research findings: Round 15 in Baku is a Saturday race (schedule moved forward for Azerbaijan's Remembrance Day). Kimi Antonelli leads the title by 81 pts with 8 wins; Mercedes has won 10 of 14 and leads constructors with 503 pts. However, Lando Norris has taken pole at 3 of the last 4 rounds (incl. Madrid by 0.011s over Antonelli) and is the bookmakers'/analysts' favourite for both pole and the win in Baku ($3.50 pole, ~$4.75 win), with McLaren bringing a fresh upgrade package and Baku's technical sector suiting them. Multiple tipster boards predict Norris–Antonelli–Verstappen as the top three, so I took that as my ordered podium (Norris P1 at slightly higher value, Antonelli as the safest podium lock, Verstappen third — he won Baku from pole last year and has 2 wins in the last 4 editions).\\n\\nQualifying: Norris over Antonelli given his current one-lap form and Mercedes failing to convert front rows in 2 of the last 3 races. Fastest lap: Charles Leclerc is confirmed/expected to take an engine grid penalty at Baku (Vasseur said Baku 'should be quite suitable'), meaning a recovery drive with a fresh power unit, free strategy and late fresh-tyre running — the classic fastest-lap profile, at better value than the 10–15 pt favourites.\\n\\nAudi H2H: 7-7 tied, but I took Hulkenberg — he scored Audi's point in Madrid, has strong Baku/street pedigree and the experience edge matters most in Baku's wall-lined Q3. Same logic for the midfield H2H: Williams is a hard fade (9th in constructors, no points since Monaco, Albon says they're ~50s off the midfield and Vowles/Sainz have both downplayed the Baku B-spec), so Albon's 25 pts is a trap; Hulkenberg at 15 pts is the value pick over favourite Gasly.\\n\\nQ3 teams: with 11 teams for 10 slots and Aston Martin, Cadillac and Williams struggling, 7 different teams is the sweet spot between the 6 favourite and a chaotic Baku session. Safety car: 8 of the first 9 Baku races had a SC/VSC and lap-1 incidents are common here, so 'Yes' in the first 15 laps. Finishers: 22 starters with generally good 2026 reliability (Hamilton's Madrid DNF was his first of the year) but typical Baku wall damage — 19 classified is the best balance of probability and points.\\n\\nPit stop: Ferrari — reigning DHL award winners, already fastest at Spa this year, and Leclerc's penalty-driven recovery run means aggressive, non-compromised stops. Teams comparison: Red Bull over Ferrari — Verstappen is the standout Baku performer (pole-to-flag grand slam last year) and Hadjar returns from his wrist injury, while Ferrari sacrifices Leclerc to a back-of-grid engine penalty, capping their haul to essentially Hamilton plus a recovery drive.\"}",
+      "tokensUsed": 197902,
+      "costUsd": 1.18519,
+      "createdAt": "2026-09-22T14:03:35.104Z"
+    },
+    {
+      "id": 484,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Azerbaijan Grand Prix (Round 15, 2026-09-26) at Baku, Azerbaijan.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Williams\",\n    \"reasoning\": \"Baku heavily rewards superior straight-line efficiency and heavy-braking stability, core strengths of the Williams aerodynamic concept. Paired with the proven street-circuit execution of Carlos Sainz and Alexander Albon, Williams is positioned to leapfrog upper-midfield rivals and challenge top teams for top-six grid spots and substantial points.\",\n    \"is_team\": true,\n    \"referenced_id\": \"williams\"\n  },\n  \"flop\": {\n    \"name\": \"Antonelli\",\n    \"reasoning\": \"The Baku City Circuit is notoriously unforgiving for young drivers, demanding absolute confidence on the brakes from 350 km/h alongside zero room for error around the castle section. With Mercedes traditionally fighting tire warm-up and low-downforce balance in Azerbaijan, Antonelli faces a steep uphill battle that is likely to leave him adrift of Q3 and out of the points.\",\n    \"is_team\": false,\n    \"referenced_id\": \"antonelli\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Charles Leclerc qualifies on pole position but loses the lead before Turn 1 on lap 1 and fails to lead a single lap during the race.\",\n    \"reasoning\": \"Leclerc possesses unmatched single-lap mastery around Baku, but Ferrari's straight-line susceptibility and tire management under race trim make the polesitter acutely vulnerable along the massive 2.2-kilometer flat-out run into Turn 1. An immediate slipstream pass at the race start and defensive safety car restarts will keep him completely locked out of the lead all afternoon.\"\n  }\n}",
+      "tokensUsed": 2559,
+      "costUsd": 0.00696825,
+      "createdAt": "2026-09-22T14:03:22.955Z"
+    }
+  ]
+}
