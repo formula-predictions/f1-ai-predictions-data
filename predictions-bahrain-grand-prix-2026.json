@@ -1,0 +1,1295 @@
+{
+  "exportType": "race_predictions",
+  "raceId": "bahrain-malaysia-2026",
+  "raceName": "Bahrain Grand Prix",
+  "raceDate": "2026-10-04",
+  "isSprint": false,
+  "lineup": {
+    "status": "default",
+    "source": "season_default",
+    "confirmedAt": null,
+    "entries": [
+      {
+        "driverId": "norris",
+        "driver": "Lando Norris",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "piastri",
+        "driver": "Oscar Piastri",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hamilton",
+        "driver": "Lewis Hamilton",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "leclerc",
+        "driver": "Charles Leclerc",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hadjar",
+        "driver": "Isack Hadjar",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "verstappen",
+        "driver": "Max Verstappen",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "antonelli",
+        "driver": "Kimi Antonelli",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "russell",
+        "driver": "George Russell",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "alonso",
+        "driver": "Fernando Alonso",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "stroll",
+        "driver": "Lance Stroll",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "colapinto",
+        "driver": "Franco Colapinto",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "gasly",
+        "driver": "Pierre Gasly",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bearman",
+        "driver": "Ollie Bearman",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "ocon",
+        "driver": "Esteban Ocon",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lawson",
+        "driver": "Liam Lawson",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lindblad",
+        "driver": "Arvid Lindblad",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "albon",
+        "driver": "Alexander Albon",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "sainz",
+        "driver": "Carlos Sainz",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bortoleto",
+        "driver": "Gabriel Bortoleto",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hulkenberg",
+        "driver": "Nico Hulkenberg",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bottas",
+        "driver": "Valtteri Bottas",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "perez",
+        "driver": "Sergio Perez",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 2,
+        "isSubstitute": false
+      }
+    ]
+  },
+  "exportedAt": "2026-10-01T16:48:58.128Z",
+  "predictions": {
+    "Anthropic": {
+      "predictor": "Claude Opus 5",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Max Verstappen",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Red Bull score their first 1-2 of 2026 at Sepang, with Verstappen finally taking his maiden win of the season and Hadjar second\",\"reasoning\":\"The season-long pattern is Mercedes dominance and a historically bizarre statistic: Verstappen is still winless after 15 rounds, with Mercedes' Antonelli on 302 points and Russell having just won in Baku. The break from that pattern is set up by three converging factors. First, Red Bull's Baku form was their best of the year: Verstappen lost to Russell by just 0.196s after a blistering start and long stints of pressure, and Hadjar completed a double podium in third, so both cars already had front-running race pace. Second, Sepang's profile - long straights, heavy braking, high thermal degradation and two-to-three-stop strategy - rewards the strongest race-day tyre management and Red Bull's traditional strength in hot, deg-limited races, while punishing the low-downforce-concept McLaren and exposing Mercedes to strategic risk. Third, and decisively, the weather: forecasts put rain probability between 50% and 90% across the weekend with thunderstorm risk and a 75% chance of afternoon showers on race day, and F1 has not run a single competitive wet session under the 2026 regulations. That is a unique unknown where the most adaptable driver/team combination on the grid gains the most, and Verstappen remains the sport's benchmark in mixed conditions - as does Hadjar, who has been Red Bull's revelation and just signed for 2027. A wet or drying Sepang with safety cars, timing gambles on inters and a Mercedes forced to defend conservatively in a title fight is the single most plausible route to Red Bull's first double-win finish since the regulation change - surprising, but genuinely on the table this Sunday.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"Expectations for McLaren have risen again after Norris's wins in Budapest and Zandvoort lifted him to fourth in the championship, but Sepang is close to a worst-case circuit for the MCL40. The car's fundamental weakness this season has been sustained medium/high-speed cornering load, where McLaren has been reported as three to four tenths adrift, and Sepang is dominated by exactly that: the long Turn 5-6 complex, Turn 7-8 and the fast Turn 12-13 sequence, plus the highest thermal degradation of the year on an abrasive surface with C2-C4 compounds. Their aero concept required in-season 'redirecting', which hurts most at tracks that reward downforce rather than the low-drag, power-unit-limited circuits where Norris has shone. Reliability is the second strike: Norris has burned through multiple power electronics units with terminal failures already this year, and 37C heat index with 86% humidity is the harshest possible environment for cooling and PU electronics. Third, they are on zero from Baku after Colapinto took Norris out and Piastri finished 14th, so momentum and confidence are low, and Piastri remains unable to extract the car in low-grip conditions - precisely what a greasy, showery Sepang would serve up. I expect them to be beaten by Mercedes, Red Bull and Ferrari and to be vulnerable to Racing Bulls and Haas, with a realistic chance of another single-digit or zero-point haul.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Williams arrive at Sepang with the first real chance to validate their B-spec FW48. The new lighter chassis introduced in Baku delivered their first Q3 of the season (Sainz P9 on merit before a yellow-flag grid drop) and their first point since Monaco, with Gary Anderson estimating roughly a 0.76% lap-time gain, largely from around 20kg of weight saving. Sepang's two very long straights and heavy braking zones are exactly where shedding weight and drag pays back most, and low expectations are baked in after Vowles publicly called the package 'a step in the right direction, but not enough'. Both drivers themselves flagged Sepang as the verdict on the upgrade in high-speed corners, so any repeat Q3 appearance or double top-12 run would be above expectations. Add a 50-90% rain risk across the weekend, brutal 46-54C track temps and a high-attrition, multi-stop tyre race, and a team with a cooler-running, lighter car plus two very experienced heads (Sainz was on the Baku podium here-style tracks last year) has a genuine shot at points again. Predicting the team rather than a single driver also hedges which of Sainz or Albon gets the benefit.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Bahrain Grand Prix in Malaysia?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "7",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "19",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "DeepSeek": {
+      "predictor": "DeepSeek V4 Pro 0813",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "George Russell",
+        "podium_p3": "Max Verstappen",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Heavy rain causes the race to be red-flagged after 40 laps, half points awarded, and Sergio Pérez scores a podium for Cadillac.\",\"reasoning\":\"Sepang is notorious for torrential downpours, and the forecast predicts thunderstorms. In chaotic wet conditions, Pérez's experience and Cadillac's straight-line speed could shine, while top teams may falter. A red flag and half points would be a surprising outcome.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren's MCL40 has struggled with straight-line speed, a weakness exposed at Baku. Sepang's long straights and high degradation will be challenging, and with rain likely, both Norris and Piastri—who have never raced here in F1—could struggle to score points. The team brought limited upgrades to Malaysia.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Perez\",\"reasoning\":\"Pérez has a strong record in wet conditions at Sepang, including a podium in 2012. With thunderstorms forecast for all three days, his experience and Cadillac's straight-line speed could yield a surprise points finish or even a top-5.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Bahrain Grand Prix in Malaysia?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Franco Colapinto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Google": {
+      "predictor": "Gemini 3.8 Flash",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Carlos Sainz scores Williams' first podium of the season after undercutting both Ferraris during an extreme high-degradation two-stop race.\",\"reasoning\":\"Ferrari has shown vulnerability to aggressive tire graining in tropical conditions, forcing their drivers into compromised conservation phases. With Williams showing strong straight-line speed on Sepang's twin straights and Sainz executing an aggressive two-stop strategy with early undercut phases, he has the track position and racecraft to hold off Hamilton and Leclerc to claim a shock top-three finish.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Mercedes\",\"reasoning\":\"The W17 continues to suffer from aggressive rear tire overheating under extreme ambient temperatures. In the oppressive heat and humidity of Malaysia, Mercedes will struggle to protect their rear rubber through the demanding mid-to-high speed turns, dropping Russell and Antonelli into defensive races against mid-pack pressure.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Carlos Sainz\",\"reasoning\":\"Sepang's high-energy lateral loads and severe thermal tire degradation reward drivers with exceptional tire management. Sainz has repeatedly shown masterclass tire preservation in blistering track temperatures, and Williams' late-season high-downforce upgrade package matches the high-speed sweeping sections of Sectors 1 and 2.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Bahrain Grand Prix in Malaysia?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Franco Colapinto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Human": {
+      "predictor": "Human",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "George Russell",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "Ferrari does not score points",
+          "isTeam": true
+        },
+        "flop": {
+          "text": "Lewis Hamilton",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "Oscar Piastri",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Bahrain Grand Prix in Malaysia?",
+          "selection": "Esteban Ocon",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "16",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "MiniMax": {
+      "predictor": "MiniMax M2.7",
+      "raceWeekend": {
+        "podium_p1": "George Russell",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "Lewis Hamilton",
+        "pole": "George Russell"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Alpine's Pierre Gasly scores a podium finish, completing a remarkable turnaround for a team that has struggled all season.\",\"reasoning\":\"Multiple sources highlight Alpine's strong straight-line speed as a key advantage at Sepang's long straights. Gasly has previously shown he can maximize equipment that suits him, and the combination of high tire degradation (requiring careful management that Gasly excels at), potential rain chaos, and the fact that most competitors lack Sepang experience creates a perfect storm for an unexpected result. One expert specifically predicted Gasly in the top six as their 'biggest surprise,' but given the potential for incidents and retirements among front-runners unfamiliar with the circuit, a podium is within the realm of possibility for a driver who knows how to capitalize on others' misfortune.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Oscar Piastri\",\"reasoning\":\"Piastri has never raced at Sepang in Formula 1, and the sources explicitly state that rain has 'not always been his best friend.' Combined with the fact that Baku exposed weaknesses in the McLaren package on certain circuit types, and McLaren's own preview acknowledging uncertainty around tire behavior and circuit models, Piastri faces a double disadvantage of inexperience and potentially tricky weather. While McLaren brought upgrades and expects better performance at a circuit with more varied challenges, the combination of first-timer status and unpredictable conditions makes Piastri vulnerable to underperforming relative to his championship position and teammate Norris.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Lance Stroll\",\"reasoning\":\"Stroll has proven wet-weather prowess at this type of circuit, having taken pole in similarly tricky conditions at the Turkish GP in 2020. With thunderstorms forecast for all three days at Sepang and most drivers on the grid lacking any prior experience at this circuit, Stroll's prior knowledge of handling mixed conditions becomes a significant advantage. The article specifically mentions he could 'force something' in the Aston Martin if rain arrives, and given his ability to extract unexpected results in wet sessions, he could well outpace his teammate Alonso and potentially score a strong result when others struggle.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Oscar Piastri",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Bahrain Grand Prix in Malaysia?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "7",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Franco Colapinto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Moonshot": {
+      "predictor": "Kimi K3",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "George Russell",
+        "podium_p3": "Max Verstappen",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Sergio Perez scores points with a top-10 finish for Cadillac in a rain-hit race\",\"reasoning\":\"Thunderstorms are forecast on all three days at a circuit famous for torrential rain, and Perez has elite wet-weather history here: he finished second at Sepang in 2012 for Sauber, the first podium of his career. Cadillac looked stronger than usual at times in Baku and straight-line speed counts at Sepang ([rnt-motorsports.com](https://rnt-motorsports.com/bahrain-gp-2026-sepang-prediction-verstappen/)). In a chaotic wet race with high degradation and likely attrition, the veteran can drag the new backmarker outfit to a shock points finish at the site of his breakthrough result.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Piastri\",\"reasoning\":\"Piastri has never raced at Sepang, has historically found wet conditions hard work, and arrives in poor form sitting seventh in the standings, 43 points off sixth ([rnt-motorsports.com](https://rnt-motorsports.com/bahrain-gp-2026-sepang-prediction-verstappen/)). McLaren's straight-line speed weakness was exposed in Baku and Sepang's long straights place a premium on power and deployment, while thunderstorms are forecast on all three days ([mclaren.com](https://www.mclaren.com/racing/formula-1/2026/bahrain-grand-prix-in-malaysia/preview/)). Expect him to finish well outside the points-paying positions his car should manage.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Gasly\",\"reasoning\":\"Alpine has shown strong straight-line speed in recent weeks, which is critical at Sepang with its two long straights and heavy braking zones, and experts are tipping Gasly for a top-six finish ([f1oversteer.com](https://www.f1oversteer.com/races/bahrain-grand-prix-predictions-as-f1-experts-name-kimi-antonellis-rivals-to-win-in-malaysia/)). With high tyre degradation, two-to-three-stop strategy variance and thunderstorms forecast all weekend, the door is open for Alpine to beat its usual midfield ceiling.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Bahrain Grand Prix in Malaysia?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "OpenAI": {
+      "predictor": "GPT-5.6 Sol",
+      "raceWeekend": {
+        "podium_p1": "Lando Norris",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "Oscar Piastri",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Perez finishes on the podium after starting outside the top 10.\",\"reasoning\":\"A Cadillac podium would be a major break from the normal expectation for a new team, but Sepang offers a plausible route through tropical rain, safety-car timing and high attrition. Perez's tyre management and experience in chaotic races could let him extend a stint, switch tyres at the right moment and convert an unconventional strategy into a shock result.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Aston Martin\",\"reasoning\":\"High temperatures, heavy braking and prolonged full-throttle running will severely test cooling, energy deployment and reliability. Even if Aston Martin arrives with strong headline pace, Sepang's combination of fast corners and traction zones could expose an inconsistent balance and leave both cars below their expected positions.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Sepang's long full-throttle sections should reward straight-line efficiency and Mercedes power, while its fast direction changes suit a stable aerodynamic platform. Albon and Sainz also give Williams two experienced drivers capable of exploiting mixed weather and tyre degradation, making a double-points finish a realistic above-expectations result.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Lando Norris",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Bahrain Grand Prix in Malaysia?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "xAI": {
+      "predictor": "Grok 4.6",
+      "raceWeekend": {
+        "podium_p1": "George Russell",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "Max Verstappen",
+        "pole": "George Russell"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Hadjar wins a rain-hit race after Mercedes battery overheating on the long straights\",\"reasoning\":\"Mercedes are clear favourites with upgrades and a 66-point lead, yet Sepang heat (track ~60°C, humidity >80%) is known to cut 2026 electrical deployment exactly where overtaking happens. Combined with 75-90% rain probability and zero prior wet running for these cars, a chaotic wet-dry race plus PU derate creates a genuine, evidence-based path for Red Bull's in-form Hadjar to take an upset maiden win.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Piastri\",\"reasoning\":\"Piastri trails Norris by 66 points and McLaren's Baku upgrades produced a pointless weekend. At a high thermal-degradation, abrasive Sepang with possible rain and first 2026 wet running, his tyre management and consistency issues are likely to see him underperform relative to the car and teammate.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Hadjar\",\"reasoning\":\"Hadjar took a surprise Baku podium as Red Bull's upgrades clicked, sitting 8th in the championship. Sepang's long straights plus high-speed corners, combined with 75%+ rain risk and extreme heat that can derate 2026 batteries, give the improving Red Bull package a chance to beat Mercedes expectations in mixed or energy-limited conditions.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Bahrain Grand Prix in Malaysia.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Bahrain Grand Prix in Malaysia?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many teams will get a car into Q3?",
+          "selection": "6",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the first 15 laps of the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    }
+  },
+  "generationLogs": [
+    {
+      "id": 485,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"norris\",\n  \"podium\": [\"norris\", \"verstappen\", \"piastri\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"The listed Kuala Lumpur venue implies Sepang rather than Bahrain. With race-weekend forecasts, penalties, and late-2026 form not yet verifiable, this projection emphasizes Sepang's fast corners, long straights, heat, tyre degradation, and rain risk. McLaren's aerodynamic efficiency and tyre management make Norris the pole and victory favorite, while Verstappen's execution and Piastri's consistency put them in podium contention.\"\n}",
+      "tokensUsed": 1093,
+      "costUsd": 0.006274,
+      "createdAt": "2026-09-30T12:18:53.419Z"
+    },
+    {
+      "id": 486,
+      "predictorId": "deepseek-deepseek-v4-pro-0813-f936349c",
+      "predictorName": "DeepSeek V4 Pro 0813",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"verstappen\",\n  \"podium\": [\"verstappen\", \"russell\", \"hamilton\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Sepang returns to the calendar for the first time since 2017, and most of the current grid has never raced here in F1. Max Verstappen is one of the few who has, and Red Bull showed a major step forward in Baku, where he finished just 0.196s behind Russell. The long straights at Sepang suit the RB22, and with Mercedes bringing a large upgrade package that may need time to be understood—especially with thunderstorms forecast all weekend—Verstappen is well placed for pole and the win. George Russell has been in excellent form and should keep Mercedes in the fight, while Lewis Hamilton is expected to gain the most if rain arrives, making him a strong podium pick. Kimi Antonelli leads the championship but had a sub-optimal Baku, and McLaren struggled badly there, so I'm leaving Norris and Piastri off the podium at a track where wet running could hurt them.\"\n}",
+      "tokensUsed": 3274,
+      "costUsd": 0.00793963904,
+      "createdAt": "2026-09-30T12:18:53.421Z"
+    },
+    {
+      "id": 487,
+      "predictorId": "deepseek-deepseek-v4-pro-0813-f936349c",
+      "predictorName": "DeepSeek V4 Pro 0813",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Gasly\",\n    \"reasoning\": \"Alpine have shown good straight-line speed in recent weeks, which is crucial at Sepang's long straights. Gasly has been in solid form and the circuit characteristics should suit the Alpine package, making a top-six finish plausible.\",\n    \"is_team\": false,\n    \"referenced_id\": \"gasly\"\n  },\n  \"flop\": {\n    \"name\": \"Piastri\",\n    \"reasoning\": \"Piastri has never raced at Sepang in F1, and wet conditions are forecast for the weekend. He has historically struggled in the rain, and McLaren's straight-line speed weakness was exposed in Baku. The combination of unfamiliar circuit, wet weather, and a car ill-suited to long straights points to a difficult weekend.\",\n    \"is_team\": false,\n    \"referenced_id\": \"piastri\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Sergio Perez qualifies in the top five for Cadillac and finishes on the podium in wet conditions.\",\n    \"reasoning\": \"Perez has strong wet-weather credentials at Sepang, finishing second there in 2012. The Cadillac showed improved straight-line speed in Baku, and Sepang's long straights reward that strength. With thunderstorms forecast all weekend, Perez's experience and the car's straight-line performance could combine for a shock podium.\",\n    \"reasoning\": \"Perez has strong wet-weather credentials at Sepang, finishing second there in 2012. The Cadillac showed improved straight-line speed in Baku, and Sepang's long straights reward that strength. With thunderstorms forecast all weekend, Perez's experience and the car's straight-line performance could combine for a shock podium.\"\n  }\n}",
+      "tokensUsed": 3660,
+      "costUsd": 0.00823127168,
+      "createdAt": "2026-09-30T12:18:53.644Z"
+    },
+    {
+      "id": 488,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{ \"pole\": \"antonelli\", \"podium\": [\"antonelli\", \"russell\", \"verstappen\"], \"sprint_pole\": null, \"sprint_winner\": null, \"reasoning\": \"Research summary: This is F1's first visit to Sepang since 2017, run under the 'Bahrain GP' title, with no relevant data for the current car generation, an abrasive surface, high thermal degradation, and a high chance of afternoon thunderstorms all weekend ([formula1.com](https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-bahrain-grand-prix-in-malaysia.7q5fTKLLQ5TrEcsNerl406)). Form: Mercedes dominate — Kimi Antonelli leads the championship by 66 points over teammate George Russell, who won from pole in Baku, while Max Verstappen finished just 0.196s behind Russell and Red Bull are trending upward with Isack Hadjar's podium ([formula1.com](https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-bahrain-grand-prix-in-malaysia.7q5fTKLLQ5TrEcsNerl406)). Expert consensus at [f1oversteer.com](https://www.f1oversteer.com/races/bahrain-grand-prix-predictions-as-f1-experts-name-kimi-antonellis-rivals-to-win-in-malaysia/) leans heavily toward Antonelli winning (3 of 4 experts), with most predicting a Mercedes 1-2 and Verstappen the main threat; one dissenting view at [rnt-motorsports.com](https://rnt-motorsports.com/bahrain-gp-2026-sepang-prediction-verstappen/) backs Verstappen for pole and win, citing Red Bull's Baku gains, Sepang's long straights, wet-weather prowess, and the risk Mercedes' first major upgrade since Canada takes time to dial in. Weighing it up: Mercedes' season-long superiority and Antonelli's title-leading consistency make him the pole and win favourite, Russell's Baku pole/win form secures P2, and Verstappen's late-season surge plus wet-weather skill makes him the clear best of the rest for P3. Ferrari remain in a podium drought, McLaren are coming off a double non-score in Baku, and Colapinto carries a five-place grid penalty. Not a sprint weekend, so sprint fields are null.\" }",
+      "tokensUsed": 4816,
+      "costUsd": 0.041152,
+      "createdAt": "2026-09-30T12:18:53.422Z"
+    },
+    {
+      "id": 489,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Williams\",\"reasoning\":\"Sepang's long full-throttle sections should reward straight-line efficiency and Mercedes power, while its fast direction changes suit a stable aerodynamic platform. Albon and Sainz also give Williams two experienced drivers capable of exploiting mixed weather and tyre degradation, making a double-points finish a realistic above-expectations result.\",\"is_team\":true,\"referenced_id\":\"williams\"},\"flop\":{\"name\":\"Aston Martin\",\"reasoning\":\"High temperatures, heavy braking and prolonged full-throttle running will severely test cooling, energy deployment and reliability. Even if Aston Martin arrives with strong headline pace, Sepang's combination of fast corners and traction zones could expose an inconsistent balance and leave both cars below their expected positions.\",\"is_team\":true,\"referenced_id\":\"aston-martin\"},\"crazy_prediction\":{\"prediction\":\"Perez finishes on the podium after starting outside the top 10.\",\"reasoning\":\"A Cadillac podium would be a major break from the normal expectation for a new team, but Sepang offers a plausible route through tropical rain, safety-car timing and high attrition. Perez's tyre management and experience in chaotic races could let him extend a stint, switch tyres at the right moment and convert an unconventional strategy into a shock result.\"}}",
+      "tokensUsed": 1656,
+      "costUsd": 0.0096,
+      "createdAt": "2026-09-30T12:18:53.642Z"
+    },
+    {
+      "id": 490,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"161\":[1586,1589,1588],\"162\":[1608],\"163\":[1630],\"164\":[1633],\"165\":[1639],\"166\":[1664],\"167\":[1671],\"168\":[1677],\"169\":[1681],\"170\":[1685]},\"reasoning\":\"Mercedes’ apparent recent pace makes Russell the strongest win and pole choice, while Sepang’s fast corners, heat and tyre demands should favor McLaren’s race pace and keep Verstappen in contention. Antonelli is a calculated fastest-lap pick given Mercedes performance and the possibility of a late tyre stop. Bearman has the stronger qualifying upside at Haas; six teams in Q3 and 18 classified finishers balance modern reliability against Malaysia’s heat and rain risk. Red Bull remains a strong pit-stop operation, Sainz is the safest midfield race pick, and McLaren’s two-driver strength gives it the edge in team points.\"}",
+      "tokensUsed": 3775,
+      "costUsd": 0.0169735,
+      "createdAt": "2026-09-30T12:19:06.679Z"
+    },
+    {
+      "id": 491,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Lance Stroll\",\"reasoning\":\"Stroll has proven wet-weather prowess at this type of circuit, having taken pole in similarly tricky conditions at the Turkish GP in 2020. With thunderstorms forecast for all three days at Sepang and most drivers on the grid lacking any prior experience at this circuit, Stroll's prior knowledge of handling mixed conditions becomes a significant advantage. The article specifically mentions he could 'force something' in the Aston Martin if rain arrives, and given his ability to extract unexpected results in wet sessions, he could well outpace his teammate Alonso and potentially score a strong result when others struggle.\",\"is_team\":false,\"referenced_id\":\"stroll\"},\"flop\":{\"name\":\"Oscar Piastri\",\"reasoning\":\"Piastri has never raced at Sepang in Formula 1, and the sources explicitly state that rain has 'not always been his best friend.' Combined with the fact that Baku exposed weaknesses in the McLaren package on certain circuit types, and McLaren's own preview acknowledging uncertainty around tire behavior and circuit models, Piastri faces a double disadvantage of inexperience and potentially tricky weather. While McLaren brought upgrades and expects better performance at a circuit with more varied challenges, the combination of first-timer status and unpredictable conditions makes Piastri vulnerable to underperforming relative to his championship position and teammate Norris.\",\"is_team\":false,\"referenced_id\":\"piastri\"},\"crazy_prediction\":{\"prediction\":\"Alpine's Pierre Gasly scores a podium finish, completing a remarkable turnaround for a team that has struggled all season.\",\"reasoning\":\"Multiple sources highlight Alpine's strong straight-line speed as a key advantage at Sepang's long straights. Gasly has previously shown he can maximize equipment that suits him, and the combination of high tire degradation (requiring careful management that Gasly excels at), potential rain chaos, and the fact that most competitors lack Sepang experience creates a perfect storm for an unexpected result. One expert specifically predicted Gasly in the top six as their 'biggest surprise,' but given the potential for incidents and retirements among front-runners unfamiliar with the circuit, a podium is within the realm of possibility for a driver who knows how to capitalize on others' misfortune.\"}}",
+      "tokensUsed": 4236,
+      "costUsd": 0.00900718,
+      "createdAt": "2026-09-30T12:18:53.640Z"
+    },
+    {
+      "id": 492,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "\n\n{\n  \"pole\": \"russell\",\n  \"podium\": [\"russell\", \"verstappen\", \"hamilton\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"George Russell won the Azerbaijan GP from pole and showed strong form, while his teammate Antonelli struggled with a crash in qualifying. Expert predictions are split between the Mercedes drivers, but Russell's recent momentum gives him the edge. Max Verstappen finished just 0.196s behind Russell in Baku and Red Bull is clearly improving - the long straights at Sepang should suit the RB22 well. However, Mercedes brings their first major upgrade since Canada, which could help them maintain the edge. Sepang's abrasive surface, high-speed corners, and forecast thunderstorms add variables - rain could favor experienced drivers like Verstappen and Hamilton. Ferrari's Leclerc is a threat for the podium as experts note he could end their podium drought. McLaren's poor Baku performance raises concerns about their form heading to this unpredictable venue. Given the track history (first F1 visit since 2017 with current cars), the new upgrade requiring learning time, and Russell's confidence from Baku, I'm backing Russell for pole and the win, with Verstappen and Hamilton joining him on the podium.\"\n}",
+      "tokensUsed": 4243,
+      "costUsd": 0.00919618,
+      "createdAt": "2026-09-30T12:18:53.409Z"
+    },
+    {
+      "id": 493,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\":\"norris\",\"podium\":[\"antonelli\",\"norris\",\"verstappen\"],\"sprint_pole\":null,\"sprint_winner\":null,\"reasoning\":\"Context: Round 16 keeps the Bahrain GP name but runs at Sepang after relocation. <cite index=\\\"28-1,28-2\\\">The round was due to run at Sakhir in April and was called off on safety grounds, along with the Saudi Arabian GP, before F1, the FIA and the governments of Bahrain and Malaysia agreed to reinstate it at Sepang in October.</cite> Championship state: <cite index=\\\"6-9,6-10\\\">Antonelli leads on 302 points, 66 clear of Russell, with eight wins, six poles and 12 podiums</cite>, and <cite index=\\\"15-3\\\">Russell won a chaotic Baku from which Norris retired</cite>. QUALIFYING CALL — Norris: Mercedes has a clear pole drought, as <cite index=\\\"47-2\\\">it took pole at each of the opening 10 rounds but none in the four since</cite>, and <cite index=\\\"44-8\\\">three of the four qualifying sessions since Spa have been topped by Lando Norris</cite>. McLaren is also expected to suit the venue: <cite index=\\\"19-7\\\">Mercedes are due to bring a major upgrade to Malaysia, while McLaren are expected to be strong around the high-speed circuit</cite>, and <cite index=\\\"21-5\\\">McLaren brought a significant package in Azerbaijan and will add circuit-specific bodywork here</cite>. Crucially, Russell — the most obvious pole threat on Baku form — carries penalty risk: <cite index=\\\"61-2\\\">Baku winner Russell is set to receive an upgraded car plus a new engine in Malaysia, meaning a grid drop</cite>, with <cite index=\\\"61-3,61-4\\\">Mercedes saying it could come as early as Malaysia, or otherwise Austin, since Singapore would be unwise</cite>. RACE CALL — Antonelli to win: he is the market favourite (<cite index=\\\"24-12,24-13\\\">+140, leading with 302 points and eight wins from 15</cite>), and <cite index=\\\"46-13\\\">Wolff has confirmed an important update package for this weekend</cite> with <cite index=\\\"43-18\\\">Mercedes targeting a 'decent step forward' in competitiveness</cite>. Norris P2 on single-lap pace plus McLaren's high-speed/high-deg competence, though <cite index=\\\"21-6\\\">Sepang traditionally rewards managing high degradation over track position</cite>. Verstappen P3: <cite index=\\\"33-6\\\">Red Bull brought major upgrades to Baku and were well in the fight</cite>, <cite index=\\\"65-4\\\">he finished second just 0.196s behind Russell with Hadjar completing a double podium</cite>, he is the last F1 winner at Sepang (2017), and <cite index=\\\"68-7\\\">Montoya rates it an amazing track for a driver who likes hustling the car</cite> — the caveat being <cite index=\\\"65-15\\\">no penalty has been announced for Sepang</cite> but an engine change remains possible. Weather is the big wildcard: <cite index=\\\"30-13,30-14\\\">race day is warm and humid, up to 31°C with a 30% chance of rain</cite>, while <cite index=\\\"32-11,32-12\\\">all five sessions could be rain-hit, with thunderstorms possible Saturday and Sunday</cite> — Sepang's tropical downpours could scramble any prediction. Also noted: <cite index=\\\"52-3\\\">Colapinto has a five-place grid penalty for causing the Baku multi-car crash</cite>, and <cite index=\\\"54-6,54-7\\\">12 of the 22 drivers have never raced at Sepang, including both Mercedes and both McLaren drivers plus Leclerc</cite>, adding unknowns that favour experienced heads on a drying/wet track.\"}",
+      "tokensUsed": 195571,
+      "costUsd": 1.120975,
+      "createdAt": "2026-09-30T12:18:53.418Z"
+    },
+    {
+      "id": 494,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"russell\",\n  \"podium\": [\"russell\", \"antonelli\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Mercedes dominate 2026 with Antonelli (8 wins, 302 pts) leading Russell (236 pts) by 66 after 15 rounds; Russell took a dominant Baku pole and win last weekend while Antonelli recovered from Q1 crash to P5. Mercedes bring upgrades to Sepang (high-speed layout with long straights suiting their energy management and pace). Verstappen (P2 Baku, 2017 Sepang winner) and Red Bull are next strongest. Mixed rain risk (possible showers, hot/humid) but Mercedes remain favorites; no penalties noted. Not a sprint weekend.\"\n}",
+      "tokensUsed": 113063,
+      "costUsd": 0.18115,
+      "createdAt": "2026-09-30T12:18:53.421Z"
+    },
+    {
+      "id": 495,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Gasly\",\n    \"reasoning\": \"Alpine has shown strong straight-line speed in recent weeks, which is critical at Sepang with its two long straights and heavy braking zones, and experts are tipping Gasly for a top-six finish ([f1oversteer.com](https://www.f1oversteer.com/races/bahrain-grand-prix-predictions-as-f1-experts-name-kimi-antonellis-rivals-to-win-in-malaysia/)). With high tyre degradation, two-to-three-stop strategy variance and thunderstorms forecast all weekend, the door is open for Alpine to beat its usual midfield ceiling.\",\n    \"is_team\": false,\n    \"referenced_id\": \"gasly\"\n  },\n  \"flop\": {\n    \"name\": \"Piastri\",\n    \"reasoning\": \"Piastri has never raced at Sepang, has historically found wet conditions hard work, and arrives in poor form sitting seventh in the standings, 43 points off sixth ([rnt-motorsports.com](https://rnt-motorsports.com/bahrain-gp-2026-sepang-prediction-verstappen/)). McLaren's straight-line speed weakness was exposed in Baku and Sepang's long straights place a premium on power and deployment, while thunderstorms are forecast on all three days ([mclaren.com](https://www.mclaren.com/racing/formula-1/2026/bahrain-grand-prix-in-malaysia/preview/)). Expect him to finish well outside the points-paying positions his car should manage.\",\n    \"is_team\": false,\n    \"referenced_id\": \"piastri\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Sergio Perez scores points with a top-10 finish for Cadillac in a rain-hit race\",\n    \"reasoning\": \"Thunderstorms are forecast on all three days at a circuit famous for torrential rain, and Perez has elite wet-weather history here: he finished second at Sepang in 2012 for Sauber, the first podium of his career. Cadillac looked stronger than usual at times in Baku and straight-line speed counts at Sepang ([rnt-motorsports.com](https://rnt-motorsports.com/bahrain-gp-2026-sepang-prediction-verstappen/)). In a chaotic wet race with high degradation and likely attrition, the veteran can drag the new backmarker outfit to a shock points finish at the site of his breakthrough result.\",\n    \"referenced_id\": \"perez\"\n  }\n}",
+      "tokensUsed": 6186,
+      "costUsd": 0.0335458,
+      "createdAt": "2026-09-30T12:18:53.644Z"
+    },
+    {
+      "id": 496,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"161\":[1588,1589,1592],\"162\":[1609],\"163\":[1630],\"164\":[1633],\"165\":[1638],\"166\":[1660],\"167\":[1672],\"168\":[1676],\"169\":[1680],\"170\":[1684]},\"reasoning\":\"Research based on recent F1 performance trends and track characteristics. For podium (Q161), I'm going bold with Norris over Russell as McLaren has shown stronger race pace in recent events, Piastri at 18pts offers value as a race winner, while Verstappen remains the reliable pick despite higher difficulty. Q162: Antonelli at 12pts is undervalued given his recent strong qualifying performances and Mercedes' front-row pace. Q163: Bearman is the Haas priority driver and has shown strong single-lap pace. Q164: 6 teams in Q3 reflects typical F1 competitive spread. Q165: Russell's recent fastest lap streak makes him the smart pick at just 10pts. Q166: Mercedes pit crew has demonstrated superior pitstop efficiency recently. Q167: Despite some chaos potential, I'll back a clean start. Q168: 17 classified finishers accounts for typical attrition in tough conditions without major incidents. Q169: Franco Colapinto at 10pts offers the best value in a tight midfield battle. Q170: Red Bull Racing remains the constructor most likely to maximize points with Verstappen's race-winning capability.\"}",
+      "tokensUsed": 6851,
+      "costUsd": 0.00952231,
+      "createdAt": "2026-09-30T12:19:06.677Z"
+    },
+    {
+      "id": 497,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": { \"name\": \"Hadjar\", \"reasoning\": \"Hadjar took a surprise Baku podium as Red Bull's upgrades clicked, sitting 8th in the championship. Sepang's long straights plus high-speed corners, combined with 75%+ rain risk and extreme heat that can derate 2026 batteries, give the improving Red Bull package a chance to beat Mercedes expectations in mixed or energy-limited conditions.\", \"is_team\": false, \"referenced_id\": \"hadjar\" },\n  \"flop\": { \"name\": \"Piastri\", \"reasoning\": \"Piastri trails Norris by 66 points and McLaren's Baku upgrades produced a pointless weekend. At a high thermal-degradation, abrasive Sepang with possible rain and first 2026 wet running, his tyre management and consistency issues are likely to see him underperform relative to the car and teammate.\", \"is_team\": false, \"referenced_id\": \"piastri\" },\n  \"crazy_prediction\": { \"prediction\": \"Hadjar wins a rain-hit race after Mercedes battery overheating on the long straights\", \"reasoning\": \"Mercedes are clear favourites with upgrades and a 66-point lead, yet Sepang heat (track ~60°C, humidity >80%) is known to cut 2026 electrical deployment exactly where overtaking happens. Combined with 75-90% rain probability and zero prior wet running for these cars, a chaotic wet-dry race plus PU derate creates a genuine, evidence-based path for Red Bull's in-form Hadjar to take an upset maiden win.\" }\n}",
+      "tokensUsed": 65285,
+      "costUsd": 0.138294,
+      "createdAt": "2026-09-30T12:18:53.643Z"
+    },
+    {
+      "id": 498,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1587, 1586, 1589],\n    \"162\": [1609],\n    \"163\": [1630],\n    \"164\": [1634],\n    \"165\": [1640],\n    \"166\": [1664],\n    \"167\": [1672],\n    \"168\": [1677],\n    \"169\": [1682],\n    \"170\": [1685]\n  },\n  \"reasoning\": \"Research: Round 16 is the rescheduled Bahrain GP staged at Sepang (Oct 2-4), F1's first visit since 2017. Mercedes is utterly dominant in 2026 (503+ constructor pts, 160 clear of Ferrari), with Antonelli leading the title on ~302 pts and 8 wins, and Russell 66 back after his Baku grand slam (pole, win, fastest lap). Bookmakers have Antonelli favourite (+140) with Russell +300, Norris +700, Verstappen +750. Podium: Antonelli P1 (track suits Mercedes' straight-line strength and he's the odds favourite), Russell P2 (in-form, quickest car), Norris P3 — multiple previews (Sky, ESPN) expect McLaren to be strong at high-speed Sepang, and Norris needs a bounce-back after his Baku DNF. Pole: Antonelli, backed by expert tips as the man to beat at a Mercedes-friendly layout, with slightly better value than Russell. Haas: Bearman has clearly out-delivered Ocon (18 pts vs 3) and is the safer 'qualifies highest' call. Q3 teams: Baku showed four teams fighting for pole and the grid is tightly packed; with 40-50% rain chance in qualifying and mixed conditions likely, I'm taking the value on 7 teams rather than the standard 6. Fastest lap: Verstappen — Red Bull's Baku upgrade package worked (P2 + double podium), Sepang high degradation encourages a late fresh-tyre push, and Max is the only current driver to have won here. Fastest pitstop: Red Bull, historically the quickest crew and sharp under pressure in Baku with a double-stack; strong value at 25 pts. Safety Car in first 15 laps: F1's own stats give Sepang only ~20% SC and ~20% VSC probability for the whole 56-lap race, so statistically 'No' for the opening quarter is the value play. Classified finishers: 22 starters, but 2026 power-unit reliability plus Sepang's heat/humidity (33C, 53C track temp) and thundery showers suggest ~4 retirements, so 18. Head-to-head: Lawson at 20 pts is the best value — Racing Bulls (77 pts) have out-scored Williams and Lawson has top-eight pace, while Colapinto is the short-priced pick. Best-of-the-rest team points: McLaren, with previews repeatedly flagging them as strong at this high-speed, high-load circuit and both cars capable of scoring heavily.\"\n}",
+      "tokensUsed": 75279,
+      "costUsd": 0.494135,
+      "createdAt": "2026-09-30T12:19:06.678Z"
+    },
+    {
+      "id": 499,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Williams\",\"reasoning\":\"Williams arrive at Sepang with the first real chance to validate their B-spec FW48. The new lighter chassis introduced in Baku delivered their first Q3 of the season (Sainz P9 on merit before a yellow-flag grid drop) and their first point since Monaco, with Gary Anderson estimating roughly a 0.76% lap-time gain, largely from around 20kg of weight saving. Sepang's two very long straights and heavy braking zones are exactly where shedding weight and drag pays back most, and low expectations are baked in after Vowles publicly called the package 'a step in the right direction, but not enough'. Both drivers themselves flagged Sepang as the verdict on the upgrade in high-speed corners, so any repeat Q3 appearance or double top-12 run would be above expectations. Add a 50-90% rain risk across the weekend, brutal 46-54C track temps and a high-attrition, multi-stop tyre race, and a team with a cooler-running, lighter car plus two very experienced heads (Sainz was on the Baku podium here-style tracks last year) has a genuine shot at points again. Predicting the team rather than a single driver also hedges which of Sainz or Albon gets the benefit.\",\"is_team\":true,\"referenced_id\":\"williams\"},\"flop\":{\"name\":\"McLaren\",\"reasoning\":\"Expectations for McLaren have risen again after Norris's wins in Budapest and Zandvoort lifted him to fourth in the championship, but Sepang is close to a worst-case circuit for the MCL40. The car's fundamental weakness this season has been sustained medium/high-speed cornering load, where McLaren has been reported as three to four tenths adrift, and Sepang is dominated by exactly that: the long Turn 5-6 complex, Turn 7-8 and the fast Turn 12-13 sequence, plus the highest thermal degradation of the year on an abrasive surface with C2-C4 compounds. Their aero concept required in-season 'redirecting', which hurts most at tracks that reward downforce rather than the low-drag, power-unit-limited circuits where Norris has shone. Reliability is the second strike: Norris has burned through multiple power electronics units with terminal failures already this year, and 37C heat index with 86% humidity is the harshest possible environment for cooling and PU electronics. Third, they are on zero from Baku after Colapinto took Norris out and Piastri finished 14th, so momentum and confidence are low, and Piastri remains unable to extract the car in low-grip conditions - precisely what a greasy, showery Sepang would serve up. I expect them to be beaten by Mercedes, Red Bull and Ferrari and to be vulnerable to Racing Bulls and Haas, with a realistic chance of another single-digit or zero-point haul.\",\"is_team\":true,\"referenced_id\":\"mclaren\"},\"crazy_prediction\":{\"prediction\":\"Red Bull score their first 1-2 of 2026 at Sepang, with Verstappen finally taking his maiden win of the season and Hadjar second\",\"reasoning\":\"The season-long pattern is Mercedes dominance and a historically bizarre statistic: Verstappen is still winless after 15 rounds, with Mercedes' Antonelli on 302 points and Russell having just won in Baku. The break from that pattern is set up by three converging factors. First, Red Bull's Baku form was their best of the year: Verstappen lost to Russell by just 0.196s after a blistering start and long stints of pressure, and Hadjar completed a double podium in third, so both cars already had front-running race pace. Second, Sepang's profile - long straights, heavy braking, high thermal degradation and two-to-three-stop strategy - rewards the strongest race-day tyre management and Red Bull's traditional strength in hot, deg-limited races, while punishing the low-downforce-concept McLaren and exposing Mercedes to strategic risk. Third, and decisively, the weather: forecasts put rain probability between 50% and 90% across the weekend with thunderstorm risk and a 75% chance of afternoon showers on race day, and F1 has not run a single competitive wet session under the 2026 regulations. That is a unique unknown where the most adaptable driver/team combination on the grid gains the most, and Verstappen remains the sport's benchmark in mixed conditions - as does Hadjar, who has been Red Bull's revelation and just signed for 2027. A wet or drying Sepang with safety cars, timing gambles on inters and a Mercedes forced to defend conservatively in a title fight is the single most plausible route to Red Bull's first double-win finish since the regulation change - surprising, but genuinely on the table this Sunday.\",\"is_team\":false,\"referenced_id\":\"red-bull\"}}",
+      "tokensUsed": 128731,
+      "costUsd": 0.798315,
+      "createdAt": "2026-09-30T12:18:53.641Z"
+    },
+    {
+      "id": 500,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1586, 1587, 1588],\n    \"162\": [1608],\n    \"163\": [1630],\n    \"164\": [1633],\n    \"165\": [1638],\n    \"166\": [1660],\n    \"167\": [1672],\n    \"168\": [1676],\n    \"169\": [1681],\n    \"170\": [1684]\n  },\n  \"reasoning\": \"Mercedes dominate 2026 with Antonelli leading championship (302pts) and Russell in strong recent form (Baku win + pole, consecutive fastest laps). Sepang favors their upgrades, power, and tyre management despite heat/humidity/rain risk (~75% Sunday). Podium: Russell P1, Antonelli P2, Verstappen P3 (Red Bull Baku 2-3, strong race pace). Pole: Russell. Haas: Bearman edged Ocon in Baku Q. 6 teams in Q3 (matches Baku: Merc/Fer/McL/RB/Alpine/Williams). FL/pitstop: Russell/Mercedes (recent hat-trick potential, Baku SC success). No early SC (Baku opening quiet; rain later). 17 finishers (heat tests reliability but not extreme DNFs). Sainz ahead in midfield (Baku P10 vs others). Red Bull most points among options (recent form).\"\n}",
+      "tokensUsed": 145900,
+      "costUsd": 0.246192,
+      "createdAt": "2026-09-30T12:19:06.680Z"
+    },
+    {
+      "id": 501,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1586, 1587, 1588],\n    \"162\": [1608],\n    \"163\": [1630],\n    \"164\": [1633],\n    \"165\": [1638],\n    \"166\": [1664],\n    \"167\": [1671],\n    \"168\": [1676],\n    \"169\": [1681],\n    \"170\": [1684]\n  },\n  \"reasoning\": \"The 2026 season narrative points to Mercedes dominance: George Russell has set fastest lap in each of the last two races and Mercedes' pit crew won the Baku battle, so I back Russell for the win (P1), pole position, and the fastest-lap hat-trick. Antonelli (8 pts) and Verstappen (10 pts) are the next-shortest podium odds, so they complete my top three. Bearman is favored over Ocon at Haas and has shown stronger qualifying form. For Q3, the four top teams (Mercedes, Red Bull, McLaren, Ferrari) should lock up 8 spots with two midfield cars from different teams joining them — 6 teams is the modal outcome. Bold calls: Red Bull's pit crew at 25 pts is great value given their historically elite stops (multiple DHL awards); Sainz (15 pts) to beat Colapinto, Lawson and Bortoleto — his race craft and Williams' trajectory make him the best midfield bet despite Colapinto's shorter odds. Sepang's heat, humidity and Turn 1 chaos (plus the new 2026 machinery) justify an early Safety Car (Yes) and moderate attrition with 17 classified finishers. Red Bull are favored to be best of the rest behind Mercedes, with Verstappen's podium plus Hadjar's support outscoring the McLaren and Ferrari pairs. Historical Bahrain context (Verstappen/Red Bull strength, Ferrari competitiveness) per [fantasytips.in](https://www.fantasytips.in/f1-bahrain-grand-prix/) and [fantraxhq.com](https://fantraxhq.com/formula-1-fantasy-2024-bahrain-grand-prix-tier-and-salary-cap-rankings/) informed the midfield and team-battle reads.\"\n}",
+      "tokensUsed": 11526,
+      "costUsd": 0.06395,
+      "createdAt": "2026-09-30T12:19:06.681Z"
+    },
+    {
+      "id": 502,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"verstappen\",\n  \"podium\": [\n    \"verstappen\",\n    \"norris\",\n    \"leclerc\"\n  ],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Max Verstappen and Red Bull Racing demonstrate superior high-speed balance and aerodynamic efficiency, making them favorites for pole and the race win. McLaren's Lando Norris poses the stiffest challenge with exceptional race pace and tyre preservation, while Charles Leclerc secures Ferrari a spot on the podium following consistent qualifying form.\"\n}",
+      "tokensUsed": 1130,
+      "costUsd": 0.0024165,
+      "createdAt": "2026-09-30T12:18:53.420Z"
+    },
+    {
+      "id": 503,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1586, 1587, 1588],\n    \"162\": [1608],\n    \"163\": [1630],\n    \"164\": [1633],\n    \"165\": [1638],\n    \"166\": [1660],\n    \"167\": [1671],\n    \"168\": [1676],\n    \"169\": [1680],\n    \"170\": [1684]\n  },\n  \"reasoning\": \"Mercedes enters the weekend in commanding form with George Russell leading qualifying and race pace trends alongside Kimi Antonelli, while Max Verstappen remains the top challenger to lock in the podium. Bearman holds a slight edge over Ocon in Haas qualifying head-to-heads, and tight midfield competition suggests 6 teams will advance to Q3. Mercedes' crew remains the benchmark in pit stop execution, and opening lap skirmishes in tough ambient conditions favor early neutralization with attrition settling around 17 classified finishers.\"\n}",
+      "tokensUsed": 4948,
+      "costUsd": 0.008901,
+      "createdAt": "2026-09-30T12:19:06.679Z"
+    },
+    {
+      "id": 504,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Carlos Sainz\",\n    \"reasoning\": \"Sepang's high-energy lateral loads and severe thermal tire degradation reward drivers with exceptional tire management. Sainz has repeatedly shown masterclass tire preservation in blistering track temperatures, and Williams' late-season high-downforce upgrade package matches the high-speed sweeping sections of Sectors 1 and 2.\",\n    \"is_team\": false,\n    \"referenced_id\": \"sainz\"\n  },\n  \"flop\": {\n    \"name\": \"Mercedes\",\n    \"reasoning\": \"The W17 continues to suffer from aggressive rear tire overheating under extreme ambient temperatures. In the oppressive heat and humidity of Malaysia, Mercedes will struggle to protect their rear rubber through the demanding mid-to-high speed turns, dropping Russell and Antonelli into defensive races against mid-pack pressure.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mercedes\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Carlos Sainz scores Williams' first podium of the season after undercutting both Ferraris during an extreme high-degradation two-stop race.\",\n    \"reasoning\": \"Ferrari has shown vulnerability to aggressive tire graining in tropical conditions, forcing their drivers into compromised conservation phases. With Williams showing strong straight-line speed on Sepang's twin straights and Sainz executing an aggressive two-stop strategy with early undercut phases, he has the track position and racecraft to hold off Hamilton and Leclerc to claim a shock top-three finish.\"\n  }\n}",
+      "tokensUsed": 1960,
+      "costUsd": 0.004719,
+      "createdAt": "2026-09-30T12:18:53.643Z"
+    },
+    {
+      "id": 505,
+      "predictorId": "openai-gpt-5.6-sol-05106807",
+      "predictorName": "GPT-5.6 Sol",
+      "companyName": "OpenAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"161\":[1586,1589,1591],\"162\":[1608],\"163\":[1630],\"164\":[1633],\"165\":[1639],\"166\":[1664],\"167\":[1672],\"168\":[1677],\"169\":[1681],\"170\":[1686]},\"reasoning\":\"Mercedes' recent pace makes Russell the strongest win and pole candidate, while Sepang-style heat, fast corners and tyre stress should favor Norris and Leclerc. Antonelli is a calculated fastest-lap pick given Mercedes pace and the possibility of a late tyre stop. Bearman's qualifying speed gets the nod over Ocon, with six teams likely represented in Q3. Red Bull remains a strong pit-stop choice, while a clean opening, moderate heat-related attrition, Sainz's experience and Ferrari's balanced two-car scoring potential provide the bolder selections.\"}",
+      "tokensUsed": 3988,
+      "costUsd": 0.0191035,
+      "createdAt": "2026-09-30T12:53:37.902Z"
+    },
+    {
+      "id": 506,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"161\":[1589,1592,1588],\"162\":[1611],\"163\":[1630],\"164\":[1634],\"165\":[1638],\"166\":[1660],\"167\":[1672],\"168\":[1676],\"169\":[1680],\"170\":[1685]},\"reasoning\":\"McLaren has shown dominant form with Norris and Piastri, making them strong podium and pole candidates. Russell's recent back-to-back fastest laps make him the logical choice for fastest lap. Mercedes typically excels at pitstops and Bahrain, while the 2026 grid suggests 7 teams regularly competing for Q3 spots. The midfield battle favors Williams/Cadillac drivers, with Franco Colapinto showing strong pace. Safety Cars are less common at Bahrain's high-degradation layout, and 17 classified finishers represents a balanced expectation for Malaysia's challenging heat and humidity.\"}",
+      "tokensUsed": 6452,
+      "costUsd": 0.00981205,
+      "createdAt": "2026-09-30T12:53:37.898Z"
+    },
+    {
+      "id": 507,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1586, 1588, 1587],\n    \"162\": [1608],\n    \"163\": [1630],\n    \"164\": [1633],\n    \"165\": [1640],\n    \"166\": [1664],\n    \"167\": [1671],\n    \"168\": [1676],\n    \"169\": [1681],\n    \"170\": [1684]\n  },\n  \"reasoning\": \"This 2026 scenario (new regulations, Mercedes-powered era) is reflected in the odds structure: Mercedes is the benchmark with George Russell the heavy favorite (5 pts) and Kimi Antonelli second favorite (8 pts), consistent with the prompt noting Russell has set fastest lap in the last two races and Mercedes won the Baku pitstop battle. Podium: Russell P1 as the form driver, Verstappen P2 (never count him out even with a slightly inferior Red Bull), Antonelli P3 for a Mercedes double — a mild contrarian ordering over the strict odds. Qualifying: Russell's one-lap pace in a dominant Mercedes makes him the informed pole pick. Haas head-to-head: Bearman has consistently outqualified Ocon and is rightly favored. Q3 teams: with 11 teams but a clear top four (Mercedes, Red Bull, McLaren, Ferrari) filling ~8 slots, 6 teams in Q3 is the modal outcome. Fastest lap: rather than chasing Russell's hat-trick, I take Verstappen at better value (12 pts) — fastest laps often go to a front-runner with a late free stop, and Red Bull will likely be chasing strategy. Fastest pitstop: bold value play on Red Bull's historically elite crew (multiple DHL awards, world-record stops) at 25 pts despite Mercedes' Baku win. Safety Car in first 15 laps: Yes — Sepang's heat, humidity, storm risk and a 22-car field with new-reg machinery raise first-strike incident probability. Classified finishers: 17 — the Malaysian heat/humidity plus 2026 reliability teething should claim ~5 cars. Midfield battle: bold pick of Sainz over favorite Colapinto — Sainz is a proven race winner with Mercedes power in the Williams. Best of the rest: Red Bull, consistent with Verstappen's podium plus Hadjar support scoring. Historical Bahrain context (Verstappen/Red Bull strength, Hamilton's record there) per [fantasytips.in](https://www.fantasytips.in/f1-bahrain-grand-prix/) and [fantraxhq.com](https://fantraxhq.com/formula-1-fantasy-2024-bahrain-grand-prix-tier-and-salary-cap-rankings/) informed the Red Bull/Mercedes lean.\"\n}",
+      "tokensUsed": 10061,
+      "costUsd": 0.0925663,
+      "createdAt": "2026-09-30T12:53:37.906Z"
+    },
+    {
+      "id": 508,
+      "predictorId": "xai-grok-4.6-1bb208f0",
+      "predictorName": "Grok 4.6",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1586, 1587, 1588],\n    \"162\": [1609],\n    \"163\": [1630],\n    \"164\": [1633],\n    \"165\": [1638],\n    \"166\": [1660],\n    \"167\": [1671],\n    \"168\": [1676],\n    \"169\": [1682],\n    \"170\": [1684]\n  },\n  \"reasoning\": \"Mercedes dominate 2026 with Antonelli leading championship by 66pts after 8 wins; Russell won Baku from pole with strong pace and team bringing upgrades to Sepang. Verstappen/Hadjar recent podiums (2nd/3rd Baku) make Red Bull next best. Antonelli edges Russell in quali H2H. Bearman started ahead of Ocon in Baku. 6 teams typical for Q3 given top-4 plus Racing Bulls/Alpine. Russell FL last two races. Mercedes fastest stops. Rain/thunderstorm risk high at Sepang (75% some forecasts) likely early SC/VSC. Heat/humidity plus Baku-style attrition points to ~17 classified. Lawson (59pts, stronger RB car) beats penalized Colapinto and weaker Williams/Audi. Red Bull scored most of the three last race and has momentum.\"\n}",
+      "tokensUsed": 75390,
+      "costUsd": 0.168672,
+      "createdAt": "2026-09-30T12:53:37.904Z"
+    },
+    {
+      "id": 509,
+      "predictorId": "anthropic-claude-opus-5-568e0eb3",
+      "predictorName": "Claude Opus 5",
+      "companyName": "Anthropic",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1587, 1586, 1588],\n    \"162\": [1609],\n    \"163\": [1630],\n    \"164\": [1634],\n    \"165\": [1639],\n    \"166\": [1664],\n    \"167\": [1672],\n    \"168\": [1678],\n    \"169\": [1682],\n    \"170\": [1686]\n  },\n  \"reasoning\": \"Research: Round 16 is the Bahrain GP relocated to Sepang (Oct 2-4), hot/humid with ~30-50% rain chance and a historically modest ~20% safety car probability. Mercedes are dominant in 2026: Antonelli leads the title with 302 pts (8 wins) and Russell won Baku from pole by a huge margin, with a major Mercedes upgrade due in Malaysia. Bookmakers and pundits make Antonelli favourite (+140 / 11-8) with Russell and Verstappen next; Red Bull's Baku upgrade produced a double podium (Verstappen P2, Hadjar P3). Picks: podium Antonelli-Russell-Verstappen (Mercedes 1-2 with Verstappen best of the rest); Antonelli for pole and fastest lap (slightly bolder than Russell, and experts tip him for pole at a track suiting the W17); Bearman over Ocon at Haas given his clearly better season (18 pts vs 3) and qualifying form; 7 teams into Q3 as a mildly bold call given tight midfield and mixed/damp conditions; Red Bull for fastest pit stop as a value pick (traditional pit-stop benchmark team, though Mercedes won in Baku); No safety car/VSC in the first 15 laps, since Sepang's SC probability is low and Baku's incidents came mid-race; 19 classified finishers from the 22-car grid (typical 2-3 retirements in heat/humidity); Lawson over Colapinto/Sainz/Bortoleto as the strongest midfield performer (59 pts, consistent points finisher); Ferrari to out-score Red Bull and McLaren as they're ahead in the standings (358 vs 306 vs 230) with two reliably points-scoring cars, while McLaren/Red Bull have been more erratic.\"\n}",
+      "tokensUsed": 106200,
+      "costUsd": 0.61808,
+      "createdAt": "2026-09-30T12:53:37.901Z"
+    },
+    {
+      "id": 510,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1586, 1587, 1588],\n    \"162\": [1608],\n    \"163\": [1630],\n    \"164\": [1633],\n    \"165\": [1638],\n    \"166\": [1660],\n    \"167\": [1671],\n    \"168\": [1676],\n    \"169\": [1680],\n    \"170\": [1684]\n  },\n  \"reasoning\": \"Mercedes enters the weekend in commanding form with George Russell and Kimi Antonelli leading performance charts and betting odds across qualifying, race pace, and pit execution. Red Bull remains the closest contender led by Max Verstappen, while Oliver Bearman holds the edge at Haas, Franco Colapinto leads the selected midfield group for Alpine, and early race caution periods remain likely given heat, humidity, and challenging conditions.\"\n}",
+      "tokensUsed": 4751,
+      "costUsd": 0.00816225,
+      "createdAt": "2026-09-30T12:53:37.903Z"
+    },
+    {
+      "id": 511,
+      "predictorId": "deepseek-deepseek-v4-pro-0813-f936349c",
+      "predictorName": "DeepSeek V4 Pro 0813",
+      "companyName": "DeepSeek",
+      "category": "fantasy",
+      "status": "error",
+      "errorMessage": "OpenRouter request timed out after 70000 ms for deepseek/deepseek-v4-pro-0813",
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter request timed out after 70000 ms for deepseek/deepseek-v4-pro-0813",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-01T16:03:45.988Z"
+    },
+    {
+      "id": 512,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"russell\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Sepang returns with long straights and high tyre degradation, which should suit Mercedes. Kimi Antonelli leads the championship and most expert predictions back him for pole after his Baku Q1 crash, while George Russell is fresh off winning from pole in Azerbaijan. Max Verstappen came within 0.196s of victory in Baku and is the most likely non-Mercedes podium threat. Sources: [racingpost.com](https://www.racingpost.com/sport/motor-sports-tips/formula-1-tips/bahrain-grand-prix-in-malaysia-betting-tips-odds-and-predictions-a0q8o2l6W0jR/), [f1oversteer.com](https://www.f1oversteer.com/races/bahrain-grand-prix-predictions-as-f1-experts-name-kimi-antonellis-rivals-to-win-in-malaysia/), [formula1.com](https://www.formula1.com/en/racing/2026/bahrain).\"\n}",
+      "tokensUsed": 4001,
+      "costUsd": 0.0090337,
+      "createdAt": "2026-10-01T16:43:18.509Z"
+    },
+    {
+      "id": 513,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Bahrain Grand Prix (Round 16, 2026-10-04) at Kuala Lumpur, Malaysia.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Perez\",\n    \"reasoning\": \"Pérez has a strong record in wet conditions at Sepang, including a podium in 2012. With thunderstorms forecast for all three days, his experience and Cadillac's straight-line speed could yield a surprise points finish or even a top-5.\",\n    \"is_team\": false,\n    \"referenced_id\": \"perez\"\n  },\n  \"flop\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"McLaren's MCL40 has struggled with straight-line speed, a weakness exposed at Baku. Sepang's long straights and high degradation will be challenging, and with rain likely, both Norris and Piastri—who have never raced here in F1—could struggle to score points. The team brought limited upgrades to Malaysia.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Heavy rain causes the race to be red-flagged after 40 laps, half points awarded, and Sergio Pérez scores a podium for Cadillac.\",\n    \"reasoning\": \"Sepang is notorious for torrential downpours, and the forecast predicts thunderstorms. In chaotic wet conditions, Pérez's experience and Cadillac's straight-line speed could shine, while top teams may falter. A red flag and half points would be a surprising outcome.\"\n  }\n}",
+      "tokensUsed": 6163,
+      "costUsd": 0.011458,
+      "createdAt": "2026-10-01T16:43:28.996Z"
+    },
+    {
+      "id": 514,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Bahrain Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"161\": [1586, 1587, 1588],\n    \"162\": [1608],\n    \"163\": [1630],\n    \"164\": [1633],\n    \"165\": [1638],\n    \"166\": [1660],\n    \"167\": [1671],\n    \"168\": [1676],\n    \"169\": [1680],\n    \"170\": [1684]\n  },\n  \"reasoning\": \"Based on the fantasy odds, George Russell is the clear favorite (5 pts podium, 10 pts quali/fastest lap), with Kimi Antonelli next (8 pts podium, 12 pts quali), suggesting Mercedes strong form. Max Verstappen is third favorite. Bearman favored over Ocon at Haas. Six teams likely in Q3. Mercedes favored for fastest pitstop. Safety car/VSC likely in first 15 laps. 17 classified finishers most likely. Colapinto favored in midfield battle. Red Bull favored among Ferrari/McLaren/Red Bull for most points. Web search results were from 2024 and not directly applicable to this 2026 lineup.\"\n}",
+      "tokensUsed": 7540,
+      "costUsd": 0.0112735,
+      "createdAt": "2026-10-01T16:43:56.868Z"
+    }
+  ]
+}
