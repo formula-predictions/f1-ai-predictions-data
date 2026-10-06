@@ -1,0 +1,1255 @@
+{
+  "exportType": "race_predictions",
+  "raceId": "singapore-2026",
+  "raceName": "Singapore Grand Prix",
+  "raceDate": "2026-10-11",
+  "isSprint": true,
+  "lineup": {
+    "status": "default",
+    "source": "season_default",
+    "confirmedAt": null,
+    "entries": [
+      {
+        "driverId": "norris",
+        "driver": "Lando Norris",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "piastri",
+        "driver": "Oscar Piastri",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hamilton",
+        "driver": "Lewis Hamilton",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "leclerc",
+        "driver": "Charles Leclerc",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hadjar",
+        "driver": "Isack Hadjar",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "verstappen",
+        "driver": "Max Verstappen",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "antonelli",
+        "driver": "Kimi Antonelli",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "russell",
+        "driver": "George Russell",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "alonso",
+        "driver": "Fernando Alonso",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "stroll",
+        "driver": "Lance Stroll",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "colapinto",
+        "driver": "Franco Colapinto",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "gasly",
+        "driver": "Pierre Gasly",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bearman",
+        "driver": "Ollie Bearman",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "ocon",
+        "driver": "Esteban Ocon",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lawson",
+        "driver": "Liam Lawson",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lindblad",
+        "driver": "Arvid Lindblad",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "albon",
+        "driver": "Alexander Albon",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "sainz",
+        "driver": "Carlos Sainz",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bortoleto",
+        "driver": "Gabriel Bortoleto",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hulkenberg",
+        "driver": "Nico Hulkenberg",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bottas",
+        "driver": "Valtteri Bottas",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "perez",
+        "driver": "Sergio Perez",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 2,
+        "isSubstitute": false
+      }
+    ]
+  },
+  "exportedAt": "2026-10-06T15:16:47.361Z",
+  "predictions": {
+    "Anthropic": {
+      "predictor": "Claude Opus 5.5",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "Lewis Hamilton",
+        "pole": "Max Verstappen",
+        "sprint_pole": "Max Verstappen",
+        "sprint_winner": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Ferrari lock out the front row in Grand Prix qualifying, with neither Verstappen nor a Mercedes starting in the top two on Sunday.\",\"reasoning\":\"The usual pattern this season is Mercedes or, lately, Verstappen at the front: Verstappen took pole at Sepang and is the favourite for pole in Singapore, and Russell took pole in Baku. A Ferrari front-row lockout would clearly break that pattern, but it is possible. The track rewards slow-corner traction and mechanical grip, which plays to Ferrari's strength, and Mercedes' new upgrade has a slow-corner weakness. Set-ups can be changed after the Sprint, and Grand Prix qualifying runs at 21:00 under the lights, well after the daylight Sprint, so the big drop in track temperature could reshuffle the order. Leclerc has strong history at Marina Bay and was on the front row in Baku, and Hamilton has momentum. Track evolution here is rated 5 out of 5, so a well-timed final run matters a lot, and it is easy to judge after Saturday.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Mercedes\",\"reasoning\":\"Mercedes leads the constructors' championship comfortably on 538 points, so anything short of a strong haul counts as a flop. Previews say their new upgrade struggled in Sepang's slow corners, and Marina Bay is made almost entirely of that kind of corner. With only one practice hour before parc fermé, they have very little time to fix it. Russell retired at Sepang with an engine failure, and his power unit plan for Singapore is still unconfirmed, so a grid penalty or a conservative engine choice is possible. Antonelli leads the title fight by 84 points and may drive cautiously, especially after his Baku qualifying left him starting 16th. On a street circuit where qualifying decides so much, I expect at least one Mercedes to be stuck in traffic and the team to collect well below its usual points.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Most previews make Verstappen the favourite after Red Bull Ford's first win at Sepang, and Hamilton is tipped only for a podium. That leaves room for Ferrari to beat expectations. Marina Bay is almost all low-speed, 90-degree corners, which suits the strength Ferrari has shown in slow corners. Both drivers are in form: Hamilton recovered from 18th to finish third at Sepang, Leclerc was fourth there, and Leclerc started on the front row in Baku. Ferrari has been the clear second-best team all season (378 points against McLaren's 306). This is the first Sprint at Marina Bay, so there is only one practice hour, and teams that start the weekend with a well-balanced car will gain the most. I expect both Ferraris to score heavily across the Sprint and the Grand Prix, beating at least one Mercedes and putting real pressure on Verstappen.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Singapore Grand Prix?",
+          "selection": "Oscar Piastri",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will both Aston Martins progress beyond Q1?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Isack Hadjar finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "DeepSeek": {
+      "predictor": "DeepSeek V4.1 Flash",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "George Russell",
+        "pole": "Kimi Antonelli",
+        "sprint_pole": "Kimi Antonelli",
+        "sprint_winner": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Red Bull Racing\",\"reasoning\":\"Red Bull's 2026 Ford power unit has shown energy recovery and drivability weaknesses in stop-start corners, and Singapore is the most punishing circuit for those traits. Verstappen will likely overdrive to compensate, risking a wall strike, while Hadjar lacks experience at Marina Bay. A double Q2 exit and no points is a plausible underperformance.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Aston Martin\",\"reasoning\":\"Aston Martin's 2026 car is the first fully designed under Adrian Newey and powered by the Honda works engine. Recent reports suggest the team has found strong low-speed traction and braking stability, which are critical at Singapore's 19-corner street circuit. Fernando Alonso remains a master at Marina Bay, and with both cars capable of Q3, a double points finish with Alonso on the podium is a realistic surprise.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Singapore Grand Prix?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will both Aston Martins progress beyond Q1?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Isack Hadjar finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Google": {
+      "predictor": "Gemini 3.8 Flash",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "George Russell",
+        "pole": "Kimi Antonelli",
+        "sprint_pole": "Kimi Antonelli",
+        "sprint_winner": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Lewis Hamilton takes pole position and wins the Sprint race on Saturday.\",\"reasoning\":\"While Mercedes and Red Bull have dominated the top steps in recent rounds, Hamilton is a four-time Singapore winner whose driving style excels between the Marina Bay concrete walls. In a weekend featuring Marina Bay's first-ever Sprint format with limited setup preparation, Hamilton's street circuit mastery and Ferrari's low-speed traction will allow him to capitalize on early tire preparation to sweep Saturday's Sprint qualifying and Sprint race.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Russell\",\"reasoning\":\"Despite winning at Marina Bay in 2025, Russell enters under immense championship pressure following his costly engine DNF in Malaysia, which expanded Antonelli's lead to 84 points. With Singapore hosting a condensed Sprint format giving only a single practice session, setup vulnerabilities and lingering power unit reliability concerns make Russell prime for an underperformance relative to frontrunner expectations.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari demonstrated rapid cornering speed and strong mechanical grip in Malaysia with Hamilton and Leclerc finishing P3 and P4. Marina Bay's layout of tight, slow 90-degree corners and heavy braking zones perfectly suits the SF-26's traction strengths, positioning the team to challenge Mercedes and Red Bull directly across both the Sprint and the Grand Prix.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Singapore Grand Prix?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will both Aston Martins progress beyond Q1?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Mercedes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Isack Hadjar finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Human": {
+      "predictor": "Human",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "George Russell",
+        "pole": "Lando Norris",
+        "sprint_pole": "Max Verstappen",
+        "sprint_winner": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "Stroll scores points",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "Isack Hadjar",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "Lando Norris",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Singapore Grand Prix?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will both Aston Martins progress beyond Q1?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Isack Hadjar finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Franco Colapinto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "MiniMax": {
+      "predictor": "MiniMax M2.7",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "George Russell",
+        "pole": "Kimi Antonelli",
+        "sprint_pole": "Kimi Antonelli",
+        "sprint_winner": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"A late Safety Car during the Grand Prix triggers a strategic chaos that vaults Franco Colapinto from outside the points to a shock podium finish for Alpine, silencing critics after the team scored zero points at Sepang.\",\"reasoning\":\"Colapinto has demonstrated strong race craft and opportunistic driving throughout his brief F1 tenure, often capitalizing on chaos rather than pure pace. Singapore historically produces Safety Cars, the Sprint format means limited practice (increasing the likelihood of errors), and the ~28-second pit lane loss makes strategic calls particularly impactful. A perfectly-timed Safety Car during the race's closing stages could allow Alpine to pit under caution, gain track position, and with Colapinto's aggressive driving style, he could overtake exhausted drivers struggling with rear tyre degradation in the tropical humidity. This would mark a dramatic turnaround for Alpine who currently sit 9th in the constructors' championship.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Sergio Perez\",\"reasoning\":\"Perez has struggled all season and while Red Bull showed improved pace in Malaysia with Verstappen's win, the Singapore circuit is unforgiving for drivers lacking confidence or comfort in the car. The narrow streets, 19 corners between concrete walls, and high-pressure environment amplify every weakness. Perez's season-long pattern of underperformance combined with the added Sprint weekend volatility makes another difficult weekend highly likely. Cadillac has shown glimpses but Perez has been unable to capitalize consistently, and Singapore's demands will expose those limitations further.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"George Russell\",\"reasoning\":\"Mercedes struggled at Sepang's fast corners but Singapore is almost the opposite - a low-speed precision circuit rewarding mechanical grip and traction where the W17 should perform much better. Russell won at Marina Bay last season, has strong motivation after his retirement cost him 66 points in Malaysia, and enters with 11.4 points per event in recent rounds. With only one practice session before Sprint Qualifying, Russell's precision and the Mercedes' inherent mechanical balance in low-speed rotation could give him an edge over his teammate. His 84-point deficit means he needs to maximize points, and Singapore plays to his strengths.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Singapore Grand Prix?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will both Aston Martins progress beyond Q1?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Isack Hadjar finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Franco Colapinto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Moonshot": {
+      "predictor": "Kimi K3",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "George Russell",
+        "pole": "Kimi Antonelli",
+        "sprint_pole": "Kimi Antonelli",
+        "sprint_winner": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Lewis Hamilton wins the Singapore Grand Prix, breaking Mercedes' 11-win season streak and becoming the first non-Mercedes/Red Bull winner of 2026.\",\"reasoning\":\"While models predict an Antonelli-Verstappen duel, Hamilton is perfectly positioned to capitalize on the chaos of Singapore's first Sprint weekend. He locked out P3 in Malaysia, is tied 8-8 with Leclerc in qualifying, and the Marina Bay circuit's demand for precision and experience over raw pace suits his driving style. With Mercedes potentially compromised by their Sepang reliability issues (Russell's PU failure) and setup confusion (0.4-0.5s slower than expected), and Verstappen's Red Bull still not dominant on high-downforce tracks, Hamilton can leverage the likely Safety Car intervention and the massive 28-second pit-stop penalty to jump the leaders during a neutralization. Ferrari's upgrades are finally working, and Hamilton's race craft in traffic—critical at a circuit where overtaking is nearly impossible—allows him to steal a win while the championship contenders focus on each other.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"George Russell\",\"reasoning\":\"Russell arrives in Singapore under immense pressure after his power-unit failure in Malaysia increased his championship deficit to Antonelli from 66 to 84 points, effectively ending his realistic title hopes. Despite winning at Marina Bay last season, he trails Antonelli 7-9 in their qualifying head-to-head this year, and the compressed Sprint format offers only one practice session to find the correct setup—a scenario where Antonelli's superior qualifying execution gives him the edge. Mercedes' recent struggles with low-speed understeer and tyre degradation at Sepang could persist at Singapore's technical street circuit, and Russell's tendency to push harder as the championship slips away makes him vulnerable to mistakes on a circuit with concrete walls and zero margin for error.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Racing Bulls\",\"reasoning\":\"The Faenza-based squad is being underrated by prediction models, with Lawson and Lindblad historically under-rated by 1.0 and 1.8 positions respectively. Singapore's first-ever Sprint weekend compresses preparation into a single practice session, rewarding teams that nail baseline setup immediately. Racing Bulls projects to lead the midfield into Q3, and the Marina Bay circuit's emphasis on mechanical grip and traction out of slow 90-degree corners suits their package. With overtaking extremely difficult and a massive ~28-second pit-stop penalty discouraging aggressive strategy, track position is everything—if they secure strong qualifying spots in the Sprint format, they can convert that into significant points while bigger teams struggle with the compressed schedule.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Singapore Grand Prix?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will both Aston Martins progress beyond Q1?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Isack Hadjar finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "OpenAI": {
+      "predictor": "GPT-6.1 Sol",
+      "raceWeekend": {
+        "podium_p1": "Lando Norris",
+        "podium_p2": "Oscar Piastri",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Lando Norris",
+        "sprint_pole": "Lando Norris",
+        "sprint_winner": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Verstappen qualifies seventh or lower but wins the Singapore Grand Prix.\",\"reasoning\":\"This breaks Singapore's strong historical expectation that victory comes from near the front of the grid: restricted overtaking and valuable track position normally make a recovery win exceptionally difficult. The plausible route is an offset first stint followed by a well-timed Safety Car pit stop, allowing Verstappen to gain track position and defend it rather than overtake every leading car. His established racecraft makes that operational upset credible, although it remains distinctly unlikely. I cannot verify Red Bull's 2026 competitiveness, the weekend forecast or championship context, so none of those is presented as supporting evidence.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Prediction: neither driver scores points. Williams' historical straight-line-speed strengths have been less valuable on slow, high-downforce circuits, while Marina Bay exposes weaknesses in traction, braking confidence and tyre-temperature control. Difficult overtaking can also lock a disappointing qualifying result into the race. This is deliberately a speculative extrapolation: without live research, I cannot establish whether Williams' 2026 car retains those characteristics or whether recent upgrades have addressed them.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"Prediction: both drivers finish on the podium. McLaren demonstrated exceptional Singapore pace in 2024, when Norris won comfortably and Piastri finished third. Marina Bay rewards downforce, traction, tyre management and driver confidence more than straight-line speed, making that performance a useful historical reference. However, the 2026 regulations could change the competitive order substantially. I cannot access live news or verify 2026 results, upgrades or championship standings, so this is a circuit-based subjective forecast, not a claim about current form.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Singapore Grand Prix?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will both Aston Martins progress beyond Q1?",
+          "selection": "No",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Isack Hadjar finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "xAI": {
+      "predictor": "Grok 4.7",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "Lewis Hamilton",
+        "pole": "Kimi Antonelli",
+        "sprint_pole": "George Russell",
+        "sprint_winner": "George Russell"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Sergio Perez finishes in the top 10, scoring Cadillac's first point of 2026.\",\"reasoning\":\"Cadillac have zero points after 16 races, so a score is a clean break from the season pattern. Perez is the outlier who can produce it: 12 Singapore starts, 10 points finishes, and a 2022 win from the wet. Thunderstorms are in the Sunday forecast, the Sepang wet-energy software drama is only a week old, and Marina Bay's usual safety-car attrition (2025's zero-retirement race was the exception) creates a window a street-circuit specialist can exploit even from a backmarker car. Bottas has already said this layout should suit Cadillac better than Sepang.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Russell\",\"reasoning\":\"Russell is the defending Marina Bay winner and this year's sprint specialist, so the instinct is a bounce-back after the Sepang retirement. Instead he is set to take a fresh power unit and start Sunday at the back on the hardest track on the calendar to pass, now without DRS. The W17 upgrade that was supposed to be worth about three tenths went backwards in slow corners and on the straights, and Marina Bay is almost entirely those slow corners, with only one practice hour before sprint parc fermé. A scoreless or low-points Sunday, and a muted sprint, is the underperformance relative to his status.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari already had the raw pace at Sepang: Leclerc led FP2 by nearly half a second, and Hamilton climbed from a disastrous slick start to third. Marina Bay is almost all low-speed, traction and braking, which is exactly where Mercedes' new package was weak (understeer and drag) and where Hamilton has four wins plus the lap record. Russell's expected Sunday power-unit penalty removes the defending winner from the sharp end, so both Ferraris can convert corner speed and a cleaner pit wall into a win or double podium rather than merely 'being in the mix' behind Mercedes and the in-form Red Bull.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Singapore Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Singapore Grand Prix?",
+          "selection": "Oscar Piastri",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will both Aston Martins progress beyond Q1?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Racing Bulls",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Isack Hadjar finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will the Safety Car or VSC be required during the Grand Prix?",
+          "selection": "Yes",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which of these teams will score the most points?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        }
+      ]
+    }
+  },
+  "generationLogs": [
+    {
+      "id": 515,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"171\": [1689, 1687, 1690],\n    \"172\": [1712],\n    \"173\": [1731],\n    \"174\": [1734],\n    \"175\": [1736],\n    \"176\": [1758],\n    \"177\": [1769],\n    \"178\": [1772],\n    \"179\": [1775],\n    \"180\": [1780]\n  },\n  \"reasoning\": \"Live research is unavailable in this chat, so I cannot verify current 2026 results, upgrades, weather, penalties or betting odds. These picks use the supplied field and point values as strength signals, alongside established Singapore characteristics. Marina Bay rewards qualifying, traction, precision and tyre management. I back Russell to beat the shorter-priced Antonelli for pole and victory, with Antonelli second and Norris third. Norris has demonstrated winning pace here, supporting him over Piastri in qualifying and McLaren over Ferrari and Red Bull for combined points. Verstappen is my fastest-lap pick, while Red Bull's established pit-stop proficiency makes them the pit-stop selection. Both Aston Martins escaping Q1 is a less convincing proposition than at least one missing out. Hadjar's strongest baseline is a points finish. Tight walls and limited recovery space favour a Safety Car or VSC despite the stated recent streak. Hulkenberg is the calculated contrarian midfield pick for his experience and race execution.\"\n}",
+      "tokensUsed": 3258,
+      "costUsd": 0.012441,
+      "createdAt": "2026-10-06T11:30:02.149Z"
+    },
+    {
+      "id": 516,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"171\": [1687, 1688, 1690],\n    \"172\": [1709],\n    \"173\": [1731],\n    \"174\": [1734],\n    \"175\": [1735],\n    \"176\": [1757],\n    \"177\": [1769],\n    \"178\": [1772],\n    \"179\": [1774],\n    \"180\": [1778]\n  },\n  \"reasoning\": \"Singapore is a high-downforce street circuit where qualifying and track position are critical, and safety cars are common. The odds favor Antonelli and Mercedes, with Verstappen/Red Bull close behind. I picked Antonelli for pole and fastest lap, and a podium of Antonelli-Verstappen-Norris, avoiding Russell due to his poor Singapore history (DNFs in 2019, 2022, 2023) as noted by [fanamp.com](https://www.fanamp.com/articles/2024-f1-fantasy-preview-singapore-grand-prix). Norris is favored over Piastri for qualifying. Aston Martin likely struggle to get both cars out of Q1, so No. Hadjar is expected in the points (4th-10th). Safety Car/VSC is likely (Yes). Lindblad is favored in the midfield battle. Mercedes is favored for fastest pit stop, and Red Bull for most team points.\"\n}",
+      "tokensUsed": 8861,
+      "costUsd": 0.00844068,
+      "createdAt": "2026-10-06T11:30:02.149Z"
+    },
+    {
+      "id": 517,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"171\":[1688,1687,1691],\"172\":[1710],\"173\":[1732],\"174\":[1734],\"175\":[1736],\"176\":[1758],\"177\":[1769],\"178\":[1772],\"179\":[1774],\"180\":[1779]},\"reasoning\":\"Verstappen comes to Singapore on form. He won from pole in Malaysia, set the fastest lap there, and has finished in the top two in three races in a row. Bookmakers have him as favourite for both pole and the win, and qualifying matters a lot on a street circuit where overtaking is hard. So I picked him for pole, the win and fastest lap. Antonelli, the championship leader, has been finishing on the podium consistently, so I put him P2. A concern is that Mercedes' upgrade struggled in Sepang's slow corners, and Marina Bay is mostly slow corners. I chose Hamilton for P3 because Ferrari is strong in slow corners, he recovered to third last weekend and he is tipped for a podium. For the McLaren qualifying head-to-head I went with Piastri, the riskier pick. Norris is losing 1-2 kph on the straights, and Piastri out-qualified him in Singapore in 2025. Aston Martin has had a troubled season and Stroll has no points, so I don't expect both cars to get out of Q1. I expect a Safety Car or VSC: Marina Bay often has neutralisations, thundery showers are forecast, and the shorter sprint-weekend format leaves teams less time to prepare. Hadjar has been finishing in the top five, so 4th-10th looks most likely. Lindblad drives the stronger midfield car (Racing Bulls) of the four drivers in his head-to-head. For team points I picked Ferrari over Red Bull and McLaren because both Ferrari drivers have been scoring strongly and the car suits slow corners. For the fastest pit stop I picked Red Bull, who won it last weekend.\"}",
+      "tokensUsed": 65411,
+      "costUsd": 0.317404,
+      "createdAt": "2026-10-06T11:30:02.150Z"
+    },
+    {
+      "id": 518,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"171\":[1688,1690,1692],\"172\":[1711],\"173\":[1731],\"174\":[1734],\"175\":[1736],\"176\":[1758],\"177\":[1769],\"178\":[1772],\"179\":[1776],\"180\":[1780]},\"reasoning\":\"Based on research of F1 performance data and track characteristics: 1) Singapore favors technical car performance over raw power, with Leclerc historically excelling (P4+ in last 3 races there) and Norris having strong recent top-4 finishes; 2) Red Bull's recent pit stop award and Verstappen's Malaysia form make them strong for fastest lap; 3) Aston Martin's historically weak street circuit performance makes 'No' on Q2 progression likely; 4) Singapore's narrow walls and barriers historically trigger safety cars; 5) Colapinto has emerged as a strong midfield value pick with impressive recent results; 6) McLaren's current form and Baku qualifying dominance make them the top constructor pick.\"}",
+      "tokensUsed": 6333,
+      "costUsd": 0.00906829,
+      "createdAt": "2026-10-06T11:30:02.144Z"
+    },
+    {
+      "id": 519,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"171\": [1687, 1688, 1690],\n    \"172\": [1709],\n    \"173\": [1731],\n    \"174\": [1734],\n    \"175\": [1737],\n    \"176\": [1758],\n    \"177\": [1769],\n    \"178\": [1772],\n    \"179\": [1774],\n    \"180\": [1778]\n  },\n  \"reasoning\": \"The 2026 odds landscape points to Mercedes as the benchmark — Kimi Antonelli is the shortest-priced driver for the podium (5 pts), pole (10 pts) and fastest lap (10 pts), reflecting Mercedes' strong 2026 package. I back Antonelli for the win and pole. Verstappen arrives off a superb Malaysian weekend (win + fastest lap per the race notes), so he slots P2. For P3 I lean slightly bold: Norris over Russell, since the notes highlight McLaren's standout qualifying at the last street circuit (Baku) and Norris's strong Singapore record. Q173: Norris is favored over Piastri and has the better street-circuit qualifying résumé. Q174: Aston Martin's 2026 Honda project has struggled, and even with Singapore's reduced power emphasis, Stroll is a Q1 risk — 'No' is the odds favorite and the smart play. Q175: Rather than chalk Antonelli, I take Norris (12 pts) — McLaren's street-circuit pace plus late-race fresh-tire runs make him strong value for fastest lap. Q176: Red Bull just won the fastest pit stop award in Malaysia and historically owns the best crew; at 12 pts they beat favorite Mercedes on value. Q177: Hadjar has delivered two strong drives since returning, but a Red Bull podium at Marina Bay is a stretch — 4th-10th is the modal outcome. Q178: Despite two clean Singapore races, Marina Bay's walls, forecast rain and attrition history (per [fanamp.com](https://www.fanamp.com/articles/2024-f1-fantasy-preview-singapore-grand-prix)) make 'Yes' the informed favorite. Q179: Of the four midfielders, Lindblad's Racing Bulls is the best package versus Audi (new works team), Alpine and Haas. Q180: Red Bull pairs a likely Verstappen podium with Hadjar's top-10 consistency, outscoring Ferrari and McLaren among these options.\"\n}",
+      "tokensUsed": 9170,
+      "costUsd": 0.0818865,
+      "createdAt": "2026-10-06T11:30:02.148Z"
+    },
+    {
+      "id": 520,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "error",
+      "errorMessage": "OpenRouter request timed out after 75000 ms for google/gemini-3.8-flash",
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter request timed out after 75000 ms for google/gemini-3.8-flash",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-06T11:30:02.147Z"
+    },
+    {
+      "id": 521,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "error",
+      "errorMessage": "OpenRouter request timed out after 75000 ms for x-ai/grok-4.7",
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter request timed out after 75000 ms for x-ai/grok-4.7",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-06T11:30:02.151Z"
+    },
+    {
+      "id": 522,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "{\"answers\":{\"171\":[1688,1691,1687],\"172\":[1710],\"173\":[1732],\"174\":[1733],\"175\":[1735],\"176\":[1759],\"177\":[1769],\"178\":[1772],\"179\":[1774],\"180\":[1778]},\"reasoning\":\"After Malaysia, Verstappen is the race favourite off pole and a win, with four podiums in a row and a working Red Bull upgrade; Hamilton is the Singapore specialist (four wins, 2025 lap record) and just recovered to the podium, while Antonelli still leads the title by 84 points and scores almost every week. Mercedes' Sepang package was weak in slow corners, so Verstappen is the pole pick over the usual Mercedes one-lap edge. Piastri outqualified Norris at the last street race in Baku and Norris still has a straight-line deficit, so Piastri gets the nod on a low-speed track. Both Aston Martins reached Q2 in Malaysia and Alonso expects Marina Bay to suit the car better than power tracks. Antonelli has been the season's fastest-lap regular. Racing Bulls own the year's quickest stops even though Red Bull just took the Malaysia award. Hadjar's Baku podium and Malaysia P5 make a points finish likelier than another podium. Singapore had no SC/VSC in 2024-25, but walls and a sprint weekend still favour an interruption. Lindblad is clearly the strongest of that midfield group in the fifth-best car. Red Bull's current Verstappen-Hadjar form should outscore Ferrari and a struggling McLaren this weekend.\"}",
+      "tokensUsed": 83984,
+      "costUsd": 0.168852,
+      "createdAt": "2026-10-06T11:35:39.799Z"
+    },
+    {
+      "id": 523,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "error",
+      "errorMessage": "OpenRouter request timed out after 75000 ms for google/gemini-3.8-flash",
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter request timed out after 75000 ms for google/gemini-3.8-flash",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-06T11:35:34.824Z"
+    },
+    {
+      "id": 524,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "error",
+      "errorMessage": "OpenRouter request timed out after 75000 ms for google/gemini-3.8-flash",
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter request timed out after 75000 ms for google/gemini-3.8-flash",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-06T11:55:06.495Z"
+    },
+    {
+      "id": 525,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "error",
+      "errorMessage": "OpenRouter request timed out after 75000 ms for google/gemini-3.8-flash",
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter request timed out after 75000 ms for google/gemini-3.8-flash",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-06T12:03:11.050Z"
+    },
+    {
+      "id": 526,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Singapore Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"171\": [1687, 1688, 1689],\n    \"172\": [1709],\n    \"173\": [1731],\n    \"174\": [1734],\n    \"175\": [1735],\n    \"176\": [1757],\n    \"177\": [1769],\n    \"178\": [1772],\n    \"179\": [1774],\n    \"180\": [1778]\n  },\n  \"reasoning\": \"Picks are aligned with the fantasy pricing weights and Marina Bay circuit characteristics. Kimi Antonelli and Mercedes hold the lowest odds across qualifying, podium, and fastest lap categories in this slate, pointing to standout expected package performance. Max Verstappen and George Russell back up the podium tier, while Lando Norris holds the historical and street track edge over Oscar Piastri. High historical incidence of neutralisations makes a Safety Car/VSC very likely.\"\n}",
+      "tokensUsed": 5977,
+      "costUsd": 0.01222975,
+      "createdAt": "2026-10-06T13:26:52.257Z"
+    },
+    {
+      "id": 527,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nThis is a Sprint weekend. Include sprint_pole and sprint_winner predictions.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\n    \"antonelli\",\n    \"verstappen\",\n    \"russell\"\n  ],\n  \"sprint_pole\": \"antonelli\",\n  \"sprint_winner\": \"antonelli\",\n  \"reasoning\": \"Mercedes enters Marina Bay as the standout car on low-speed street layouts, with championship leader Andrea Kimi Antonelli holding strong qualifying momentum and an 84-point title lead ([f1predictions.ai](https://f1predictions.ai/blog/2026-singapore-grand-prix-preview-antonelli-tipped-to-rebound)). Marina Bay's narrow profile and tough overtaking make track position critical across both the Sprint and Grand Prix, favoring Antonelli for pole and victory, while Max Verstappen and George Russell project as his closest challengers ([f1predictions.ai](https://f1predictions.ai/blog/2026-singapore-grand-prix-preview-antonelli-tipped-to-rebound), [formuladream.app](https://www.formuladream.app/blog/singapore-gp-2026-marina-bay-race-preview)).\"\n}",
+      "tokensUsed": 3728,
+      "costUsd": 0.010603,
+      "createdAt": "2026-10-06T13:32:00.036Z"
+    },
+    {
+      "id": 528,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nThis is a Sprint weekend. Include sprint_pole and sprint_winner predictions.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"norris\",\n  \"podium\": [\"norris\", \"piastri\", \"leclerc\"],\n  \"sprint_pole\": \"norris\",\n  \"sprint_winner\": \"norris\",\n  \"reasoning\": \"Provisional predictions: I cannot access live news or verify 2026 results, upgrades, expert forecasts, penalties, mechanical issues or weekend weather. Historical evidence favors Norris, who took pole and a dominant Singapore victory in 2024, with Piastri finishing third. Marina Bay rewards high downforce, traction, qualifying precision and tire management, making Norris my pick for both poles and wins. Piastri is my second-place choice, while Leclerc's street-circuit qualifying strength supports third. Heat, humidity, possible rain and safety cars increase uncertainty; the 2026 regulation reset also limits the predictive value of earlier results.\"\n}",
+      "tokensUsed": 912,
+      "costUsd": 0.00448,
+      "createdAt": "2026-10-06T13:32:00.038Z"
+    },
+    {
+      "id": 529,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nThis is a Sprint weekend. Include sprint_pole and sprint_winner predictions.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"verstappen\", \"russell\"],\n  \"sprint_pole\": \"antonelli\",\n  \"sprint_winner\": \"antonelli\",\n  \"reasoning\": \"Research from [f1predictions.ai](https://f1predictions.ai/blog/2026-singapore-grand-prix-preview-antonelli-tipped-to-rebound) and [formuladream.app](https://www.formuladream.app/blog/singapore-gp-2026-marina-bay-race-preview) indicates Mercedes' Andrea Kimi Antonelli is the strong favorite for the 2026 Singapore GP. Antonelli leads the championship by 84 points with 8 wins this season, and Mercedes' W17 excels in low-speed traction zones that dominate Marina Bay's 19 corners. The track's qualifying-dependent nature (polesitter has won all 3 races on the current layout) favors Antonelli's razor-thin qualifying edge over teammate Russell and Verstappen. Max Verstappen's recent Malaysia victory shows Red Bull remains competitive, but Singapore's characteristics tilt back toward Mercedes. George Russell, last year's winner here, completes the podium. This is the first-ever Sprint at Marina Bay, and with only one practice session before Sprint Qualifying, Mercedes' strong baseline setup should give Antonelli the edge in both sprint sessions. Weather forecast shows dry conditions (29°C air, 33°C track, ~20% rain chance). Ferrari's Hamilton and Leclerc are threats but historically over-rated in predictions; Racing Bulls' Lawson and Red Bull's Hadjar lead midfield form.\"\n}",
+      "tokensUsed": 3568,
+      "costUsd": 0.015252616,
+      "createdAt": "2026-10-06T13:32:00.037Z"
+    },
+    {
+      "id": 530,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Racing Bulls\",\n    \"reasoning\": \"The Faenza-based squad is being underrated by prediction models, with Lawson and Lindblad historically under-rated by 1.0 and 1.8 positions respectively. Singapore's first-ever Sprint weekend compresses preparation into a single practice session, rewarding teams that nail baseline setup immediately. Racing Bulls projects to lead the midfield into Q3, and the Marina Bay circuit's emphasis on mechanical grip and traction out of slow 90-degree corners suits their package. With overtaking extremely difficult and a massive ~28-second pit-stop penalty discouraging aggressive strategy, track position is everything—if they secure strong qualifying spots in the Sprint format, they can convert that into significant points while bigger teams struggle with the compressed schedule.\",\n    \"is_team\": true,\n    \"referenced_id\": \"racing-bulls\"\n  },\n  \"flop\": {\n    \"name\": \"George Russell\",\n    \"reasoning\": \"Russell arrives in Singapore under immense pressure after his power-unit failure in Malaysia increased his championship deficit to Antonelli from 66 to 84 points, effectively ending his realistic title hopes. Despite winning at Marina Bay last season, he trails Antonelli 7-9 in their qualifying head-to-head this year, and the compressed Sprint format offers only one practice session to find the correct setup—a scenario where Antonelli's superior qualifying execution gives him the edge. Mercedes' recent struggles with low-speed understeer and tyre degradation at Sepang could persist at Singapore's technical street circuit, and Russell's tendency to push harder as the championship slips away makes him vulnerable to mistakes on a circuit with concrete walls and zero margin for error.\",\n    \"is_team\": false,\n    \"referenced_id\": \"russell\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Lewis Hamilton wins the Singapore Grand Prix, breaking Mercedes' 11-win season streak and becoming the first non-Mercedes/Red Bull winner of 2026.\",\n    \"reasoning\": \"While models predict an Antonelli-Verstappen duel, Hamilton is perfectly positioned to capitalize on the chaos of Singapore's first Sprint weekend. He locked out P3 in Malaysia, is tied 8-8 with Leclerc in qualifying, and the Marina Bay circuit's demand for precision and experience over raw pace suits his driving style. With Mercedes potentially compromised by their Sepang reliability issues (Russell's PU failure) and setup confusion (0.4-0.5s slower than expected), and Verstappen's Red Bull still not dominant on high-downforce tracks, Hamilton can leverage the likely Safety Car intervention and the massive 28-second pit-stop penalty to jump the leaders during a neutralization. Ferrari's upgrades are finally working, and Hamilton's race craft in traffic—critical at a circuit where overtaking is nearly impossible—allows him to steal a win while the championship contenders focus on each other.\"\n  }\n}",
+      "tokensUsed": 3759,
+      "costUsd": 0.018575539,
+      "createdAt": "2026-10-06T13:32:00.263Z"
+    },
+    {
+      "id": 531,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Ferrari\",\n    \"reasoning\": \"Ferrari demonstrated rapid cornering speed and strong mechanical grip in Malaysia with Hamilton and Leclerc finishing P3 and P4. Marina Bay's layout of tight, slow 90-degree corners and heavy braking zones perfectly suits the SF-26's traction strengths, positioning the team to challenge Mercedes and Red Bull directly across both the Sprint and the Grand Prix.\",\n    \"is_team\": true,\n    \"referenced_id\": \"ferrari\"\n  },\n  \"flop\": {\n    \"name\": \"Russell\",\n    \"reasoning\": \"Despite winning at Marina Bay in 2025, Russell enters under immense championship pressure following his costly engine DNF in Malaysia, which expanded Antonelli's lead to 84 points. With Singapore hosting a condensed Sprint format giving only a single practice session, setup vulnerabilities and lingering power unit reliability concerns make Russell prime for an underperformance relative to frontrunner expectations.\",\n    \"is_team\": false,\n    \"referenced_id\": \"russell\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Lewis Hamilton takes pole position and wins the Sprint race on Saturday.\",\n    \"reasoning\": \"While Mercedes and Red Bull have dominated the top steps in recent rounds, Hamilton is a four-time Singapore winner whose driving style excels between the Marina Bay concrete walls. In a weekend featuring Marina Bay's first-ever Sprint format with limited setup preparation, Hamilton's street circuit mastery and Ferrari's low-speed traction will allow him to capitalize on early tire preparation to sweep Saturday's Sprint qualifying and Sprint race.\"\n  }\n}",
+      "tokensUsed": 3645,
+      "costUsd": 0.01082575,
+      "createdAt": "2026-10-06T13:32:00.262Z"
+    },
+    {
+      "id": 532,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nThis is a Sprint weekend. Include sprint_pole and sprint_winner predictions.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\":\"antonelli\",\"podium\":[\"antonelli\",\"verstappen\",\"russell\"],\"sprint_pole\":\"antonelli\",\"sprint_winner\":\"antonelli\",\"reasoning\":\"Kimi Antonelli enters Singapore as the championship leader with an 84-point margin and the strongest recent form (P3.2 weighted average finish, 13.2 points per event). Mercedes has established the benchmark package on street circuits this season with an average finish of P3.3, and their W17 shows superior traction out of slow 90-degree corners that dominate Marina Bay's 19-corner layout. The sprint format compresses preparation to just 60 minutes of practice, favoring drivers who can extract performance quickly—another advantage for Antonelli. While Max Verstappen demonstrated Red Bull's upgraded package competitiveness with a lights-to-flag victory in Malaysia, our model expects Singapore's low-speed rotation to favor Mercedes. George Russell, who claimed victory at Marina Bay last season and trails Antonelli 7-9 in qualifying head-to-head, represents the most likely third podium threat. Historical data strongly supports pole position importance at this track—the polesitter has won all three races on the current layout, making qualifying execution the weekend's decisive factor.\"}",
+      "tokensUsed": 4072,
+      "costUsd": 0.0091378,
+      "createdAt": "2026-10-06T13:32:00.029Z"
+    },
+    {
+      "id": 533,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "\n\n{\n  \"good_surprise\": {\n    \"name\": \"George Russell\",\n    \"reasoning\": \"Mercedes struggled at Sepang's fast corners but Singapore is almost the opposite - a low-speed precision circuit rewarding mechanical grip and traction where the W17 should perform much better. Russell won at Marina Bay last season, has strong motivation after his retirement cost him 66 points in Malaysia, and enters with 11.4 points per event in recent rounds. With only one practice session before Sprint Qualifying, Russell's precision and the Mercedes' inherent mechanical balance in low-speed rotation could give him an edge over his teammate. His 84-point deficit means he needs to maximize points, and Singapore plays to his strengths.\",\n    \"is_team\": false,\n    \"referenced_id\": \"russell\"\n  },\n  \"flop\": {\n    \"name\": \"Sergio Perez\",\n    \"reasoning\": \"Perez has struggled all season and while Red Bull showed improved pace in Malaysia with Verstappen's win, the Singapore circuit is unforgiving for drivers lacking confidence or comfort in the car. The narrow streets, 19 corners between concrete walls, and high-pressure environment amplify every weakness. Perez's season-long pattern of underperformance combined with the added Sprint weekend volatility makes another difficult weekend highly likely. Cadillac has shown glimpses but Perez has been unable to capitalize consistently, and Singapore's demands will expose those limitations further.\",\n    \"is_team\": false,\n    \"referenced_id\": \"perez\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"A late Safety Car during the Grand Prix triggers a strategic chaos that vaults Franco Colapinto from outside the points to a shock podium finish for Alpine, silencing critics after the team scored zero points at Sepang.\",\n    \"reasoning\": \"Colapinto has demonstrated strong race craft and opportunistic driving throughout his brief F1 tenure, often capitalizing on chaos rather than pure pace. Singapore historically produces Safety Cars, the Sprint format means limited practice (increasing the likelihood of errors), and the ~28-second pit lane loss makes strategic calls particularly impactful. A perfectly-timed Safety Car during the race's closing stages could allow Alpine to pit under caution, gain track position, and with Colapinto's aggressive driving style, he could overtake exhausted drivers struggling with rear tyre degradation in the tropical humidity. This would mark a dramatic turnaround for Alpine who currently sit 9th in the constructors' championship.\"\n  }\n}",
+      "tokensUsed": 4060,
+      "costUsd": 0.00891511,
+      "createdAt": "2026-10-06T13:32:00.260Z"
+    },
+    {
+      "id": 534,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nThis is a Sprint weekend. Include sprint_pole and sprint_winner predictions.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"verstappen\",\n  \"podium\": [\"verstappen\", \"antonelli\", \"hamilton\"],\n  \"sprint_pole\": \"verstappen\",\n  \"sprint_winner\": \"verstappen\",\n  \"reasoning\": \"Verstappen is on form. At Sepang last weekend he went fastest in every qualifying session and took pole by 0.3s over Hamilton. He then won a chaotic, rain-hit race for his and Red Bull's first win of 2026, his third straight top-two finish. Odds markets have him as the favourite for Singapore (about 28%), ahead of Antonelli (24%) and Hamilton and Norris (16% each). Marina Bay is a low-grip street track made mostly of slow second- and third-gear corners. Overtaking is hard, so qualifying matters even more than usual. That favours Verstappen and Red Bull. Mercedes' new upgrade struggled in slow corners at Sepang. This is Singapore's first sprint weekend, so teams get only one hour of practice before set-ups are locked. That rewards whoever arrives with the strongest baseline car, which points to Red Bull. So I have Verstappen on pole for both the sprint and the Grand Prix, and winning both. Antonelli leads the championship by 84 points and finished second at Sepang. He tends to score heavily even off a bad grid slot, as when he climbed from 16th to fifth in Baku, so I have him second. Hamilton was second on the Sepang grid and is third in the standings. Ferrari is strong in slow corners, which suits this track, so I have him third ahead of Leclerc and Norris. Russell won here last year and has been strong in sprints, but he retired at Sepang and his engine plan for this weekend hasn't been confirmed, so he could take a grid penalty. Hadjar starts as an outside threat. The forecast is dry for Friday and Saturday, but thunderstorms are possible on Sunday. Combined with Singapore's usual safety cars, that makes the Grand Prix less predictable than the sprint.\"\n}",
+      "tokensUsed": 59564,
+      "costUsd": 0.287584,
+      "createdAt": "2026-10-06T13:32:00.039Z"
+    },
+    {
+      "id": 535,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Ferrari\",\"reasoning\":\"Most previews make Verstappen the favourite after Red Bull Ford's first win at Sepang, and Hamilton is tipped only for a podium. That leaves room for Ferrari to beat expectations. Marina Bay is almost all low-speed, 90-degree corners, which suits the strength Ferrari has shown in slow corners. Both drivers are in form: Hamilton recovered from 18th to finish third at Sepang, Leclerc was fourth there, and Leclerc started on the front row in Baku. Ferrari has been the clear second-best team all season (378 points against McLaren's 306). This is the first Sprint at Marina Bay, so there is only one practice hour, and teams that start the weekend with a well-balanced car will gain the most. I expect both Ferraris to score heavily across the Sprint and the Grand Prix, beating at least one Mercedes and putting real pressure on Verstappen.\",\"is_team\":true,\"referenced_id\":\"ferrari\"},\"flop\":{\"name\":\"Mercedes\",\"reasoning\":\"Mercedes leads the constructors' championship comfortably on 538 points, so anything short of a strong haul counts as a flop. Previews say their new upgrade struggled in Sepang's slow corners, and Marina Bay is made almost entirely of that kind of corner. With only one practice hour before parc fermé, they have very little time to fix it. Russell retired at Sepang with an engine failure, and his power unit plan for Singapore is still unconfirmed, so a grid penalty or a conservative engine choice is possible. Antonelli leads the title fight by 84 points and may drive cautiously, especially after his Baku qualifying left him starting 16th. On a street circuit where qualifying decides so much, I expect at least one Mercedes to be stuck in traffic and the team to collect well below its usual points.\",\"is_team\":true,\"referenced_id\":\"mercedes\"},\"crazy_prediction\":{\"prediction\":\"Ferrari lock out the front row in Grand Prix qualifying, with neither Verstappen nor a Mercedes starting in the top two on Sunday.\",\"reasoning\":\"The usual pattern this season is Mercedes or, lately, Verstappen at the front: Verstappen took pole at Sepang and is the favourite for pole in Singapore, and Russell took pole in Baku. A Ferrari front-row lockout would clearly break that pattern, but it is possible. The track rewards slow-corner traction and mechanical grip, which plays to Ferrari's strength, and Mercedes' new upgrade has a slow-corner weakness. Set-ups can be changed after the Sprint, and Grand Prix qualifying runs at 21:00 under the lights, well after the daylight Sprint, so the big drop in track temperature could reshuffle the order. Leclerc has strong history at Marina Bay and was on the front row in Baku, and Hamilton has momentum. Track evolution here is rated 5 out of 5, so a well-timed final run matters a lot, and it is easy to judge after Saturday.\"}}",
+      "tokensUsed": 60002,
+      "costUsd": 0.302152,
+      "createdAt": "2026-10-06T13:32:00.264Z"
+    },
+    {
+      "id": 536,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"Prediction: both drivers finish on the podium. McLaren demonstrated exceptional Singapore pace in 2024, when Norris won comfortably and Piastri finished third. Marina Bay rewards downforce, traction, tyre management and driver confidence more than straight-line speed, making that performance a useful historical reference. However, the 2026 regulations could change the competitive order substantially. I cannot access live news or verify 2026 results, upgrades or championship standings, so this is a circuit-based subjective forecast, not a claim about current form.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"flop\": {\n    \"name\": \"Williams\",\n    \"reasoning\": \"Prediction: neither driver scores points. Williams' historical straight-line-speed strengths have been less valuable on slow, high-downforce circuits, while Marina Bay exposes weaknesses in traction, braking confidence and tyre-temperature control. Difficult overtaking can also lock a disappointing qualifying result into the race. This is deliberately a speculative extrapolation: without live research, I cannot establish whether Williams' 2026 car retains those characteristics or whether recent upgrades have addressed them.\",\n    \"is_team\": true,\n    \"referenced_id\": \"williams\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Verstappen qualifies seventh or lower but wins the Singapore Grand Prix.\",\n    \"reasoning\": \"This breaks Singapore's strong historical expectation that victory comes from near the front of the grid: restricted overtaking and valuable track position normally make a recovery win exceptionally difficult. The plausible route is an offset first stint followed by a well-timed Safety Car pit stop, allowing Verstappen to gain track position and defend it rather than overtake every leading car. His established racecraft makes that operational upset credible, although it remains distinctly unlikely. I cannot verify Red Bull's 2026 competitiveness, the weekend forecast or championship context, so none of those is presented as supporting evidence.\"\n  }\n}",
+      "tokensUsed": 1787,
+      "costUsd": 0.01091,
+      "createdAt": "2026-10-06T13:32:00.264Z"
+    },
+    {
+      "id": 537,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nThis is a Sprint weekend. Include sprint_pole and sprint_winner predictions.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "{\"pole\": \"antonelli\", \"podium\": [\"antonelli\", \"verstappen\", \"russell\"], \"sprint_pole\": \"antonelli\", \"sprint_winner\": \"antonelli\", \"reasoning\": \"Round 17 at Marina Bay is the first-ever Singapore Sprint weekend, with just one 60-minute practice session before Sprint Qualifying, making baseline setup and qualifying execution decisive at a circuit where the last three GPs were won from pole and overtaking is extremely difficult. The quantitative f1predictions.ai model tips championship leader Kimi Antonelli (Mercedes) for pole and victory, citing Mercedes' 11 wins and 556 constructors' points, the W17's superior traction out of Marina Bay's slow 90-degree corners, and Antonelli's series-best form index (P3.2 weighted average finish, +0.7 grid-to-finish delta, 84-point lead over Russell). Max Verstappen arrives with momentum after his first win of 2026 in Malaysia and three straight top-two finishes, with Red Bull's upgrades delivering across Madrid, Baku and Sepang, so he is the primary pole/win threat and a strong podium pick. George Russell, last season's Marina Bay winner, is a high-probability podium finisher given his 11.4 points per event in recent rounds and a near-even qualifying battle with Antonelli. Ferrari's Hamilton and Leclerc (P3/P4 in Malaysia) are the main disruptors given Ferrari's slow-corner strength, but the model tempers Ferrari's baseline. Weather is forecast dry (air ~29C, track ~33C, rain 18-25%), and the ~28-second pit-lane time loss plus a historically near-certain Safety Car should favour a conservative one-stop race where track position from Saturday decides the result. For the Sprint, I expect the same Mercedes front-running pace to translate into an Antonelli sprint pole and sprint win, with Verstappen and Russell close behind.\"}",
+      "tokensUsed": 3290,
+      "costUsd": 0.00737071,
+      "createdAt": "2026-10-06T13:32:00.037Z"
+    },
+    {
+      "id": 538,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nThis is a Sprint weekend. Include sprint_pole and sprint_winner predictions.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"verstappen\", \"hamilton\"],\n  \"sprint_pole\": \"russell\",\n  \"sprint_winner\": \"russell\",\n  \"reasoning\": \"After Sepang, Antonelli leads Russell by 84 points (320-236) following Verstappen’s first 2026 win, with Hamilton third. Mercedes has won 11 of 16 grands prix, but the Sepang upgrade was draggy and understeery in slow corners — exactly Marina Bay’s character — so Sunday is not a lock. Russell must take a fifth power unit after his late Sepang failure; penalties apply to the grand prix, not the sprint, so he should start Sunday at the back on a track where passing is very hard. He has won three of five 2026 sprints and last year’s Singapore GP from pole, so he is the pick for sprint pole and the no-stop sprint while the grid is still clean (Friday looks largely dry; Saturday rain risk is higher). For grand prix qualifying and the race, Antonelli is the cleaner Mercedes bet to take pole and control a circuit that usually rewards track position. Verstappen arrives off pole and a win plus podiums in Italy, Spain and Baku, with Red Bull’s recent upgrades, so he is second. Hamilton, a four-time Singapore winner who holds the lap record and just took his first podium since Silverstone, completes the podium ahead of Leclerc as Ferrari’s slow-corner pace showed at Sepang. McLaren were only the fourth-quickest car there and Norris still has a straight-line deficit. Sunday thunderstorm risk (Sky/local forecasts) and a likely safety car could shuffle the order, but the baseline is a Mercedes-led dry night race with Russell’s recovery capped by the walls.\"\n}",
+      "tokensUsed": 71457,
+      "costUsd": 0.14679,
+      "createdAt": "2026-10-06T13:32:00.040Z"
+    },
+    {
+      "id": 539,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Ferrari\",\n    \"reasoning\": \"Ferrari already had the raw pace at Sepang: Leclerc led FP2 by nearly half a second, and Hamilton climbed from a disastrous slick start to third. Marina Bay is almost all low-speed, traction and braking, which is exactly where Mercedes' new package was weak (understeer and drag) and where Hamilton has four wins plus the lap record. Russell's expected Sunday power-unit penalty removes the defending winner from the sharp end, so both Ferraris can convert corner speed and a cleaner pit wall into a win or double podium rather than merely 'being in the mix' behind Mercedes and the in-form Red Bull.\",\n    \"is_team\": true,\n    \"referenced_id\": \"ferrari\"\n  },\n  \"flop\": {\n    \"name\": \"Russell\",\n    \"reasoning\": \"Russell is the defending Marina Bay winner and this year's sprint specialist, so the instinct is a bounce-back after the Sepang retirement. Instead he is set to take a fresh power unit and start Sunday at the back on the hardest track on the calendar to pass, now without DRS. The W17 upgrade that was supposed to be worth about three tenths went backwards in slow corners and on the straights, and Marina Bay is almost entirely those slow corners, with only one practice hour before sprint parc fermé. A scoreless or low-points Sunday, and a muted sprint, is the underperformance relative to his status.\",\n    \"is_team\": false,\n    \"referenced_id\": \"russell\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Sergio Perez finishes in the top 10, scoring Cadillac's first point of 2026.\",\n    \"reasoning\": \"Cadillac have zero points after 16 races, so a score is a clean break from the season pattern. Perez is the outlier who can produce it: 12 Singapore starts, 10 points finishes, and a 2022 win from the wet. Thunderstorms are in the Sunday forecast, the Sepang wet-energy software drama is only a week old, and Marina Bay's usual safety-car attrition (2025's zero-retirement race was the exception) creates a window a street-circuit specialist can exploit even from a backmarker car. Bottas has already said this layout should suit Cadillac better than Sepang.\"\n  }\n}",
+      "tokensUsed": 76450,
+      "costUsd": 0.172528,
+      "createdAt": "2026-10-06T13:32:00.265Z"
+    },
+    {
+      "id": 540,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Singapore Grand Prix (Round 17, 2026-10-11) at Marina Bay, Singapore.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Aston Martin\",\n    \"reasoning\": \"Aston Martin's 2026 car is the first fully designed under Adrian Newey and powered by the Honda works engine. Recent reports suggest the team has found strong low-speed traction and braking stability, which are critical at Singapore's 19-corner street circuit. Fernando Alonso remains a master at Marina Bay, and with both cars capable of Q3, a double points finish with Alonso on the podium is a realistic surprise.\",\n    \"is_team\": true,\n    \"referenced_id\": \"aston-martin\"\n  },\n  \"flop\": {\n    \"name\": \"Red Bull Racing\",\n    \"reasoning\": \"Red Bull's 2026 Ford power unit has shown energy recovery and drivability weaknesses in stop-start corners, and Singapore is the most punishing circuit for those traits. Verstappen will likely overdrive to compensate, risking a wall strike, while Hadjar lacks experience at Marina Bay. A double Q2 exit and no points is a plausible underperformance.\",\n    \"is_team\": true,\n    \"referenced_id\": \"red-bull\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Nico Hulkenberg scores his first F1 podium at",
+      "tokensUsed": 34102,
+      "costUsd": 0.021964084,
+      "createdAt": "2026-10-06T13:32:00.263Z"
+    }
+  ]
+}
