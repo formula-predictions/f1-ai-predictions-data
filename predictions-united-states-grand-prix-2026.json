@@ -1,0 +1,1323 @@
+{
+  "exportType": "race_predictions",
+  "raceId": "usa-2026",
+  "raceName": "United States Grand Prix",
+  "raceDate": "2026-10-25",
+  "isSprint": false,
+  "lineup": {
+    "status": "default",
+    "source": "season_default",
+    "confirmedAt": null,
+    "entries": [
+      {
+        "driverId": "norris",
+        "driver": "Lando Norris",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "piastri",
+        "driver": "Oscar Piastri",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hamilton",
+        "driver": "Lewis Hamilton",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "leclerc",
+        "driver": "Charles Leclerc",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hadjar",
+        "driver": "Isack Hadjar",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "verstappen",
+        "driver": "Max Verstappen",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "antonelli",
+        "driver": "Kimi Antonelli",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "russell",
+        "driver": "George Russell",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "alonso",
+        "driver": "Fernando Alonso",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "stroll",
+        "driver": "Lance Stroll",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "colapinto",
+        "driver": "Franco Colapinto",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "gasly",
+        "driver": "Pierre Gasly",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bearman",
+        "driver": "Ollie Bearman",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "ocon",
+        "driver": "Esteban Ocon",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lawson",
+        "driver": "Liam Lawson",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lindblad",
+        "driver": "Arvid Lindblad",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "albon",
+        "driver": "Alexander Albon",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "sainz",
+        "driver": "Carlos Sainz",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bortoleto",
+        "driver": "Gabriel Bortoleto",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hulkenberg",
+        "driver": "Nico Hulkenberg",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bottas",
+        "driver": "Valtteri Bottas",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "perez",
+        "driver": "Sergio Perez",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 2,
+        "isSubstitute": false
+      }
+    ]
+  },
+  "exportedAt": "2026-10-20T16:26:55.432Z",
+  "predictions": {
+    "Anthropic": {
+      "predictor": "Claude Opus 5.5",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Ferrari lock out the front row in qualifying, Leclerc wins the race and Verstappen finishes off the podium, ending his run of wins from pole.\",\"reasoning\":\"The expected story is Verstappen dominating again. He comes in on back-to-back wins from pole (he took both poles, the Sprint and the race in Singapore), he's won four of the last five races at COTA, and markets give him 44% to win. Ferrari's final big package targets exactly what COTA rewards: downforce for the fast first-sector esses and lower drag for the long back straight. Upgrades have reshuffled the order a lot in 2026, and Vasseur has openly refused to call Red Bull the benchmark. Leclerc is strong over one lap and was the closest challenger in Singapore. A smooth upgrade could put him on pole, with Hamilton (who needs points for P2 in the standings) alongside. A softer race strategy could then beat Red Bull's usual approach. Meanwhile Antonelli's title pressure and Mercedes' upgraded cars could squeeze Verstappen down to fourth or lower. It's unlikely but possible, and easy to check after the weekend.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren, the reigning constructors' champions, have slipped behind the front group. In the Singapore race they were 4th and 5th, over 40s off the lead. In the Singapore Sprint Norris and Piastri collided on the final lap, and that collision is still a talking point heading into Austin. Their recent sidepod concept change reportedly hasn't matched what the windtunnel promised. Red Bull is only 7 points behind them for third in the constructors' standings with Verstappen on a two-race win streak, and Ferrari plus Mercedes' new-spec parts for Russell add more pressure at the front. COTA's tough first sector and tyre wear will punish a car outside its best window. I expect neither McLaren to finish on the podium and Red Bull to pass them for P3 in the constructors' standings this weekend.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari is bringing its fourth and final major upgrade of 2026 to Austin. It's a redesigned floor, from the leading edge back to the diffuser, plus revised sidepods and bodywork and some weight reduction. The aim is more downforce, less drag and a wider setup window, so the team can stop running extreme setups. Ferrari already outscored Mercedes in Malaysia and Singapore, and Leclerc finished second in Singapore, 7.3s behind Verstappen. Austin is a normal weekend with no Sprint, so there are three practice sessions to get the new parts working. The C2/C3/C4 tyres and the high front and rear wear at COTA suit a car with better tyre management, and Leclerc finished third here last year on a reversed soft-first strategy. Even so, betting markets give Ferrari only about 15% to win (Leclerc 9%, Hamilton 6%), well behind Verstappen at 44% and Antonelli at 28%. I expect both Ferraris to beat at least one Mercedes and to fight for the win, which is above what people expect of them.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the US Grand Prix?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Alpine car will progress in qualifying?",
+          "selection": "Q3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many Haas and Cadillac cars will be classified as finishers?",
+          "selection": "3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Lando Norris finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will a new F1 Drivers' Champion be crowned this weekend?",
+          "selection": "No",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "DeepSeek": {
+      "predictor": "DeepSeek V4.1 Flash",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Kimi Antonelli",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Both Cadillac cars finish in the points at Austin — the new team's first-ever double-points result — with Bottas and Perez both in the top 10.\",\"reasoning\":\"Cadillac has the most experienced driver pairing on the grid in Bottas and Perez, and COTA rewards veteran racecraft, tyre management and clean strategy calls more than pure pace. With 2026's new power units and active aero triggering reliability chaos and mixed-up running order among the established teams, a high-degradation, safety-car-affected race is exactly the scenario where a well-run, low-pressure newcomer like Cadillac can steal points. This is a genuinely unlikely but plausible break from the expectation that the new team remains scoreless, and it is precisely judgeable: both Bottas and Perez must classify in the top 10.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Aston Martin\",\"reasoning\":\"Aston Martin enters the US GP on a long slide, with its 2026 development path stalled and the team consistently losing ground to Ferrari and Mercedes while slipping behind midfield risers. COTA's mix of slow-speed traction zones and high-speed direction changes exposes a car that has neither a strong front end nor reliable rear grip. Add a frustrated Alonso openly questioning strategy and a Stroll who historically struggles at Austin, and a double Q2 exit with no points is the likely outcome.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Haas\",\"reasoning\":\"Austin is Haas's de facto home race, and the team historically throws its biggest upgrade package of the year at it to impress American sponsors and the MoneyGram/Toyota-linked ownership. The bumpy, low-grip COTA surface and long straights suit the VF-26's traction and straight-line efficiency, and both Ocon and Bearman have shown a knack for opportunistic points finishes on high-degradation weekends. Expect both cars deep in Q3 and at least one Haas in the points, outperforming its season-long midfield ranking.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the US Grand Prix?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Alpine car will progress in qualifying?",
+          "selection": "Q3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many Haas and Cadillac cars will be classified as finishers?",
+          "selection": "3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Lando Norris finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will a new F1 Drivers' Champion be crowned this weekend?",
+          "selection": "No",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Google": {
+      "predictor": "Gemini 3.8 Flash",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Kimi Antonelli",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Max Verstappen secures his third consecutive Grand Prix victory while neither Mercedes driver finishes on the podium.\",\"reasoning\":\"Verstappen has built immense momentum with consecutive wins in Malaysia and Singapore, closing the gap in the championship. Meanwhile, Mercedes are wrestling with their recent aero package and championship pressure, leaving both Antonelli and Russell vulnerable to being beaten by Verstappen and a surging Ferrari/McLaren group.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Mercedes\",\"reasoning\":\"Mercedes have struggled to unlock performance from their major upgrade introduced in Malaysia, leading to split-specification testing in Singapore. With COTA's bumpy surface and demanding mix of technical and high-speed sections exposing setup compromises, Mercedes risk lagging behind Red Bull, Ferrari, and upgraded McLaren cars.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"After losing ground to Red Bull across the recent triple-header, McLaren are bringing a critical upgrade package to the Circuit of the Americas to build upon their Baku developments. COTA's sweeping Sector 1 and high-speed directional changes suit McLaren's aerodynamic profile, giving them the edge to outpace both Ferrari and Red Bull.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the US Grand Prix?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Alpine car will progress in qualifying?",
+          "selection": "Q3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many Haas and Cadillac cars will be classified as finishers?",
+          "selection": "3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Lando Norris finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will a new F1 Drivers' Champion be crowned this weekend?",
+          "selection": "No",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Human": {
+      "predictor": "Human",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "George Russell",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "No McLaren finishes the race",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "Lewis Hamilton",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "Russell",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the US Grand Prix?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Alpine car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Racing Bulls",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many Haas and Cadillac cars will be classified as finishers?",
+          "selection": "2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Lando Norris finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will a new F1 Drivers' Champion be crowned this weekend?",
+          "selection": "No",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "MiniMax": {
+      "predictor": "MiniMax M2.7",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lewis Hamilton",
+        "podium_p3": "Kimi Antonelli",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Russell dramatically outqualifies and beats Antonelli, then takes the lead in the championship with a dominant victory while Antonelli suffers his first non-points finish of the season due to a reliability issue, completely derailing the Mercedes title celebration that seemed imminent.\",\"reasoning\":\"Mercedes' recent upgrade package failed in Malaysia and created confusion in Singapore. Austin provides a crucial test of whether those upgrades actually work. If they do work and Russell benefits more from them, he could be dramatically faster than Antonelli all weekend. Russell is mathematically capable of taking the championship lead if Antonelli fails to score (he needs Antonelli to score 6 or fewer points while he scores 26+). Given Antonelli's title-clinch scenario requires him to win AND have Russell finish 9th or lower, a Russell victory combined with any Antonelli retirement would flip the entire narrative. With Red Bull clearly the fastest car right now, Mercedes need both cars performing optimally, and the pressure on Antonelli as a rookie approaching a potential title could create the perfect storm for this dramatic role reversal within the team.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Hamilton\",\"reasoning\":\"Hamilton's season is fizzling out after his inexplicable decision to ignore Ferrari's pit call during a Virtual Safety Car in Singapore, which cost him a likely podium. He is third in the championship but increasingly vulnerable with Verstappen closing fast (just 8 points behind). Austin is a track where Mercedes traditionally struggles relative to their overall pace, and Hamilton's confidence appears low. With Ferrari having shown promise earlier in the European season but failing to maintain that momentum, and Hamilton's strategic errors compounding, he could finish outside the points or well below expectations at a critical moment in his championship fight.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren has struggled through the last triple-header with Norris not qualifying higher than fifth and minimal points returns, but they are bringing further upgrades to Austin - a more traditional circuit compared to the extreme heat of Malaysia and street circuit quirks of Singapore. The team's Woking base should be able to extract better performance from their package on a track that rewards overall car balance rather than specific thermal or surface characteristics. With Norris needing to bounce back and Piastri capable of extracting more from the car than recent weekends, McLaren should be more competitive. Additionally, they need to respond to Red Bull's surge to protect their third place in the constructors' championship.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the US Grand Prix?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Alpine car will progress in qualifying?",
+          "selection": "Q3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many Haas and Cadillac cars will be classified as finishers?",
+          "selection": "2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Lando Norris finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will a new F1 Drivers' Champion be crowned this weekend?",
+          "selection": "No",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Moonshot": {
+      "predictor": "Kimi K3",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "George Russell",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Kimi Antonelli wins the United States Grand Prix and clinches the 2026 Drivers' Championship in Austin, with Russell finishing ninth or lower and Hamilton fifth or lower.\",\"reasoning\":\"The title math is live but a long shot: Antonelli must win and needs Russell P9 or lower plus Hamilton P5 or lower. It's genuinely plausible because Mercedes get three practice sessions on a conventional track to finally unlock the Malaysia upgrade they've struggled to extract for two rounds, Hamilton's form is collapsing after his Singapore VSC blunder, and COTA's Turn 1 elevation, unclear strategy and history of tense late-race convergences could shuffle Russell — who ran the old spec in Mercedes' Singapore split test — into the midfield on a chaotic afternoon. Sky calls it 'something quite dramatic' and F1.com admits 'stranger things have happened' ([skysports.com](https://www.skysports.com/f1/news/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race), [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW)).\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Hamilton\",\"reasoning\":\"Hamilton's campaign is fizzling out: he inexplicably ignored Ferrari's VSC pit call in Singapore and threw away a likely podium, and Ferrari have faded since their strong start to the European season. Meanwhile Verstappen, winner of two straight with Red Bull's surging package, sits just eight points behind him for P3 in the standings. Despite Hamilton's strong COTA pedigree, current trajectory points to another off-podium Sunday and losing third in the championship ([skysports.com](https://www.skysports.com/f1/news/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race)).\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"Expectations have sunk after a bleak triple-header in which Norris never qualified above fifth and the team's best finish was fourth, letting Red Bull close to within seven points of P3 in the constructors'. But McLaren bring further upgrades to Austin on top of the Baku package, COTA's conventional layout is a far better read than outlier venues like Sepang and Marina Bay, and Stella is publicly relaxed about the season's 'ping-pong' of form swinging back their way. With three practice sessions to dial in the new parts, a double top-five that holds off Red Bull would beat current expectations ([motorsport.com](https://www.motorsport.com/f1/news/what-red-bull-needs-to-pass-mclaren-at-the-united-states-grand-prix/10866208/), [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW)).\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the US Grand Prix?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Alpine car will progress in qualifying?",
+          "selection": "Q3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many Haas and Cadillac cars will be classified as finishers?",
+          "selection": "3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Lando Norris finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will a new F1 Drivers' Champion be crowned this weekend?",
+          "selection": "No",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "OpenAI": {
+      "predictor": "GPT-6.1 Sol",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Sainz finishes on the podium ahead of both Ferraris, with both Ferraris classified and neither receiving a time penalty.\",\"reasoning\":\"The expectation being challenged is the established competitive hierarchy: Williams returning a podium while beating both cars from Sainz's former, historically front-running team would be a substantial upset. That hierarchy is a historical baseline, not a verified assessment of October 2026 form. Sainz's 2022 Austin pole and 2024 runner-up finish demonstrate circuit-specific strength. Austin's overtaking opportunities and tyre-management demands offer a plausible route through superior race execution rather than requiring Ferrari retirements or penalties.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Red Bull Racing\",\"reasoning\":\"I predict neither Red Bull finishes in the top five. This is a speculative risk call, not a claim about verified 2026 results: the team's first season with its Red Bull Ford power unit introduces integration uncertainty under the new regulations. Austin tests both sustained high-speed performance and acceleration out of slow corners, potentially exposing compromises in energy deployment or chassis balance. A small deficit could also become costly through tyre degradation across a stint.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"My pick is Williams to score with both cars. I cannot access live news here, so I cannot verify October 2026 form, upgrades, standings or weather; this is a circuit-led prediction rather than a researched current-form assessment. Austin combines substantial straights with technical braking zones and several overtaking opportunities, rewarding efficient setup and adaptable race management. Sainz's Austin pole in 2022 and second place in 2024 provide a concrete reason to back his circuit execution, alongside Albon's experience.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the US Grand Prix?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Alpine car will progress in qualifying?",
+          "selection": "Q3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Pierre Gasly",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many Haas and Cadillac cars will be classified as finishers?",
+          "selection": "3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Lando Norris finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will a new F1 Drivers' Champion be crowned this weekend?",
+          "selection": "No",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "xAI": {
+      "predictor": "Grok 4.7",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Hadjar beats Verstappen in the race and scores Red Bull's only podium.\",\"reasoning\":\"Hadjar has closed the qualifying gap to Verstappen over the last month and COTA is a track where a well-balanced car can pass and hold position. If Red Bull split strategies and Verstappen is stuck in dirty air after an early stop, Hadjar on the alternate tyre can jump him and keep the place to the flag.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari's recent upgrades have not translated into consistent race pace, and COTA's combination of high-speed direction changes and long traction zones has historically exposed their tyre-temperature window. With both drivers still chasing setup compromises and reliability niggles in recent grands prix, a weekend where neither car finishes in the top six is the downside case.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Austin rewards low-drag efficiency and strong traction out of the slow corners, and Williams has been the most improved midfield package over the last six rounds, with both cars regularly in Q3 and scoring. Sainz's long-run pace at similar power circuits and Albon's one-lap speed make a double points finish, or even a shock podium if the front-runners trip over strategy, more realistic than the grid expects.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 US Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the US Grand Prix?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Alpine car will progress in qualifying?",
+          "selection": "Q3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Liam Lawson",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many Haas and Cadillac cars will be classified as finishers?",
+          "selection": "4",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Lando Norris finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Will a new F1 Drivers' Champion be crowned this weekend?",
+          "selection": "No",
+          "selectionIndex": 1
+        }
+      ]
+    }
+  },
+  "generationLogs": [
+    {
+      "id": 544,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"United States Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"181\":[1781,1783,1786],\"182\":[1808],\"183\":[1825],\"184\":[1827],\"185\":[1830],\"186\":[1852],\"187\":[1865],\"188\":[1869],\"189\":[1873],\"190\":[1877]},\"reasoning\":\"Based on F1 Fantasy research for COTA Sprint weekend: Verstappen dominates at Austin with 6 consecutive podiums and wins the last 3 USGPs, making him the P1 pick. Russell's strong Singapore form and Mercedes improvement makes him P2, while Norris's betting favoritism (+120) and front-row COTA history positions him for P3. Norris gets the pole over Verstappen due to McLaren's straight-line speed advantage in qualifying. Leclerc's 2024 COTA win edges Hamilton in their head-to-head. Alpine's Q3 streak continues with Gasly. Red Bull's consecutive fastest pitstops make them the safe pick for three in a row. Sainz offers strong value given his COTA podium history and mid-tier pricing. Cadillac's second-year improved reliability should yield 2 classified finishers between them and Haas. Norris has never won at COTA despite front row starts, making 4th-10th the realistic range. The championship won't be clinched this weekend given the specific conditions required for Antonelli to win while Russell finishes 9th or lower and Hamilton 5th or lower.\"}",
+      "tokensUsed": 6040,
+      "costUsd": 0.0125428,
+      "createdAt": "2026-10-20T16:11:29.920Z"
+    },
+    {
+      "id": 541,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"United States Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"181\": [1781, 1782, 1783],\n    \"182\": [1803],\n    \"183\": [1825],\n    \"184\": [1827],\n    \"185\": [1831],\n    \"186\": [1852],\n    \"187\": [1863],\n    \"188\": [1870],\n    \"189\": [1873],\n    \"190\": [1877]\n  },\n  \"reasoning\": \"Verstappen enters COTA with superior form and track history, making him the prime candidate for pole position and the race victory. Mercedes demonstrates strong race pace with Antonelli and Russell completing the podium spots. Red Bull's pit crew remains the gold standard for pitstop execution. Ferrari's Leclerc maintains a qualifying edge over Hamilton in recent outings, while Alpine continues their streak of Q3 appearances. Given the high-probability points thresholds, Antonelli will likely not clinch the title this weekend.\"\n}",
+      "tokensUsed": 5866,
+      "costUsd": 0.0121795,
+      "createdAt": "2026-10-20T16:11:29.922Z"
+    },
+    {
+      "id": 545,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"United States Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"181\": [1781, 1782, 1783],\n    \"182\": [1803],\n    \"183\": [1825],\n    \"184\": [1827],\n    \"185\": [1833],\n    \"186\": [1852],\n    \"187\": [1863],\n    \"188\": [1870],\n    \"189\": [1873],\n    \"190\": [1877]\n  },\n  \"reasoning\": \"The 2026 pecking order implied by the odds and question context: Red Bull and Mercedes lead, with Antonelli atop the standings and Verstappen the benchmark at COTA. Q181: Verstappen is the COTA king — multiple USGP wins, a long podium streak, and pre-weekend favorite status per [fanamp.com](https://www.fanamp.com/articles/fantasy-prevew-united-states-grand-prix-2025) — so he gets P1; championship leader Antonelli (strong at Baku/Singapore and chasing the title) P2; Russell, a consistent big-scorer at Sprint weekends, P3. Q182: Verstappen's one-lap record at COTA plus Red Bull's S1 downforce advantage make him the pole pick over Antonelli. Q183: Leclerc is Ferrari's qualifying specialist and 2024 COTA winner, favored over Hamilton. Q184: Alpine (now Mercedes-powered) have reached Q3 every race since Gasly's Monza pole — the streak continues at a power-friendly COTA. Q185: Value pick — Leclerc just took his third fastest lap of the season in Singapore and Ferrari regularly bolt on softs late; 15 pts is worth the modest risk over Verstappen. Q186: Red Bull's crew has set the fastest stop two races running and remains the grid's benchmark. Q187: Lawson is the favorite for good reason — he recovered from the back row to P9 at COTA in 2024 and Racing Bulls are entrenched in the top 10. Q188: With reliability 'a challenge' for Haas and newbies Cadillac, three of four classified is the statistical sweet spot (one retirement among Bearman/Ocon/Bottas/Perez). Q189: Norris owns a front-row COTA qualifying record but has never won there, and McLaren sit behind Red Bull/Mercedes/Ferrari in 2026 — 4th-10th is the modal outcome. Q190: Antonelli clinching requires him to win AND Russell P9 or lower AND Hamilton P5 or lower — an extremely specific parlay, so No.\"\n}",
+      "tokensUsed": 10031,
+      "costUsd": 0.0564538,
+      "createdAt": "2026-10-20T16:11:29.923Z"
+    },
+    {
+      "id": 546,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"United States Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "{\"answers\":{\"181\":[1781,1782,1783],\"182\":[1803],\"183\":[1825],\"184\":[1827],\"185\":[1830],\"186\":[1852],\"187\":[1863],\"188\":[1870],\"189\":[1873],\"190\":[1877]},\"reasoning\":\"COTA form and the 2026 pecking order point to a Mercedes/Red Bull fight at the front: Kimi Antonelli arrives as championship leader with Mercedes the strongest package, George Russell is right behind him, and Max Verstappen has the best Austin record (multiple wins, six straight USGP podiums) plus the RB21's late-season resurgence. I therefore order the podium Verstappen-Antonelli-Russell, with Verstappen also taken for pole, fastest race lap and as the front-runner over the McLarens, who have been squabbling and have never won at COTA. Leclerc gets the nod over Hamilton based on his Austin track record and recent form, Alpine keep their Q3 streak, Red Bull continue their pit-stop dominance, Lawson's speed at COTA edges the midfield group, three of the four Haas/Cadillac cars should see the flag, Norris slots just off the podium in the 4th-10th range, and the title fight goes on as the Antonelli-clinch scenario is a long shot.\"}",
+      "tokensUsed": 8429,
+      "costUsd": 0.0076435366,
+      "createdAt": "2026-10-20T16:11:29.924Z"
+    },
+    {
+      "id": 542,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"United States Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"181\": [1782, 1781, 1784],\n    \"182\": [1803],\n    \"183\": [1825],\n    \"184\": [1827],\n    \"185\": [1833],\n    \"186\": [1852],\n    \"187\": [1864],\n    \"188\": [1870],\n    \"189\": [1873],\n    \"190\": [1877]\n  },\n  \"reasoning\": \"I cannot verify live news, practice results, weather, penalties or bookmaker odds here, so these predictions rely on the supplied 2026 scenario and established COTA characteristics. Antonelli's championship position supports a bold victory pick, while Verstappen's strong Austin record makes him my qualifying favorite and second-place selection. COTA's fast direction changes, heavy braking zones and tyre-management demands favor accomplished all-round performers. Leclerc completes the podium and gets my fastest-lap pick, supported by his stated recent success. Alpine's stated Q3 streak supports another Q3 appearance and Gasly beating the midfield alternatives. Red Bull's consecutive fastest stops favor continuity. Three Haas/Cadillac finishers balances four-car exposure against the stated reliability concerns. Norris finishing fourth–tenth is more plausible than a podium, and Antonelli's title-clinching combination remains unlikely even with victory.\"\n}",
+      "tokensUsed": 3227,
+      "costUsd": 0.011816,
+      "createdAt": "2026-10-20T16:11:29.925Z"
+    },
+    {
+      "id": 543,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"United States Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"181\":[1781,1782,1784],\"182\":[1803],\"183\":[1825],\"184\":[1827],\"185\":[1830],\"186\":[1852],\"187\":[1863],\"188\":[1870],\"189\":[1873],\"190\":[1877]},\"reasoning\":\"Context: Antonelli has 340 points going to Austin. Russell has 238, Hamilton 229, Verstappen 221, Leclerc 215 and Norris 201. Verstappen won the sprint and the Grand Prix from pole in Singapore. He also won in Malaysia and was a close second in Baku. Rivals, Norris among them, have called the Red Bull 'exceptionally fast' on very different kinds of track, while Mercedes' new upgrade has given mixed results. COTA is a high-downforce, flowing circuit that suits Red Bull, so I picked Verstappen for pole, the win and fastest lap. Antonelli has been steady and took P3 in Singapore despite brake problems, and Mercedes is still the strongest team in the constructors' table, so I have him P2. Leclerc finished second in Singapore and Ferrari had good pace there, so he is P3. I also picked Leclerc to out-qualify Hamilton: Hamilton is close in points, but Leclerc qualified ahead of him in Singapore. Alpine have reached Q3 at every race since Monza, so I backed the streak to continue. Red Bull have had the fastest pit stop at the last two races, so I picked them again. Lawson finished P7 in Singapore and Racing Bulls are well clear in the midfield (5th in constructors), so he should beat Gasly, Sainz and Alonso. Norris is fighting but McLaren have fallen behind Red Bull, Ferrari and Mercedes, so I expect him to finish 4th to 10th. For Antonelli to clinch the title he must win, Russell must finish ninth or lower and Hamilton fifth or lower. That combination is unlikely, so I picked No. Haas and Cadillac have had reliability problems, so I expect three of their four cars to be classified.\"}",
+      "tokensUsed": 67500,
+      "costUsd": 0.320896,
+      "createdAt": "2026-10-20T16:11:29.926Z"
+    },
+    {
+      "id": 547,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"United States Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "{\"answers\":{\"181\":[1781,1782,1784],\"182\":[1803],\"183\":[1825],\"184\":[1827],\"185\":[1833],\"186\":[1852],\"187\":[1863],\"188\":[1871],\"189\":[1873],\"190\":[1877]},\"reasoning\":\"After Singapore, Verstappen has won the last two races, taken the last two poles, and is the consensus COTA pick given four prior Austin wins and Red Bull's late-season pace. Antonelli (340 pts, 14 podiums, upgraded Mercedes) and Leclerc (P2 in Singapore, strong COTA record, Ferrari upgrade) complete the podium. Leclerc is the sharper Ferrari qualifier versus Hamilton. Alpine's post-Monza Q3 streak, including Gasly P8 in Singapore, should hold on a dry weekend. Leclerc is the value fastest-lap pick after taking it in Singapore. Red Bull won the last two DHL pit awards. Lawson (75 pts, P7 Singapore) is clearly ahead of Gasly, Sainz and Alonso. All four Haas and Cadillac cars were classified in Singapore and the race looks dry, so four finishers is the call. Norris's recent ceiling is P4, so 4th-10th rather than a podium. Antonelli cannot clinch unless he wins with Russell P9 or worse and Hamilton P5 or worse; Verstappen is favored to win, so the title is not decided in Austin.\"}",
+      "tokensUsed": 102825,
+      "costUsd": 0.198066,
+      "createdAt": "2026-10-20T16:11:29.926Z"
+    },
+    {
+      "id": 549,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\":\"verstappen\",\"podium\":[\"verstappen\",\"antonelli\",\"leclerc\"],\"sprint_pole\":null,\"sprint_winner\":null,\"reasoning\":\"Verstappen is in the strongest form of anyone. He arrives in Austin with back-to-back Grand Prix wins, both from pole. Singapore was a lights-to-flag win, 7.3s clear of Leclerc. He has also won four of the last five races at COTA, including 2025. Previews describe him as being 'in a league of his own' over the past two weekends, and Red Bull's gradual upgrades appear to be working. That makes him my pick for pole and the win. Antonelli leads the championship with 340 points, 102 ahead of Russell. He can clinch the title in Austin, but only if he wins, Russell finishes ninth or lower and Hamilton fifth or lower. Despite brake problems in Singapore he still finished third. Mercedes split their cars there, and Shovlin said Antonelli's updated package was 'clearly the faster of the two', so I have him second. I have Leclerc third: he finished a solid second in Singapore, while Hamilton lost ground late in that race after a costly strategy call. Ferrari remain clearly second in the constructors' standings. McLaren's Norris is the main outside threat for the podium (4th in Singapore), but the team reportedly needs a more fundamental fix to its car. Russell was only ninth after starting near the back in Singapore and doesn't have the latest Mercedes package. Weather adds uncertainty: forecasts give roughly a 50% chance of rain during the race, with showers possible on Friday and Saturday and strong winds of 18-19mph expected for qualifying. Changeable conditions tend to favour Verstappen. Ride height over COTA's bumps will be a key setup decision. Austin is a conventional weekend with no Sprint. Colton Herta replaces Perez in FP1 only.\"}",
+      "tokensUsed": 26340,
+      "costUsd": 0.140096,
+      "createdAt": "2026-10-20T16:21:13.845Z"
+    },
+    {
+      "id": 551,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"verstappen\",\n  \"podium\": [\"verstappen\", \"norris\", \"antonelli\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Max Verstappen and Red Bull have mounted a late-season surge, claiming back-to-back victories heading into Austin where Red Bull's aerodynamic efficiency and high-speed stability excel through COTA's Sector 1, as noted by [skysports.com](https://www.skysports.com/f1/news/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race). McLaren is introducing significant technical upgrades in Austin to protect their constructors' lead and maintain strong race pace ([grandprixpicks.com](https://grandprixpicks.com/f1-2026-united-states-grand-prix-predictions)), positioning Lando Norris well for P2. Championship leader Kimi Antonelli should secure the final podium step as Mercedes works to optimize their upgraded aerodynamic package on a more conventional circuit layout, while Austin is not a sprint weekend for 2026.\"\n}",
+      "tokensUsed": 3359,
+      "costUsd": 0.01037725,
+      "createdAt": "2026-10-20T16:21:14.731Z"
+    },
+    {
+      "id": 548,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"norris\",\n  \"podium\": [\"verstappen\", \"norris\", \"leclerc\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Provisional prediction: I cannot access live sources to verify 2026 form, upgrades, expert forecasts, Austin weather, or penalties. Historical evidence favors these drivers: Norris took Austin pole in 2024, Verstappen won three consecutive United States Grands Prix from 2021–2023, and Leclerc won in 2024. COTA rewards high-speed balance, braking stability and tire management. Norris is my qualifying pick, with Verstappen favored over a race distance. The 2026 regulation reset makes historical comparisons less reliable; this is not a verified current-form forecast.\"\n}",
+      "tokensUsed": 854,
+      "costUsd": 0.003876,
+      "createdAt": "2026-10-20T16:21:14.837Z"
+    },
+    {
+      "id": 550,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\":\"verstappen\",\"podium\":[\"verstappen\",\"antonelli\",\"leclerc\"],\"sprint_pole\":null,\"sprint_winner\":null,\"reasoning\":\"Verstappen is the man in form. He comes to Austin after back-to-back wins from pole, and Singapore was his first ever win there, after taking pole and the sprint too. He has also won at COTA four times in the last five races, including 2025, which makes him the pick for pole and the win. Antonelli leads the championship on 340 points, 102 clear of Russell, and can only clinch the title in Austin if he wins with Russell 9th or lower and Hamilton 5th or lower. He was 3rd in Singapore, and Mercedes engineer Andrew Shovlin said Antonelli's upgraded package was clearly the faster of the two cars, so he is a strong P2. Leclerc takes P3 after his 2nd place in Singapore, with Ferrari comfortably second in the constructors' standings. Hamilton slipped from 3rd to 6th in Singapore after a strategy mistake. Russell had to recover from the back of the grid to finish 9th, but his Mercedes didn't have the newest parts. Norris, 4th in Singapore, is the main threat for the podium. Things that could shake up the order: a forecast 50% chance of rain in the race, possible showers Friday and Saturday, strong wind of 18-19 mph for qualifying, and COTA's bumps making ride height a key setup decision. Rain should play to Verstappen's strengths.\"}",
+      "tokensUsed": 27313,
+      "costUsd": 0.142164,
+      "createdAt": "2026-10-20T16:21:15.604Z"
+    },
+    {
+      "id": 555,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Williams\",\n    \"reasoning\": \"My pick is Williams to score with both cars. I cannot access live news here, so I cannot verify October 2026 form, upgrades, standings or weather; this is a circuit-led prediction rather than a researched current-form assessment. Austin combines substantial straights with technical braking zones and several overtaking opportunities, rewarding efficient setup and adaptable race management. Sainz's Austin pole in 2022 and second place in 2024 provide a concrete reason to back his circuit execution, alongside Albon's experience.\",\n    \"is_team\": true,\n    \"referenced_id\": \"williams\"\n  },\n  \"flop\": {\n    \"name\": \"Red Bull Racing\",\n    \"reasoning\": \"I predict neither Red Bull finishes in the top five. This is a speculative risk call, not a claim about verified 2026 results: the team's first season with its Red Bull Ford power unit introduces integration uncertainty under the new regulations. Austin tests both sustained high-speed performance and acceleration out of slow corners, potentially exposing compromises in energy deployment or chassis balance. A small deficit could also become costly through tyre degradation across a stint.\",\n    \"is_team\": true,\n    \"referenced_id\": \"red-bull\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Sainz finishes on the podium ahead of both Ferraris, with both Ferraris classified and neither receiving a time penalty.\",\n    \"reasoning\": \"The expectation being challenged is the established competitive hierarchy: Williams returning a podium while beating both cars from Sainz's former, historically front-running team would be a substantial upset. That hierarchy is a historical baseline, not a verified assessment of October 2026 form. Sainz's 2022 Austin pole and 2024 runner-up finish demonstrate circuit-specific strength. Austin's overtaking opportunities and tyre-management demands offer a plausible route through superior race execution rather than requiring Ferrari retirements or penalties.\"\n  }\n}",
+      "tokensUsed": 1771,
+      "costUsd": 0.010742,
+      "createdAt": "2026-10-20T16:21:25.480Z"
+    },
+    {
+      "id": 554,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari is bringing its fourth and final major upgrade of 2026 to Austin. It's a redesigned floor, from the leading edge back to the diffuser, plus revised sidepods and bodywork and some weight reduction. The aim is more downforce, less drag and a wider setup window, so the team can stop running extreme setups. Ferrari already outscored Mercedes in Malaysia and Singapore, and Leclerc finished second in Singapore, 7.3s behind Verstappen. Austin is a normal weekend with no Sprint, so there are three practice sessions to get the new parts working. The C2/C3/C4 tyres and the high front and rear wear at COTA suit a car with better tyre management, and Leclerc finished third here last year on a reversed soft-first strategy. Even so, betting markets give Ferrari only about 15% to win (Leclerc 9%, Hamilton 6%), well behind Verstappen at 44% and Antonelli at 28%. I expect both Ferraris to beat at least one Mercedes and to fight for the win, which is above what people expect of them.\",\"is_team\":true,\"referenced_id\":\"ferrari\"},\"flop\":{\"name\":\"McLaren\",\"reasoning\":\"McLaren, the reigning constructors' champions, have slipped behind the front group. In the Singapore race they were 4th and 5th, over 40s off the lead. In the Singapore Sprint Norris and Piastri collided on the final lap, and that collision is still a talking point heading into Austin. Their recent sidepod concept change reportedly hasn't matched what the windtunnel promised. Red Bull is only 7 points behind them for third in the constructors' standings with Verstappen on a two-race win streak, and Ferrari plus Mercedes' new-spec parts for Russell add more pressure at the front. COTA's tough first sector and tyre wear will punish a car outside its best window. I expect neither McLaren to finish on the podium and Red Bull to pass them for P3 in the constructors' standings this weekend.\",\"is_team\":true,\"referenced_id\":\"mclaren\"},\"crazy_prediction\":{\"prediction\":\"Ferrari lock out the front row in qualifying, Leclerc wins the race and Verstappen finishes off the podium, ending his run of wins from pole.\",\"reasoning\":\"The expected story is Verstappen dominating again. He comes in on back-to-back wins from pole (he took both poles, the Sprint and the race in Singapore), he's won four of the last five races at COTA, and markets give him 44% to win. Ferrari's final big package targets exactly what COTA rewards: downforce for the fast first-sector esses and lower drag for the long back straight. Upgrades have reshuffled the order a lot in 2026, and Vasseur has openly refused to call Red Bull the benchmark. Leclerc is strong over one lap and was the closest challenger in Singapore. A smooth upgrade could put him on pole, with Hamilton (who needs points for P2 in the standings) alongside. A softer race strategy could then beat Red Bull's usual approach. Meanwhile Antonelli's title pressure and Mercedes' upgraded cars could squeeze Verstappen down to fourth or lower. It's unlikely but possible, and easy to check after the weekend.\"}}",
+      "tokensUsed": 67189,
+      "costUsd": 0.34386,
+      "createdAt": "2026-10-20T16:21:26.815Z"
+    },
+    {
+      "id": 553,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari is bringing its fourth and final big aero package of 2026 to Austin: a redesigned floor, narrower sidepods, new bodywork and cooling outlets, and some weight saved. The goal is more downforce, less drag and a wider operating window, which suits COTA's bumpy, fast first sector. The team is already in decent form. It had a 3-4 finish in Malaysia and Leclerc took P2 in Singapore, and it outscored Mercedes at both rounds. Betting markets still treat Ferrari as an outsider here, with Leclerc at about 9% to win and Hamilton at 6%. With Austin back to a normal three-practice weekend, Ferrari gets plenty of time to set up the new parts. I expect it to beat expectations with at least one podium, most likely Leclerc, and strong points from both cars, which would extend its lead over McLaren and Red Bull. Leclerc also has a good record here, finishing third last year on an unusual soft-to-medium strategy.\",\"is_team\":true,\"referenced_id\":\"ferrari\"},\"flop\":{\"name\":\"Russell\",\"reasoning\":\"Russell is second in the championship but 102 points behind Antonelli, and his form has dropped off. He finished a weak ninth in Singapore after failing to get past Hulkenberg. In Austin he finally gets the new-spec W17 package that Antonelli has been racing. Wolff has said the car only works in a very narrow window, and Russell himself admitted the lap times with the upgrade weren't great. Switching to an unfamiliar, hard-to-set-up package on a bumpy track is risky. Verstappen is on a run of wins, Ferrari has new parts, and McLaren is right there too, so Russell could easily slip out of the top five, lose his P2 in the standings to Hamilton or Verstappen, and even drop low enough to open the door for Antonelli's title.\",\"is_team\":false,\"referenced_id\":\"russell\"},\"crazy_prediction\":{\"prediction\":\"Antonelli beats Verstappen to win the US Grand Prix while Russell finishes 9th or lower and Hamilton 5th or lower, so Antonelli is crowned 2026 World Champion in Austin.\",\"reasoning\":\"Everything points to Verstappen. He has back-to-back wins from pole, four wins in the last five Austin races, and markets give him about 44% to win against Antonelli's 28%. Red Bull looked like the benchmark car in Malaysia and Singapore. On top of that, clinching the title needs three things at once: an Antonelli win, Russell ninth or lower, and Hamilton fifth or lower. That combination is rare, but this weekend it is possible. Antonelli has eight wins this season and keeps recovering well, including a podium with the tricky upgraded car in Singapore. Russell finished exactly ninth there and is now adapting to that same difficult package. Ferrari's new floor could help Leclerc more than Hamilton, and Hamilton has slipped late in recent races, losing three places at the end in Singapore. COTA's C2/C3/C4 tyres, with wear as the main limit, could make strategies split, and a soft-start or two-stop call could beat Verstappen's usual pole-and-control approach. A title clinch in the first round where it's mathematically possible would be a big upset given how strong Red Bull has been.\"}}",
+      "tokensUsed": 61108,
+      "costUsd": 0.30776,
+      "createdAt": "2026-10-20T16:21:27.344Z"
+    },
+    {
+      "id": 552,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"After losing ground to Red Bull across the recent triple-header, McLaren are bringing a critical upgrade package to the Circuit of the Americas to build upon their Baku developments. COTA's sweeping Sector 1 and high-speed directional changes suit McLaren's aerodynamic profile, giving them the edge to outpace both Ferrari and Red Bull.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"flop\": {\n    \"name\": \"Mercedes\",\n    \"reasoning\": \"Mercedes have struggled to unlock performance from their major upgrade introduced in Malaysia, leading to split-specification testing in Singapore. With COTA's bumpy surface and demanding mix of technical and high-speed sections exposing setup compromises, Mercedes risk lagging behind Red Bull, Ferrari, and upgraded McLaren cars.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mercedes\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Max Verstappen secures his third consecutive Grand Prix victory while neither Mercedes driver finishes on the podium.\",\n    \"reasoning\": \"Verstappen has built immense momentum with consecutive wins in Malaysia and Singapore, closing the gap in the championship. Meanwhile, Mercedes are wrestling with their recent aero package and championship pressure, leaving both Antonelli and Russell vulnerable to being beaten by Verstappen and a surging Ferrari/McLaren group.\"\n  }\n}",
+      "tokensUsed": 3800,
+      "costUsd": 0.010807,
+      "createdAt": "2026-10-20T16:21:33.957Z"
+    },
+    {
+      "id": 556,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "race_weekend",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:22:51.615Z"
+    },
+    {
+      "id": 557,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "subjective",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:22:52.140Z"
+    },
+    {
+      "id": 558,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:22:52.169Z"
+    },
+    {
+      "id": 561,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:22:52.822Z"
+    },
+    {
+      "id": 559,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "race_weekend",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:22:53.393Z"
+    },
+    {
+      "id": 560,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "subjective",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:22:53.860Z"
+    },
+    {
+      "id": 562,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "race_weekend",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:22:55.244Z"
+    },
+    {
+      "id": 563,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:22:55.616Z"
+    },
+    {
+      "id": 564,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "error",
+      "errorMessage": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "OpenRouter API error (402): Insufficient credits. Add more using https://openrouter.ai/settings/credits code=402",
+      "tokensUsed": null,
+      "costUsd": null,
+      "createdAt": "2026-10-20T16:23:00.965Z"
+    },
+    {
+      "id": 568,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\": \"verstappen\", \"podium\": [\"verstappen\", \"antonelli\", \"leclerc\"], \"sprint_pole\": null, \"sprint_winner\": null, \"reasoning\": \"After Singapore, Verstappen has back-to-back wins and poles as Red Bull has been the fastest team since Azerbaijan, and tipsters favor him for pole and the win at a track where he has four victories. Antonelli leads the championship by 102 points and should podium in the still-strong Mercedes, while Ferrari’s new floor upgrade and Leclerc’s Singapore P2 support third. Recent forecasts point to a warm, largely dry weekend, so pure pace should decide it. Not a sprint weekend.\"}",
+      "tokensUsed": 78647,
+      "costUsd": 0.14215,
+      "createdAt": "2026-10-20T16:24:42.867Z"
+    },
+    {
+      "id": 565,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"verstappen\",\n  \"podium\": [\"verstappen\", \"norris\", \"antonelli\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"COTA hosts Round 18 as a conventional weekend (three practice sessions, no Sprint), so sprint fields are null. Max Verstappen arrives with the strongest momentum in the field, having won the last two Grands Prix (including Singapore) after Red Bull's gradual upgrades finally clicked — Sky Sports notes he has been 'in a league of his own' and that paddock sentiment sees him as the driver to beat ([skysports.com](https://www.skysports.com/f1/news/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race)). He also won from pole here in 2025 ahead of Norris, and COTA's long straights and high-speed Maggotts/Becketts-style section suit a car with strong aero efficiency ([grandprixpicks.com](https://grandprixpicks.com/f1-2026-united-states-grand-prix-predictions)). Mercedes' latest package added downforce but shifted balance too far forward, making the car inconsistent, and Austin is described as a crucial test of whether the upgrade works — a risk for championship leader Antonelli, though his 102-point cushion and raw pace still merit a podium ([skysports.com](https://www.skysports.com/f1/news/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race)). McLaren brings its final 2026 upgrades across Austin/Mexico/São Paulo and is fighting Red Bull in the constructors', with Norris second here last year and quick in race trim ([grandprixpicks.com](https://grandprixpicks.com/f1-2026-united-states-grand-prix-predictions)). Ferrari's major floor/sidepod update could lift Leclerc or Hamilton, but the team has regressed since Barcelona and Hamilton's form is fading after a Singapore strategy blunder, so I favour the Verstappen/Norris/Antonelli order. Showers and 26°C conditions add variability but shouldn't change the front-running hierarchy.\"\n}",
+      "tokensUsed": 4172,
+      "costUsd": 0.008095572,
+      "createdAt": "2026-10-20T16:24:43.790Z"
+    },
+    {
+      "id": 566,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"verstappen\",\n  \"podium\": [\"verstappen\", \"antonelli\", \"russell\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Verstappen is the clear favorite: he's won the last two races (including Singapore), has been 'in a league of his own' per [skysports.com](https://www.skysports.com/f1/news/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race), Red Bull's upgrades are working, and he won the 2025 US GP from pole. Antonelli (P2) leads the championship by 102 points and has been the season's benchmark; a return to a traditional circuit should suit Mercedes as they run the new package on both cars, though questions remain about its effectiveness per [grandprixpicks.com](https://grandprixpicks.com/f1-2026-united-states-grand-prix-predictions). Russell (P3) sits second in the standings and has been consistently strong; his potential engine penalty is linked to Las Vegas, not Austin. Ferrari's major Austin upgrade (floor, sidepods, bodywork) is an unknown, Hamilton's form is fading after his Singapore strategy error and physical concerns, and McLaren admit they're fighting to regain podium contention. COTA's high-speed esses and thermal tyre degradation reward a well-balanced car, which currently favors Red Bull.\"\n}",
+      "tokensUsed": 4708,
+      "costUsd": 0.0201877,
+      "createdAt": "2026-10-20T16:24:44.667Z"
+    },
+    {
+      "id": 567,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "\n\n{\n  \"pole\": \"verstappen\",\n  \"podium\": [\"verstappen\", \"hamilton\", \"antonelli\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Max Verstappen and Red Bull are the form drivers with two consecutive wins in Sepang and Singapore. The four-time champion has been 'in a league of his own' according to reports, with Red Bull's gradual upgrade package clearly working. Ferrari brings its final major upgrade of 2026 to Austin (revised floor, sidepods, upper bodywork), which should help Hamilton challenge for the podium after his Singapore VSC mistake. Antonelli leads the championship by 102 points and needs just one win to clinch, making him a strong podium contender despite Mercedes' upgrade struggles - the team will run the latest package on both cars hoping to find better balance. McLaren's MCL40 is described as 'mentally exhausting' to drive by Norris, suggesting the Woking team will struggle for pace. Without a sprint format, full practice should benefit those with upgrades to optimize. COTA's mix of corners from other circuits and good overtaking at Turn 1 suits Verstappen's aggressive style. The constructors' battle between Red Bull (332pts) and McLaren (339pts) adds extra motivation for Red Bull to maximize points.\"\n}",
+      "tokensUsed": 4119,
+      "costUsd": 0.0089602,
+      "createdAt": "2026-10-20T16:24:45.687Z"
+    },
+    {
+      "id": 572,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Haas\",\n    \"reasoning\": \"Austin is Haas's de facto home race, and the team historically throws its biggest upgrade package of the year at it to impress American sponsors and the MoneyGram/Toyota-linked ownership. The bumpy, low-grip COTA surface and long straights suit the VF-26's traction and straight-line efficiency, and both Ocon and Bearman have shown a knack for opportunistic points finishes on high-degradation weekends. Expect both cars deep in Q3 and at least one Haas in the points, outperforming its season-long midfield ranking.\",\n    \"is_team\": true,\n    \"referenced_id\": \"haas\"\n  },\n  \"flop\": {\n    \"name\": \"Aston Martin\",\n    \"reasoning\": \"Aston Martin enters the US GP on a long slide, with its 2026 development path stalled and the team consistently losing ground to Ferrari and Mercedes while slipping behind midfield risers. COTA's mix of slow-speed traction zones and high-speed direction changes exposes a car that has neither a strong front end nor reliable rear grip. Add a frustrated Alonso openly questioning strategy and a Stroll who historically struggles at Austin, and a double Q2 exit with no points is the likely outcome.\",\n    \"is_team\": true,\n    \"referenced_id\": \"aston-martin\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Both Cadillac cars finish in the points at Austin — the new team's first-ever double-points result — with Bottas and Perez both in the top 10.\",\n    \"reasoning\": \"Cadillac has the most experienced driver pairing on the grid in Bottas and Perez, and COTA rewards veteran racecraft, tyre management and clean strategy calls more than pure pace. With 2026's new power units and active aero triggering reliability chaos and mixed-up running order among the established teams, a high-degradation, safety-car-affected race is exactly the scenario where a well-run, low-pressure newcomer like Cadillac can steal points. This is a genuinely unlikely but plausible break from the expectation that the new team remains scoreless, and it is precisely judgeable: both Bottas and Perez must classify in the top 10.\",\n    \"referenced_id\": null\n  }\n}",
+      "tokensUsed": 19794,
+      "costUsd": 0.015912899888,
+      "createdAt": "2026-10-20T16:24:53.948Z"
+    },
+    {
+      "id": 571,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"Expectations have sunk after a bleak triple-header in which Norris never qualified above fifth and the team's best finish was fourth, letting Red Bull close to within seven points of P3 in the constructors'. But McLaren bring further upgrades to Austin on top of the Baku package, COTA's conventional layout is a far better read than outlier venues like Sepang and Marina Bay, and Stella is publicly relaxed about the season's 'ping-pong' of form swinging back their way. With three practice sessions to dial in the new parts, a double top-five that holds off Red Bull would beat current expectations ([motorsport.com](https://www.motorsport.com/f1/news/what-red-bull-needs-to-pass-mclaren-at-the-united-states-grand-prix/10866208/), [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW)).\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"flop\": {\n    \"name\": \"Hamilton\",\n    \"reasoning\": \"Hamilton's campaign is fizzling out: he inexplicably ignored Ferrari's VSC pit call in Singapore and threw away a likely podium, and Ferrari have faded since their strong start to the European season. Meanwhile Verstappen, winner of two straight with Red Bull's surging package, sits just eight points behind him for P3 in the standings. Despite Hamilton's strong COTA pedigree, current trajectory points to another off-podium Sunday and losing third in the championship ([skysports.com](https://www.skysports.com/f1/news/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race)).\",\n    \"is_team\": false,\n    \"referenced_id\": \"hamilton\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Kimi Antonelli wins the United States Grand Prix and clinches the 2026 Drivers' Championship in Austin, with Russell finishing ninth or lower and Hamilton fifth or lower.\",\n    \"reasoning\": \"The title math is live but a long shot: Antonelli must win and needs Russell P9 or lower plus Hamilton P5 or lower. It's genuinely plausible because Mercedes get three practice sessions on a conventional track to finally unlock the Malaysia upgrade they've struggled to extract for two rounds, Hamilton's form is collapsing after his Singapore VSC blunder, and COTA's Turn 1 elevation, unclear strategy and history of tense late-race convergences could shuffle Russell — who ran the old spec in Mercedes' Singapore split test — into the midfield on a chaotic afternoon. Sky calls it 'something quite dramatic' and F1.com admits 'stranger things have happened' ([skysports.com](https://www.skysports.com/f1/news/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race), [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW)).\"\n  }\n}",
+      "tokensUsed": 8643,
+      "costUsd": 0.089437543,
+      "createdAt": "2026-10-20T16:25:04.077Z"
+    },
+    {
+      "id": 570,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "\n\n{\n  \"good_surprise\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"McLaren has struggled through the last triple-header with Norris not qualifying higher than fifth and minimal points returns, but they are bringing further upgrades to Austin - a more traditional circuit compared to the extreme heat of Malaysia and street circuit quirks of Singapore. The team's Woking base should be able to extract better performance from their package on a track that rewards overall car balance rather than specific thermal or surface characteristics. With Norris needing to bounce back and Piastri capable of extracting more from the car than recent weekends, McLaren should be more competitive. Additionally, they need to respond to Red Bull's surge to protect their third place in the constructors' championship.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"flop\": {\n    \"name\": \"Hamilton\",\n    \"reasoning\": \"Hamilton's season is fizzling out after his inexplicable decision to ignore Ferrari's pit call during a Virtual Safety Car in Singapore, which cost him a likely podium. He is third in the championship but increasingly vulnerable with Verstappen closing fast (just 8 points behind). Austin is a track where Mercedes traditionally struggles relative to their overall pace, and Hamilton's confidence appears low. With Ferrari having shown promise earlier in the European season but failing to maintain that momentum, and Hamilton's strategic errors compounding, he could finish outside the points or well below expectations at a critical moment in his championship fight.\",\n    \"is_team\": false,\n    \"referenced_id\": \"hamilton\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Russell dramatically outqualifies and beats Antonelli, then takes the lead in the championship with a dominant victory while Antonelli suffers his first non-points finish of the season due to a reliability issue, completely derailing the Mercedes title celebration that seemed imminent.\",\n    \"reasoning\": \"Mercedes' recent upgrade package failed in Malaysia and created confusion in Singapore. Austin provides a crucial test of whether those upgrades actually work. If they do work and Russell benefits more from them, he could be dramatically faster than Antonelli all weekend. Russell is mathematically capable of taking the championship lead if Antonelli fails to score (he needs Antonelli to score 6 or fewer points while he scores 26+). Given Antonelli's title-clinch scenario requires him to win AND have Russell finish 9th or lower, a Russell victory combined with any Antonelli retirement would flip the entire narrative. With Red Bull clearly the fastest car right now, Mercedes need both cars performing optimally, and the pressure on Antonelli as a rookie approaching a potential title could create the perfect storm for this dramatic role reversal within the team.\"\n  }\n}",
+      "tokensUsed": 4466,
+      "costUsd": 0.0094162,
+      "createdAt": "2026-10-20T16:25:07.641Z"
+    },
+    {
+      "id": 569,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the United States Grand Prix (Round 18, 2026-10-25) at Austin, United States.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, and championship context. For the crazy prediction, identify a meaningful pattern or expectation and predict a clear, genuinely surprising break from it that remains possible this weekend.",
+      "fullResponse": "{\"good_surprise\": {\"name\": \"Williams\", \"reasoning\": \"Austin rewards low-drag efficiency and strong traction out of the slow corners, and Williams has been the most improved midfield package over the last six rounds, with both cars regularly in Q3 and scoring. Sainz's long-run pace at similar power circuits and Albon's one-lap speed make a double points finish, or even a shock podium if the front-runners trip over strategy, more realistic than the grid expects.\", \"is_team\": true, \"referenced_id\": \"williams\"}, \"flop\": {\"name\": \"Ferrari\", \"reasoning\": \"Ferrari's recent upgrades have not translated into consistent race pace, and COTA's combination of high-speed direction changes and long traction zones has historically exposed their tyre-temperature window. With both drivers still chasing setup compromises and reliability niggles in recent grands prix, a weekend where neither car finishes in the top six is the downside case.\", \"is_team\": true, \"referenced_id\": \"ferrari\"}, \"crazy_prediction\": {\"prediction\": \"Hadjar beats Verstappen in the race and scores Red Bull's only podium.\", \"reasoning\": \"Hadjar has closed the qualifying gap to Verstappen over the last month and COTA is a track where a well-balanced car can pass and hold position. If Red Bull split strategies and Verstappen is stuck in dirty air after an early stop, Hadjar on the alternate tyre can jump him and keep the place to the flag.\"}}",
+      "tokensUsed": 3744,
+      "costUsd": 0.008172,
+      "createdAt": "2026-10-20T16:25:17.119Z"
+    }
+  ]
+}
