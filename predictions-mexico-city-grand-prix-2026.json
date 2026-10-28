@@ -1,0 +1,1169 @@
+{
+  "exportType": "race_predictions",
+  "raceId": "mexico-2026",
+  "raceName": "Mexico City Grand Prix",
+  "raceDate": "2026-11-01",
+  "isSprint": false,
+  "lineup": {
+    "status": "default",
+    "source": "season_default",
+    "confirmedAt": null,
+    "entries": [
+      {
+        "driverId": "norris",
+        "driver": "Lando Norris",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "piastri",
+        "driver": "Oscar Piastri",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hamilton",
+        "driver": "Lewis Hamilton",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "leclerc",
+        "driver": "Charles Leclerc",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hadjar",
+        "driver": "Isack Hadjar",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "verstappen",
+        "driver": "Max Verstappen",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "antonelli",
+        "driver": "Kimi Antonelli",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "russell",
+        "driver": "George Russell",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "alonso",
+        "driver": "Fernando Alonso",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "stroll",
+        "driver": "Lance Stroll",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "colapinto",
+        "driver": "Franco Colapinto",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "gasly",
+        "driver": "Pierre Gasly",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bearman",
+        "driver": "Ollie Bearman",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "ocon",
+        "driver": "Esteban Ocon",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lawson",
+        "driver": "Liam Lawson",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lindblad",
+        "driver": "Arvid Lindblad",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "albon",
+        "driver": "Alexander Albon",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "sainz",
+        "driver": "Carlos Sainz",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bortoleto",
+        "driver": "Gabriel Bortoleto",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hulkenberg",
+        "driver": "Nico Hulkenberg",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bottas",
+        "driver": "Valtteri Bottas",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "perez",
+        "driver": "Sergio Perez",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 2,
+        "isSubstitute": false
+      }
+    ]
+  },
+  "exportedAt": "2026-10-28T09:38:57.002Z",
+  "predictions": {
+    "Anthropic": {
+      "predictor": "Claude Opus 5.5",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"No Mercedes driver finishes on the podium in Mexico City.\",\"reasoning\":\"Mercedes lead the constructors' standings by 133 points and Antonelli has won nine races, so a weekend without a Mercedes on the podium would be a big surprise. It's still credible. The race is mainly about Antonelli clinching the title, and he only needs ninth place. That gives Mercedes a reason to manage engine temperatures and avoid risky fights on Mexico's very long run to Turn 1, where slipstreams and three-wide moves are common. The altitude puts heavy cooling demands on the new 2026 power units, and nobody, Vasseur and Verstappen included, knows how these cars will behave there. That could shake up the order. Russell is off form after finishing eighth with a penalty in Austin. Meanwhile, Ferrari's upgrade looked strong (Leclerc second and Hamilton fourth in Austin), Ferrari are bringing bigger cooling openings for Mexico, and Red Bull bring upgrades and Verstappen's record of five wins here. Four strong contenders from those two teams could fill all three podium places. Clear skies are forecast with only a small chance of rain, so this would be decided on pace and strategy, not a weather lottery.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Russell\",\"reasoning\":\"Russell is still second in the championship, but his form is poor. He finished eighth in Austin after a five-second penalty and spent the race stuck behind Piastri while his teammate won from pole. With Antonelli needing only a top-nine finish to take the title, Mercedes will probably run a cautious, low-risk weekend focused on getting Antonelli to the flag, so Russell won't get much strategic help. Only nine points cover four drivers fighting for second, so he could lose places in the standings. The cooling problems at altitude and the new low-downforce setup add more risk for a driver who is already off form. I expect him to finish outside the top five and behind at least one Ferrari and one Red Bull.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Red Bull Racing\",\"reasoning\":\"Red Bull look set to do better than people expect from them as the third or fourth best team. They're level with McLaren on 355 points in the constructors' standings and have both cars on the pace: Verstappen finished third in Austin, and Hadjar qualified third there before dropping to sixth. ESPN's preview says Red Bull are 'a looming threat each weekend after bringing major upgrades' and notes that Verstappen has won five times in Mexico City. Mexico is an odd track. The thin air at 2,200m cuts drag and makes cooling and power delivery the key factors. This is also the first time these 2026 cars run there with low downforce, and Vasseur admits 'no one knows how these new cars will perform at altitude.' That kind of uncertainty helps a team with an in-form car, a driver who goes well at this circuit and a strong recent upgrade path. I expect both Red Bulls in the top six and a real chance of the win. I picked the team rather than one driver for the double points.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Mexico City Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Aston Martin car will progress in qualifying?",
+          "selection": "Q1",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Sergio Perez finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave Mexico City second in the Championship standings?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "DeepSeek": {
+      "predictor": "DeepSeek V4.1 Flash",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Charles Leclerc wins the Mexico City Grand Prix.\",\"reasoning\":\"Mercedes have the strongest package and Antonelli has won nine races, so a Ferrari victory would be a genuine upset, but the evidence supports it. Leclerc has finished second in each of the last two rounds, Singapore and Austin, and in Texas Ferrari won with strategy, the second-stop Hard stint carrying him past Norris and then Verstappen on track [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). Mexico has been Ferrari territory recently: Sainz won here in 2024 and Leclerc finished second last year, holding off Verstappen in the closing laps. The circuit's thin air cuts drag, so an efficient car can stay in touch on the long straights, and the softest C3/C4/C5 trio in the 2026 range plus a possible wet qualifying session create exactly the kind of shuffled grid and opportunistic one-stop race Ferrari has exploited. Mercedes also has every incentive to run Antonelli conservatively, since ninth place alone clinches the title, and the first-lap funnel at Turn 1 where the leaders went four abreast last year is a genuine wildcard for the front of the field.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Russell\",\"reasoning\":\"Russell crossed the line 54.303 seconds behind team-mate Antonelli in Austin in identical machinery, admitted he lacked pace and did not know why, and served a five-second penalty for leaving the track and gaining an advantage at Turn 13 [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). He is now the only one of the four drivers covered by nine points in the fight for second who has no momentum, with Leclerc, Hamilton and Verstappen all outscoring him in Austin, and he has publicly said second, third or fifth in the drivers' standings is not the championship, which points to a driver whose weekend motivation is now the constructors' title. Mercedes' priority in Mexico is getting Antonelli to ninth for the title, and the thin air makes cooling and tyre warm-up harder, precisely the areas where Russell struggled on the Mediums in Texas.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"Mexico City's 2,000m-plus altitude strips downforce and grip, conditions where Williams has historically punched above its weight, and Carlos Sainz won at this circuit in 2024 with Ferrari, so he knows how to read the low-grip surface. Rain is forecast for Friday and again for Saturday afternoon right around qualifying (59% chance), which could shuffle the grid and hand a well-prepared midfield team a top-six start [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). With no DRS under the 2026 rules and Overtake Mode plus active aero instead, the huge run to Turn 1 becomes the main passing zone, so a strong qualifying position is unusually valuable for holding track position on Sunday. Pirelli's softer 2026 Hard (now C3, one step softer than last year's C2) also gives teams outside the top four a realistic one-stop option to steal points [bbc.com](https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o).\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Mexico City Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Aston Martin car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Sergio Perez finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave Mexico City second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Google": {
+      "predictor": "Gemini 3.8 Flash",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Charles Leclerc",
+        "podium_p3": "Max Verstappen",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Both Ferrari drivers finish on the podium.\",\"reasoning\":\"Both Charles Leclerc and Lewis Hamilton displayed rapid race pace on the softer compounds in Austin, closing right up to the frontrunners in the final stint as noted by [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). With Antonelli needing only a cautious top-nine finish to secure the world title and Russell struggling for pace, Ferrari's historical strength at Mexico's high-altitude layout provides an ideal opportunity for a double podium.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Russell\",\"reasoning\":\"George Russell endured a dismal United States Grand Prix, finishing 54 seconds behind his teammate Antonelli and struggling heavily for race pace on Medium tyres, according to [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). With Antonelli on the brink of securing the championship and Russell under fierce pressure from Hamilton and Verstappen in the standings, Russell's lingering setup difficulties on low-grip surfaces like Mexico City make him vulnerable to another underwhelming weekend.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari enter Mexico with strong momentum following back-to-back second-place finishes for Charles Leclerc in Singapore and Austin, with Lewis Hamilton finishing fourth at COTA as reported by [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). The high-altitude Autódromo Hermanos Rodríguez historically suits Ferrari well—having won in 2024 and scored double podiums—and with Mercedes potentially playing it safe to wrap up Kimi Antonelli's championship, Ferrari are poised to outperform their rival frontrunners this weekend.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Mexico City Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Aston Martin car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Sergio Perez finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave Mexico City second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Human": {
+      "predictor": "Human",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "George Russell",
+        "podium_p3": "Max Verstappen",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "There is a collision of fornt-running cars into turn 1",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "Williams",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "Audi",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Mexico City Grand Prix?",
+          "selection": "Esteban Ocon",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Aston Martin car will progress in qualifying?",
+          "selection": "Q1",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Sergio Perez finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave Mexico City second in the Championship standings?",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "MiniMax": {
+      "predictor": "MiniMax M2.7",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Charles Leclerc",
+        "podium_p3": "Lewis Hamilton",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Both Mercedes and Ferrari score zero points in the race.\",\"reasoning\":\"This outcome, while unlikely, is supported by multiple converging factors. Rain is forecast for Friday and Saturday, which could compromise both teams' data collection on Pirelli's new softer tire compounds. Mercedes arrives with Russell struggling and Antonelli under enormous pressure to clinch the title, which could lead to uncharacteristic errors. Ferrari's strong recent form masks that both Hamilton and Leclerc are in close championship contention and could cancel each other out through contact or defensive racing. The high-altitude Mexico City circuit historically produces chaos, and without DRS (replaced by Overtake Mode and active aero in 2026), overtaking is more difficult, increasing the likelihood of contact among title-fighting drivers. Both teams retiring or scoring no points would require multiple reliability failures or incidents, but the combination of weather uncertainty, psychological pressure, and the demanding circuit makes this a credible shock outcome.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"George Russell\",\"reasoning\":\"Russell arrives in Mexico on the back of his worst weekend in recent memory. He finished 54 seconds behind Antonelli in Austin, received a penalty for a first-lap incident, and admitted he lacked pace without knowing why. His title hopes are effectively over, and the psychological weight of that, combined with the unique demands of Mexico City's high-altitude, low-grip surface, could see him struggle again. Russell has been unable to match Antonelli's confidence with Mercedes' updated package, and a circuit that demands car confidence and precision could compound his difficulties. Expecting him to bounce back strongly ignores the underlying issues.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Oscar Piastri\",\"reasoning\":\"Piastri showed strong race pace in Austin, finishing ahead of Russell and closing on the leaders before Ferrari's strategy prevailed. McLaren arrives in Mexico with a competitive package, and Piastri's ability to execute races well has been evident all season. The high-altitude circuit with its low-grip surface could play into his wheel-to-wheel strengths, and if Ferrari and Mercedes focus on their own title battles, Piastri could slip through for a podium or better. He's demonstrated he can capitalize when front-runners are distracted, and Mexico City's long run to Turn 1 offers an overtaking opportunity that suits his precision.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Mexico City Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Aston Martin car will progress in qualifying?",
+          "selection": "Q1",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Sergio Perez finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave Mexico City second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Moonshot": {
+      "predictor": "Kimi K3",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Charles Leclerc",
+        "podium_p3": "Lewis Hamilton",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Kimi Antonelli scores no points in Mexico City.\",\"reasoning\":\"Antonelli needs only ninth place to clinch the title and arrives off a pole-and-win weekend in Austin, so a scoreless Sunday is genuinely unlikely - which is exactly what makes it bold. But Mexico's long run to Turn 1 is one of the most chaotic starts of the year (the leaders went four abreast last year and an opening-lap penalty resulted), Saturday qualifying carries a strong rain risk that could shuffle him into the midfield pack, the extreme altitude punishes cooling on a brand-new 2026 package, and with no DRS and an unproven Overtake Mode at this circuit a recovery drive is far from guaranteed. One first-lap tangle or reliability glitch turns a coronation into a pointless afternoon.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren have faded as the 2026 development race has moved on: Mercedes' updated package is dominating (Antonelli has nine wins) and Ferrari out-raced them in Austin, where Leclerc and Hamilton both passed Norris in the closing laps and Piastri finished only seventh, just ahead of the penalized Russell. Norris won here last year, which keeps expectations inflated, but the 2026 formula - no DRS, active aero, low grip and cooling stress at altitude - currently rewards exactly what Mercedes and Ferrari do well. Another weekend behind both Mercedes and Ferrari cars, with no podium threat, would confirm their slide and count as a clear underperformance given their driver line-up and last year's victory at this track.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari arrive with genuine momentum: Leclerc finished second in both Singapore and Austin, and Hamilton was fourth at COTA, crossing the line just one second off the podium after a sharp two-stop strategy. Mexico has been one of their strongest recent venues - Sainz won here for the team in 2024 with Leclerc third, and Leclerc finished second last year while holding off Verstappen. Both drivers sit within nine points of second in the championship and have every incentive to attack. With rain threatening Saturday qualifying and the thin air at 2,200m neutralizing some of Mercedes' edge, Ferrari can beat expectations with both cars fighting at the front.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Mexico City Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Aston Martin car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Sergio Perez finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave Mexico City second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "OpenAI": {
+      "predictor": "GPT-6.1 Sol",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Gasly finishes on the podium in Mexico City.\",\"reasoning\":\"This is a deliberately low-confidence outsider pick, not a claim supported by verified weekend news. Gasly has previously converted unusual opportunities into podiums, while Mexico's cooling demands and long run to the opening corner can disrupt the expected order. Reduced aerodynamic loading also changes the competitive balance. A well-executed race could give him an opening, but Alpine's actual 2026 form remains unverified.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Aston Martin\",\"reasoning\":\"I predict Aston Martin will score fewer points than its underlying pace suggests. Mexico's thin air creates an unusually demanding cooling and turbo operating environment. The team's first season with Honda under the new regulations makes power-unit integration a plausible vulnerability, although I cannot verify any actual reliability problems or cooling limitations.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Williams\",\"reasoning\":\"My pick to outperform expectations is Williams, with both cars capable of challenging for points. Mexico City's roughly 2,200-metre altitude reduces aerodynamic loading, making braking confidence, mechanical grip and cooling important differentiators. Albon and Sainz offer an experienced pairing for that challenge. This is a circuit-based forecast: I cannot access live news here or verify 2026 results, upgrades, championship standings or this weekend's weather.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Mexico City Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Aston Martin car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Nico Hulkenberg",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Sergio Perez finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave Mexico City second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "xAI": {
+      "predictor": "Grok 4.7",
+      "raceWeekend": {
+        "podium_p1": "Kimi Antonelli",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "Charles Leclerc",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Leclerc wins the Mexico City Grand Prix.\",\"reasoning\":\"Leclerc is only about 8/1 to 10/1, behind Verstappen, the five-time Mexico winner and betting favourite after Malaysia and Singapore, and Antonelli, who has nine wins and just dominated Austin. Leclerc has podiums in his last two races, a strong Mexico record, and a Ferrari that just proved its upgrade and should lose less to altitude cooling than its rivals. That is enough for one unlikely but credible win.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren has faded from its 2025 dominance, with tyre overheating and balance problems through 2026. Stella said Austin race pace matched Ferrari and Red Bull, but the cars only finished fifth and seventh, and the team is bringing little new to Mexico, with the next upgrades aimed at Brazil and Las Vegas. Altitude punishes cooling and tyre temperature, exactly where the MCL40 has been weak, while Red Bull has a specific Mexico cooling tweak. Norris's 2025 win here will inflate expectations the 2026 car is unlikely to meet.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari's Austin floor, sidepod and diffuser upgrade was validated by Leclerc's second and Hamilton's fourth, and the team sees Mexico altitude as a real chance to win again. The SF-26 runs hot with smaller radiators and an advanced blown-floor concept, so it may open fewer cooling exits than rivals and keep more downforce where thin air cuts load by about 20 percent and forces everyone to trade aero for cooling. The market still prices a Ferrari win as a long shot behind Verstappen and Antonelli, so a front-running Ferrari weekend would beat expectations.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 Mexico City Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the Mexico City Grand Prix?",
+          "selection": "Oliver Bearman",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Aston Martin car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Arvid Lindblad",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Sergio Perez finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave Mexico City second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    }
+  },
+  "generationLogs": [
+    {
+      "id": 587,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "\n\n{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"verstappen\", \"leclerc\", \"hamilton\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Kimi Antonelli has been the dominant force in 2026 with 9 wins and multiple consecutive poles. While the PITWALL model gives Verstappen and Leclerc slightly higher win probabilities (18% and 17% vs Antonelli's 15%), Antonelli's recent form is exceptional—he won from pole at COTA and has been the season's standout driver. Mexico City's high altitude favors Mercedes power units on the long back straight, and Antonelli should secure pole to clinch the title. For the podium, Max Verstappen has been a consistent podium finisher recently and Red Bull's car suits the circuit's demands. Charles Leclerc showed promising pace with Ferrari's Austin upgrades and experts favor him for strong results. Lewis Hamilton completes the podium prediction as Ferrari looks competitive and he can challenge for the final spot. The title will be clinched regardless of race result as long as Antonelli finishes 9th or better.\"\n}",
+      "tokensUsed": 4231,
+      "costUsd": 0.00882277,
+      "createdAt": "2026-10-28T09:12:04.037Z"
+    },
+    {
+      "id": 575,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"leclerc\", \"verstappen\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Kimi Antonelli enters the Mexico City Grand Prix in peak form after winning from pole position at COTA, taking his ninth win of the season and sitting just two points away from wrapping up the 2026 World Drivers' Championship ([f1oversteer.com](https://www.f1oversteer.com/races/mexico-city-gp-predictions-as-f1-experts-name-kimi-antonellis-rivals-for-title-clinching-win/)). Mercedes' power unit and aerodynamic efficiency should provide an edge down the long straight into Turn 1, making Antonelli the prime candidate for pole position and the race victory. Ferrari's strong low-speed mechanical grip and recent upgrades place Charles Leclerc in prime contention for a podium finish, while Max Verstappen and Red Bull have demonstrated steady race-pace resurgence, rounding out the top three in what is projected to be dry race conditions ([bbc.com](https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o)).\"\n}",
+      "tokensUsed": 3961,
+      "costUsd": 0.01081675,
+      "createdAt": "2026-10-28T09:12:04.051Z"
+    },
+    {
+      "id": 579,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\": \"antonelli\", \"podium\": [\"antonelli\", \"leclerc\", \"hamilton\"], \"sprint_pole\": null, \"sprint_winner\": null, \"reasoning\": \"Kimi Antonelli arrives in Mexico City in dominant form, having won 9 of 18 races in 2026 (50% win rate) including victory from pole at COTA last time out. He has taken 7 poles this season with back-to-back poles recently, and needs only a P9 finish to clinch the title — expect him to target winning it in style. Two of three experts at [f1oversteer.com](https://www.f1oversteer.com/races/mexico-city-gp-predictions-as-f1-experts-name-kimi-antonellis-rivals-for-title-clinching-win/) pick Antonelli for pole and the win, citing Mercedes' power advantage on Mexico's long main straight and his synergy with recent upgrades. Ferrari's upgraded package showed strong race pace at COTA (Leclerc P2 there), and the SF-26's cornering strength suits Mexico's twisty, low-grip middle sector, while the high-altitude high-downforce setups may mask its straight-line weakness — Leclerc is the pick for P2 and appears in all three expert podiums. Hamilton also features in all three expert podiums given Ferrari's form, edging out Verstappen (P3 at COTA, a consistent podium threat) for the final spot. Weather looks dry and warm (24C) for Sunday per [bbc.com](https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o), so no rain lottery. Not a sprint weekend, so sprint fields are null.\"}",
+      "tokensUsed": 4509,
+      "costUsd": 0.023940273,
+      "createdAt": "2026-10-28T09:12:04.052Z"
+    },
+    {
+      "id": 583,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"verstappen\", \"leclerc\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Round 19 at the Autodromo Hermanos Rodriguez is a conventional weekend (no Sprint), so sprint fields are null. Kimi Antonelli arrives having won from pole at COTA, taking his ninth win in 18 rounds, and needs only P9 to become F1's youngest champion — he is 123 points clear of Russell per [bbc.com](https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o). He has been the season's dominant qualifier (eight poles, rarely missing back-to-back), and two of three F1 Oversteer writers pick him for pole in Mexico, citing Mercedes' recent upgrade package and its straight-line/altitude power advantage ([f1oversteer.com](https://www.f1oversteer.com/races/mexico-city-gp-predictions-as-f1-experts-name-kimi-antonellis-rivals-for-title-clinching-win/)). Mexico's thin air rewards power and high-downforce set-ups, plays to Mercedes and Red Bull, and brings a 45% safety-car chance plus first-corner chaos and overheating risk at a low-grip surface ([pitwall-lab.com](https://www.pitwall-lab.com/predictions/)). PITWALL's 400-race simulation has Verstappen (18% win / 44% podium) and Leclerc (17% / 42%) marginally ahead of Antonelli (15% / 38%), with Russell, Norris and Piastri further back — so I take Antonelli for pole, then a podium of Antonelli, Verstappen (described as a 'podium machine' with Red Bull's resurgence) and Leclerc, whose Ferrari race pace looked strong with the COTA upgrades. Hamilton and Hadjar are the main threats to displace them, and a dry, 24C race with a standard M-lap32-S strategy should keep strategy simple rather than chaotic ([pitwall-lab.com](https://www.pitwall-lab.com/predictions/)).\"\n}",
+      "tokensUsed": 5531,
+      "costUsd": 0.008564687,
+      "createdAt": "2026-10-28T09:12:04.053Z"
+    },
+    {
+      "id": 577,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"verstappen\",\n  \"podium\": [\"verstappen\", \"norris\", \"leclerc\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Provisional, low-confidence prediction: I cannot access live reporting to verify 2026 results, upgrades, expert forecasts, weather, or penalties. Mexico City's high altitude reduces aerodynamic effectiveness and stresses cooling, while its long main straight makes the start and slipstream important. Verstappen's five previous Mexico victories support him as a track-specific pick; Norris and Leclerc complete the projected podium. The 2026 regulation changes make historical team performance a weak guide, so these selections should be revisited using race-weekend evidence.\"\n}",
+      "tokensUsed": 916,
+      "costUsd": 0.004496,
+      "createdAt": "2026-10-28T09:12:04.054Z"
+    },
+    {
+      "id": 580,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\":\"antonelli\",\"podium\":[\"verstappen\",\"antonelli\",\"leclerc\"],\"sprint_pole\":null,\"sprint_winner\":null,\"reasoning\":\"Championship picture: Antonelli has 365 points, 123 more than Russell and 124 more than Hamilton. He becomes champion with a top-nine finish, or tenth unless Russell wins, so he may take fewer risks on Sunday. He has won 9 of 18 races. In Austin he took pole with a 1:34.035 and won with a one-stop strategy, 13.078s clear of Leclerc. Experts call him the natural pole pick for what would be his eighth of the season, saying he is clearly 'at one with Mercedes' recent upgrades'. That made him my pole choice. Verstappen is the bookmakers' favourite to win (around 11/8 to 6/4, with Antonelli at 7/4). He has won in Mexico City five times, has six podiums in a row, and Red Bull have brought major upgrades. Fans and pundits think the Red Bull now matches Mercedes on the straights, which matters on Mexico's 1.2km run to Turn 1. That's why I picked Verstappen to win from the front row, with Antonelli racing more cautiously for the title in second. The risk is that Red Bull have tended to lose pace late in races, and Verstappen may have had engine-braking trouble in Austin. Third place goes to Leclerc. He was second in both of the last two races in the upgraded Ferrari, and Ferrari have a strong recent record in Mexico (Sainz won in 2024 with Leclerc third, and Leclerc was second in 2025). The low-grip track should suit Ferrari's cornering strength, although some think they'll be weaker on the long straights. Hamilton (4th in Austin) is the main threat for third. Russell finished 8th in Austin after a penalty and doesn't look on form. McLaren (Norris 5th, Piastri 7th) look a step behind. The forecast is clear and dry, 20-27°C, with no more than a 10% chance of rain, so I don't expect weather to upset the order. No big grid penalties among the front-runners have been reported.\"}",
+      "tokensUsed": 52533,
+      "costUsd": 0.257732,
+      "createdAt": "2026-10-28T09:12:04.055Z"
+    },
+    {
+      "id": 588,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"antonelli\",\n  \"podium\": [\"antonelli\", \"verstappen\", \"leclerc\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"After Austin, Antonelli leads on 365 points with nine wins and seven poles; he took pole and won the US GP by 13s as Mercedes upgrades clicked, while Russell (P8) and Hamilton (P4) only kept the title mathematically alive. Red Bull was the nearest rival in Austin qualifying (Verstappen P2, Hadjar P3) and Verstappen is the betting favourite for Mexico, but Mercedes race pace and Antonelli’s qualifying edge over Russell (about 0.1s) point to another front-row lockout attempt. Ferrari’s upgraded SF-26 put Leclerc second in Austin and he has a strong recent Mexico record, so he completes the podium ahead of Hamilton. Mexico’s altitude cuts downforce and drag and stresses cooling, but the forecast is largely dry for qualifying and the race, with no sprint and no leader grid penalties flagged. McLaren has faded. Antonelli only needs P9 to be champion, but he has no reason to cruise if the car is again the class of the field.\"\n}",
+      "tokensUsed": 122216,
+      "costUsd": 0.198784,
+      "createdAt": "2026-10-28T09:12:04.055Z"
+    },
+    {
+      "id": 595,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Oscar Piastri\",\"reasoning\":\"Piastri showed strong race pace in Austin, finishing ahead of Russell and closing on the leaders before Ferrari's strategy prevailed. McLaren arrives in Mexico with a competitive package, and Piastri's ability to execute races well has been evident all season. The high-altitude circuit with its low-grip surface could play into his wheel-to-wheel strengths, and if Ferrari and Mercedes focus on their own title battles, Piastri could slip through for a podium or better. He's demonstrated he can capitalize when front-runners are distracted, and Mexico City's long run to Turn 1 offers an overtaking opportunity that suits his precision.\",\"is_team\":false,\"referenced_id\":\"piastri\"},\"flop\":{\"name\":\"George Russell\",\"reasoning\":\"Russell arrives in Mexico on the back of his worst weekend in recent memory. He finished 54 seconds behind Antonelli in Austin, received a penalty for a first-lap incident, and admitted he lacked pace without knowing why. His title hopes are effectively over, and the psychological weight of that, combined with the unique demands of Mexico City's high-altitude, low-grip surface, could see him struggle again. Russell has been unable to match Antonelli's confidence with Mercedes' updated package, and a circuit that demands car confidence and precision could compound his difficulties. Expecting him to bounce back strongly ignores the underlying issues.\",\"is_team\":false,\"referenced_id\":\"russell\"},\"crazy_prediction\":{\"prediction\":\"Both Mercedes and Ferrari score zero points in the race.\",\"reasoning\":\"This outcome, while unlikely, is supported by multiple converging factors. Rain is forecast for Friday and Saturday, which could compromise both teams' data collection on Pirelli's new softer tire compounds. Mercedes arrives with Russell struggling and Antonelli under enormous pressure to clinch the title, which could lead to uncharacteristic errors. Ferrari's strong recent form masks that both Hamilton and Leclerc are in close championship contention and could cancel each other out through contact or defensive racing. The high-altitude Mexico City circuit historically produces chaos, and without DRS (replaced by Overtake Mode and active aero in 2026), overtaking is more difficult, increasing the likelihood of contact among title-fighting drivers. Both teams retiring or scoring no points would require multiple reliability failures or incidents, but the combination of weather uncertainty, psychological pressure, and the demanding circuit makes this a credible shock outcome.\"}}",
+      "tokensUsed": 5175,
+      "costUsd": 0.00959524,
+      "createdAt": "2026-10-28T09:12:04.074Z"
+    },
+    {
+      "id": 584,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Ferrari\",\n    \"reasoning\": \"Ferrari enter Mexico with strong momentum following back-to-back second-place finishes for Charles Leclerc in Singapore and Austin, with Lewis Hamilton finishing fourth at COTA as reported by [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). The high-altitude Autódromo Hermanos Rodríguez historically suits Ferrari well—having won in 2024 and scored double podiums—and with Mercedes potentially playing it safe to wrap up Kimi Antonelli's championship, Ferrari are poised to outperform their rival frontrunners this weekend.\",\n    \"is_team\": true,\n    \"referenced_id\": \"ferrari\"\n  },\n  \"flop\": {\n    \"name\": \"Russell\",\n    \"reasoning\": \"George Russell endured a dismal United States Grand Prix, finishing 54 seconds behind his teammate Antonelli and struggling heavily for race pace on Medium tyres, according to [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). With Antonelli on the brink of securing the championship and Russell under fierce pressure from Hamilton and Verstappen in the standings, Russell's lingering setup difficulties on low-grip surfaces like Mexico City make him vulnerable to another underwhelming weekend.\",\n    \"is_team\": false,\n    \"referenced_id\": \"russell\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Both Ferrari drivers finish on the podium.\",\n    \"reasoning\": \"Both Charles Leclerc and Lewis Hamilton displayed rapid race pace on the softer compounds in Austin, closing right up to the frontrunners in the final stint as noted by [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). With Antonelli needing only a cautious top-nine finish to secure the world title and Russell struggling for pace, Ferrari's historical strength at Mexico's high-altitude layout provides an ideal opportunity for a double podium.\"\n  }\n}",
+      "tokensUsed": 4483,
+      "costUsd": 0.01184425,
+      "createdAt": "2026-10-28T09:12:04.075Z"
+    },
+    {
+      "id": 591,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\"good_surprise\": {\"name\": \"Ferrari\", \"reasoning\": \"Ferrari arrive with genuine momentum: Leclerc finished second in both Singapore and Austin, and Hamilton was fourth at COTA, crossing the line just one second off the podium after a sharp two-stop strategy. Mexico has been one of their strongest recent venues - Sainz won here for the team in 2024 with Leclerc third, and Leclerc finished second last year while holding off Verstappen. Both drivers sit within nine points of second in the championship and have every incentive to attack. With rain threatening Saturday qualifying and the thin air at 2,200m neutralizing some of Mercedes' edge, Ferrari can beat expectations with both cars fighting at the front.\", \"is_team\": true, \"referenced_id\": \"ferrari\"}, \"flop\": {\"name\": \"McLaren\", \"reasoning\": \"McLaren have faded as the 2026 development race has moved on: Mercedes' updated package is dominating (Antonelli has nine wins) and Ferrari out-raced them in Austin, where Leclerc and Hamilton both passed Norris in the closing laps and Piastri finished only seventh, just ahead of the penalized Russell. Norris won here last year, which keeps expectations inflated, but the 2026 formula - no DRS, active aero, low grip and cooling stress at altitude - currently rewards exactly what Mercedes and Ferrari do well. Another weekend behind both Mercedes and Ferrari cars, with no podium threat, would confirm their slide and count as a clear underperformance given their driver line-up and last year's victory at this track.\", \"is_team\": true, \"referenced_id\": \"mclaren\"}, \"crazy_prediction\": {\"prediction\": \"Kimi Antonelli scores no points in Mexico City.\", \"reasoning\": \"Antonelli needs only ninth place to clinch the title and arrives off a pole-and-win weekend in Austin, so a scoreless Sunday is genuinely unlikely - which is exactly what makes it bold. But Mexico's long run to Turn 1 is one of the most chaotic starts of the year (the leaders went four abreast last year and an opening-lap penalty resulted), Saturday qualifying carries a strong rain risk that could shuffle him into the midfield pack, the extreme altitude punishes cooling on a brand-new 2026 package, and with no DRS and an unproven Overtake Mode at this circuit a recovery drive is far from guaranteed. One first-lap tangle or reliability glitch turns a coronation into a pointless afternoon.\"}}",
+      "tokensUsed": 10897,
+      "costUsd": 0.1088316,
+      "createdAt": "2026-10-28T09:12:04.076Z"
+    },
+    {
+      "id": 582,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Williams\",\n    \"reasoning\": \"My pick to outperform expectations is Williams, with both cars capable of challenging for points. Mexico City's roughly 2,200-metre altitude reduces aerodynamic loading, making braking confidence, mechanical grip and cooling important differentiators. Albon and Sainz offer an experienced pairing for that challenge. This is a circuit-based forecast: I cannot access live news here or verify 2026 results, upgrades, championship standings or this weekend's weather.\",\n    \"is_team\": true,\n    \"referenced_id\": \"williams\"\n  },\n  \"flop\": {\n    \"name\": \"Aston Martin\",\n    \"reasoning\": \"I predict Aston Martin will score fewer points than its underlying pace suggests. Mexico's thin air creates an unusually demanding cooling and turbo operating environment. The team's first season with Honda under the new regulations makes power-unit integration a plausible vulnerability, although I cannot verify any actual reliability problems or cooling limitations.\",\n    \"is_team\": true,\n    \"referenced_id\": \"aston-martin\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Gasly finishes on the podium in Mexico City.\",\n    \"reasoning\": \"This is a deliberately low-confidence outsider pick, not a claim supported by verified weekend news. Gasly has previously converted unusual opportunities into podiums, while Mexico's cooling demands and long run to the opening corner can disrupt the expected order. Reduced aerodynamic loading also changes the competitive balance. A well-executed race could give him an opening, but Alpine's actual 2026 form remains unverified.\"\n  }\n}",
+      "tokensUsed": 1736,
+      "costUsd": 0.008906,
+      "createdAt": "2026-10-28T09:12:04.077Z"
+    },
+    {
+      "id": 590,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Williams\",\n    \"reasoning\": \"Mexico City's 2,000m-plus altitude strips downforce and grip, conditions where Williams has historically punched above its weight, and Carlos Sainz won at this circuit in 2024 with Ferrari, so he knows how to read the low-grip surface. Rain is forecast for Friday and again for Saturday afternoon right around qualifying (59% chance), which could shuffle the grid and hand a well-prepared midfield team a top-six start [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). With no DRS under the 2026 rules and Overtake Mode plus active aero instead, the huge run to Turn 1 becomes the main passing zone, so a strong qualifying position is unusually valuable for holding track position on Sunday. Pirelli's softer 2026 Hard (now C3, one step softer than last year's C2) also gives teams outside the top four a realistic one-stop option to steal points [bbc.com](https://www.bbc.com/sport/formula1/articles/c6wyrgejp0w8o).\",\n    \"is_team\": true,\n    \"referenced_id\": \"williams\"\n  },\n  \"flop\": {\n    \"name\": \"Russell\",\n    \"reasoning\": \"Russell crossed the line 54.303 seconds behind team-mate Antonelli in Austin in identical machinery, admitted he lacked pace and did not know why, and served a five-second penalty for leaving the track and gaining an advantage at Turn 13 [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). He is now the only one of the four drivers covered by nine points in the fight for second who has no momentum, with Leclerc, Hamilton and Verstappen all outscoring him in Austin, and he has publicly said second, third or fifth in the drivers' standings is not the championship, which points to a driver whose weekend motivation is now the constructors' title. Mercedes' priority in Mexico is getting Antonelli to ninth for the title, and the thin air makes cooling and tyre warm-up harder, precisely the areas where Russell struggled on the Mediums in Texas.\",\n    \"is_team\": false,\n    \"referenced_id\": \"russell\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Charles Leclerc wins the Mexico City Grand Prix.\",\n    \"reasoning\": \"Mercedes have the strongest package and Antonelli has won nine races, so a Ferrari victory would be a genuine upset, but the evidence supports it. Leclerc has finished second in each of the last two rounds, Singapore and Austin, and in Texas Ferrari won with strategy, the second-stop Hard stint carrying him past Norris and then Verstappen on track [coffeecornermotorsport.com](https://coffeecornermotorsport.com/mexico-city-grand-prix-2026-preview/). Mexico has been Ferrari territory recently: Sainz won here in 2024 and Leclerc finished second last year, holding off Verstappen in the closing laps. The circuit's thin air cuts drag, so an efficient car can stay in touch on the long straights, and the softest C3/C4/C5 trio in the 2026 range plus a possible wet qualifying session create exactly the kind of shuffled grid and opportunistic one-stop race Ferrari has exploited. Mercedes also has every incentive to run Antonelli conservatively, since ninth place alone clinches the title, and the first-lap funnel at Turn 1 where the leaders went four abreast last year is a genuine wildcard for the front of the field.\",\n    \"is_team\": false,\n    \"referenced_id\": \"leclerc\"\n  }\n}",
+      "tokensUsed": 8514,
+      "costUsd": 0.010187992,
+      "createdAt": "2026-10-28T09:12:04.077Z"
+    },
+    {
+      "id": 586,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Red Bull Racing\",\"reasoning\":\"Red Bull look set to do better than people expect from them as the third or fourth best team. They're level with McLaren on 355 points in the constructors' standings and have both cars on the pace: Verstappen finished third in Austin, and Hadjar qualified third there before dropping to sixth. ESPN's preview says Red Bull are 'a looming threat each weekend after bringing major upgrades' and notes that Verstappen has won five times in Mexico City. Mexico is an odd track. The thin air at 2,200m cuts drag and makes cooling and power delivery the key factors. This is also the first time these 2026 cars run there with low downforce, and Vasseur admits 'no one knows how these new cars will perform at altitude.' That kind of uncertainty helps a team with an in-form car, a driver who goes well at this circuit and a strong recent upgrade path. I expect both Red Bulls in the top six and a real chance of the win. I picked the team rather than one driver for the double points.\",\"is_team\":true,\"referenced_id\":\"red-bull\"},\"flop\":{\"name\":\"Russell\",\"reasoning\":\"Russell is still second in the championship, but his form is poor. He finished eighth in Austin after a five-second penalty and spent the race stuck behind Piastri while his teammate won from pole. With Antonelli needing only a top-nine finish to take the title, Mercedes will probably run a cautious, low-risk weekend focused on getting Antonelli to the flag, so Russell won't get much strategic help. Only nine points cover four drivers fighting for second, so he could lose places in the standings. The cooling problems at altitude and the new low-downforce setup add more risk for a driver who is already off form. I expect him to finish outside the top five and behind at least one Ferrari and one Red Bull.\",\"is_team\":false,\"referenced_id\":\"russell\"},\"crazy_prediction\":{\"prediction\":\"No Mercedes driver finishes on the podium in Mexico City.\",\"reasoning\":\"Mercedes lead the constructors' standings by 133 points and Antonelli has won nine races, so a weekend without a Mercedes on the podium would be a big surprise. It's still credible. The race is mainly about Antonelli clinching the title, and he only needs ninth place. That gives Mercedes a reason to manage engine temperatures and avoid risky fights on Mexico's very long run to Turn 1, where slipstreams and three-wide moves are common. The altitude puts heavy cooling demands on the new 2026 power units, and nobody, Vasseur and Verstappen included, knows how these cars will behave there. That could shake up the order. Russell is off form after finishing eighth with a penalty in Austin. Meanwhile, Ferrari's upgrade looked strong (Leclerc second and Hamilton fourth in Austin), Ferrari are bringing bigger cooling openings for Mexico, and Red Bull bring upgrades and Verstappen's record of five wins here. Four strong contenders from those two teams could fill all three podium places. Clear skies are forecast with only a small chance of rain, so this would be decided on pace and strategy, not a weather lottery.\"}}",
+      "tokensUsed": 58992,
+      "costUsd": 0.300192,
+      "createdAt": "2026-10-28T09:12:04.078Z"
+    },
+    {
+      "id": 594,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the Mexico City Grand Prix (Round 19, 2026-11-01) at Mexico City, Mexico.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Ferrari\",\n    \"reasoning\": \"Ferrari's Austin floor, sidepod and diffuser upgrade was validated by Leclerc's second and Hamilton's fourth, and the team sees Mexico altitude as a real chance to win again. The SF-26 runs hot with smaller radiators and an advanced blown-floor concept, so it may open fewer cooling exits than rivals and keep more downforce where thin air cuts load by about 20 percent and forces everyone to trade aero for cooling. The market still prices a Ferrari win as a long shot behind Verstappen and Antonelli, so a front-running Ferrari weekend would beat expectations.\",\n    \"is_team\": true,\n    \"referenced_id\": \"ferrari\"\n  },\n  \"flop\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"McLaren has faded from its 2025 dominance, with tyre overheating and balance problems through 2026. Stella said Austin race pace matched Ferrari and Red Bull, but the cars only finished fifth and seventh, and the team is bringing little new to Mexico, with the next upgrades aimed at Brazil and Las Vegas. Altitude punishes cooling and tyre temperature, exactly where the MCL40 has been weak, while Red Bull has a specific Mexico cooling tweak. Norris's 2025 win here will inflate expectations the 2026 car is unlikely to meet.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Leclerc wins the Mexico City Grand Prix.\",\n    \"reasoning\": \"Leclerc is only about 8/1 to 10/1, behind Verstappen, the five-time Mexico winner and betting favourite after Malaysia and Singapore, and Antonelli, who has nine wins and just dominated Austin. Leclerc has podiums in his last two races, a strong Mexico record, and a Ferrari that just proved its upgrade and should lose less to altitude cooling than its rivals. That is enough for one unlikely but credible win.\"\n  }\n}",
+      "tokensUsed": 82232,
+      "costUsd": 0.181556,
+      "createdAt": "2026-10-28T09:12:04.078Z"
+    },
+    {
+      "id": 592,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Mexico City Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"191\":[1883,1879,1881],\"192\":[1905],\"193\":[1922],\"194\":[1926],\"195\":[1930],\"196\":[1949],\"197\":[1960],\"198\":[1967],\"199\":[1973],\"200\":[1975]},\"reasoning\":\"Research indicates Kimi Antonelli leads the 2026 Championship by 81 points and can clinch the title at Mexico City, showing dominant form. The Mexico City circuit's high altitude (2,240m) typically hurts high-downforce cars like McLaren more than competitors, making Ferrari and Mercedes relatively stronger. For the podium, I back Norris for P1 (McLaren pace), Antonelli for P2 (championship leader form), and Leclerc for P3 (Ferrari's altitude advantage and consistent Mexico City performances). Norris takes pole given McLaren's raw qualifying pace despite altitude challenges. Bearman leads Ocon in the H2H as per the question prompt. Aston Martin struggles at altitude with their AMR26, predicting Q1 exit. Leclerc set consecutive fastest laps and should continue this trend. Red Bull maintains pitstop excellence. Lindblad at Racing Bulls offers the best value pick against midfield rivals. The tight first corner at Mexico City historically causes incidents, predicting 17 classified finishers. Perez in his home grand prix with Cadillac (new to the grid) is likely not classified. Russell finishes second in the championship standings behind Antonelli based on current points projections.\"}",
+      "tokensUsed": 5873,
+      "costUsd": 0.00914998,
+      "createdAt": "2026-10-28T09:12:04.369Z"
+    },
+    {
+      "id": 576,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Mexico City Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"191\": [1878, 1879, 1880],\n    \"192\": [1900],\n    \"193\": [1922],\n    \"194\": [1925],\n    \"195\": [1930],\n    \"196\": [1949],\n    \"197\": [1960],\n    \"198\": [1967],\n    \"199\": [1973],\n    \"200\": [1975]\n  },\n  \"reasoning\": \"Max Verstappen and Red Bull excel at the high-altitude Autodromo Hermanos Rodriguez, making him a prime candidate for pole and the race win, with championship leader Kimi Antonelli and George Russell closely following on Mercedes' strong 2026 pace. Oliver Bearman retains the upper hand over Esteban Ocon in qualifying. Aston Martin is projected to cap out in Q2 given their relative midfield standing. Charles Leclerc has demonstrated rapid late-race pace and tyre management to target fastest lap. Red Bull remains the benchmark in pit stops, while Arvid Lindblad leads the competitive midfield group. With historical attrition in Turn 1, around 17 classified finishers is expected, and Sergio Perez in the Cadillac is likely to finish outside the top 10. George Russell holds second in the standings behind Antonelli.\"\n}",
+      "tokensUsed": 5377,
+      "costUsd": 0.01201075,
+      "createdAt": "2026-10-28T09:12:04.371Z"
+    },
+    {
+      "id": 589,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Mexico City Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"191\":[1879,1878,1880],\"192\":[1901],\"193\":[1922],\"194\":[1925],\"195\":[1930],\"196\":[1949],\"197\":[1960],\"198\":[1967],\"199\":[1973],\"200\":[1975]},\"reasoning\":\"Research indicates Mercedes is the dominant force in the 2026 season, with Kimi Antonelli holding a commanding ~81-point championship lead over teammate George Russell and positioned to clinch the title in Mexico City (per [archyde.com](https://www.archyde.com/kimi-antonelli-spanish-gp-win-when-can-he-clinch-the-2026-f1-title/)). Podium: Antonelli P1 to seal the title, Verstappen P2 given his record five Mexico wins and Red Bull's historical altitude strength, Russell P3 as the consistent second Mercedes. Qualifying: backing the dominant Mercedes package with Antonelli for pole on a track rewarding power-unit efficiency at altitude. Bearman leads Ocon in the 2026 qualifying head-to-head, so I follow that trend. Aston Martin's odds profile suggests a weak 2026 car, but Alonso's qualifying craft should drag at least one car into Q2. Leclerc is chasing a third consecutive fastest lap, and the prompt's own framing supports backing his streak to continue. Red Bull remains the safest pitstop pick after years of topping the DHL rankings. Lindblad is the strong market favorite among the midfield quartet, reflecting Racing Bulls' competitive 2026 form. Mexico's notorious Turn 1 chaos at altitude supports moderate attrition: 17 classified finishers. Perez, in the new (and likely backmarker) Cadillac, should finish 11th-22nd despite home support. Finally, Russell's large cushion over Hamilton/Verstappen/Leclerc makes him the favorite to leave Mexico still second in the standings behind champion-elect Antonelli.\"}",
+      "tokensUsed": 9339,
+      "costUsd": 0.059724162,
+      "createdAt": "2026-10-28T09:12:04.371Z"
+    },
+    {
+      "id": 581,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Mexico City Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"191\": [1878, 1879, 1880],\n    \"192\": [1900],\n    \"193\": [1922],\n    \"194\": [1925],\n    \"195\": [1927],\n    \"196\": [1949],\n    \"197\": [1960],\n    \"198\": [1967],\n    \"199\": [1973],\n    \"200\": [1975]\n  },\n  \"reasoning\": \"2026 context: Kimi Antonelli leads the championship by 81 points over Mercedes teammate George Russell and is projected to clinch the title at Mexico City, confirming Mercedes as the dominant package with Red Bull/Verstappen close behind (per Archyde/RacingNews365 projections). Q191 Podium: I ordered Verstappen (lowest odds, 5 pts, strong Mexico record), Antonelli (championship leader), Russell (Mercedes 1-2 threat) as the three most likely top-3 finishers. Q192 Fastest in qualifying: Verstappen, the shortest-priced option (10 pts) and a renowned one-lap specialist. Q193 Haas head-to-head: Bearman, who leads the intra-team qualifying battle and is the favored (10 pts) pick over Ocon. Q194 Aston Martin's furthest qualifying progress: Q2, a middle-ground call given the altitude sensitivity and the team's uncertain 2026 pace. Q195 Fastest race lap: Verstappen (10 pts), the safest option despite Leclerc's recent fastest-lap streak. Q196 Fastest pitstop: Red Bull Racing (10 pts), historically the benchmark crew. Q197 Midfield head-to-head: Arvid Lindblad (10 pts), the lowest-odds/most-favored of the four. Q198 Classified finishers: 17 (10 pts), the most likely outcome given typical attrition and Mexico's first-corner risk. Q199 Sergio Perez: 11th-22nd (10 pts), as the Cadillac is a backmarker package and a podium is highly unlikely. Q200 Second in the championship: George Russell (10 pts), who currently sits second behind title-bound Antonelli.\"\n}",
+      "tokensUsed": 8340,
+      "costUsd": 0.0100706,
+      "createdAt": "2026-10-28T09:12:04.372Z"
+    },
+    {
+      "id": 578,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Mexico City Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"191\": [1878, 1879, 1881],\n    \"192\": [1903],\n    \"193\": [1922],\n    \"194\": [1925],\n    \"195\": [1930],\n    \"196\": [1949],\n    \"197\": [1961],\n    \"198\": [1968],\n    \"199\": [1973],\n    \"200\": [1975]\n  },\n  \"reasoning\": \"Live news, practice results, weather, penalties and championship standings could not be independently verified; these predictions use the supplied form indicators and odds alongside historical track characteristics. Verstappen's strong Mexico record supports the win, with Antonelli and Leclerc completing the podium. Leclerc is the bolder pole selection, while his stated consecutive fastest laps support another. Bearman's supplied qualifying advantage favors him over Ocon. Aston Martin reaching Q2 is a measured expectation, and Red Bull's established pit-stop strength earns that pick. Hulkenberg is an experience-led midfield alternative. Mexico's thin air challenges cooling and braking, supporting 18 classified finishers rather than an exceptionally clean race. Perez finishing outside the points is more plausible than a Cadillac breakthrough, while Russell is the supplied favorite to retain second in the championship.\"\n}",
+      "tokensUsed": 3172,
+      "costUsd": 0.0110785,
+      "createdAt": "2026-10-28T09:12:04.373Z"
+    },
+    {
+      "id": 585,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Mexico City Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"191\":[1878,1879,1881],\"192\":[1901],\"193\":[1922],\"194\":[1926],\"195\":[1930],\"196\":[1953],\"197\":[1960],\"198\":[1968],\"199\":[1973],\"200\":[1977]},\"reasoning\":\"Antonelli leads the championship with 365 points after round 18 and only needs to finish ninth or better in Mexico to clinch the title. He won Austin from pole and has won 9 of 18 races. Bookmakers still make Verstappen a narrow favourite for this race (about 6/4 against Antonelli's 7/4). Verstappen has won here five times, scored two wins before Austin and has six podiums in a row. Leclerc has three straight Mexico podiums and two second places in a row with the upgraded Ferrari, so my podium is Verstappen, Antonelli, Leclerc. For pole I picked Antonelli because he qualifies very well this year and was 0.179s clear of Verstappen in Austin. Leclerc has set four fastest laps this year, including the last two, so I picked him to make it three. For the fastest pit stop I went with McLaren as a value pick: they had the fastest stop in Austin (2.11s), while Red Bull has the best average but only pays 10 points. Aston Martin finished 15th and 16th in Austin and look slow, so I expect both to go out in Q1. In the midfield, Racing Bulls is the strongest team, so I picked Lindblad. Bearman leads the Haas qualifying head-to-head and has far more points than Ocon. Perez finished 19th in Austin in a slow Cadillac, so I picked 11th-22nd. Austin had 19 finishers, but Mexico often has first-corner crashes, so I picked 18. For second in the championship, Russell (242), Hamilton (241), Verstappen (236) and Leclerc (233) are very close, and Verstappen as race favourite is the most likely to take second at a 20-point payout.\"}",
+      "tokensUsed": 105541,
+      "costUsd": 0.488628,
+      "createdAt": "2026-10-28T09:12:04.374Z"
+    },
+    {
+      "id": 593,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"Mexico City Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "{\"answers\":{\"191\":[1878,1880,1879],\"192\":[1900],\"193\":[1922],\"194\":[1925],\"195\":[1927],\"196\":[1949],\"197\":[1960],\"198\":[1967],\"199\":[1973],\"200\":[1975]},\"reasoning\":\"2026 Mexico City is a high-altitude, low-downforce circuit that historically rewards power unit efficiency, cooling, and straight-line speed. Recent form and expert consensus still put Verstappen and Red Bull at the front on race pace and qualifying, with Mercedes close behind via Russell and Antonelli. McLaren and Ferrari are competitive but less favored at altitude than at high-downforce tracks. Podium: Verstappen, Russell, Antonelli. Pole: Verstappen. Bearman over Ocon on the stated qualifying H2H. Aston Martin most likely out in Q2. Fastest lap: Verstappen on a late soft. Fastest pit stop: Red Bull. Midfield head-to-head: Lindblad. Classified finishers: 17, allowing for a typical Mexico first-lap incident without a mass retirement. Perez in a new Cadillac is expected outside the points. Championship P2 after the race: Russell, assuming Verstappen is the title favorite and Mercedes has the stronger recent points haul.\"}",
+      "tokensUsed": 5437,
+      "costUsd": 0.010546,
+      "createdAt": "2026-10-28T09:12:04.374Z"
+    }
+  ]
+}
