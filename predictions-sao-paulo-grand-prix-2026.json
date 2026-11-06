@@ -1,0 +1,1165 @@
+{
+  "exportType": "race_predictions",
+  "raceId": "brazil-2026",
+  "raceName": "São Paulo Grand Prix",
+  "raceDate": "2026-11-08",
+  "isSprint": false,
+  "lineup": {
+    "status": "provisional",
+    "source": "admin",
+    "confirmedAt": null,
+    "entries": [
+      {
+        "driverId": "norris",
+        "driver": "Lando Norris",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "piastri",
+        "driver": "Oscar Piastri",
+        "teamId": "mclaren",
+        "team": "McLaren",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hamilton",
+        "driver": "Lewis Hamilton",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "leclerc",
+        "driver": "Charles Leclerc",
+        "teamId": "ferrari",
+        "team": "Ferrari",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hadjar",
+        "driver": "Isack Hadjar",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "verstappen",
+        "driver": "Max Verstappen",
+        "teamId": "red-bull",
+        "team": "Red Bull Racing",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "antonelli",
+        "driver": "Kimi Antonelli",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "russell",
+        "driver": "George Russell",
+        "teamId": "mercedes",
+        "team": "Mercedes",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "alonso",
+        "driver": "Fernando Alonso",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "stroll",
+        "driver": "Lance Stroll",
+        "teamId": "aston-martin",
+        "team": "Aston Martin",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "colapinto",
+        "driver": "Franco Colapinto",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "gasly",
+        "driver": "Pierre Gasly",
+        "teamId": "alpine",
+        "team": "Alpine",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bearman",
+        "driver": "Ollie Bearman",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "camara",
+        "driver": "Rafael Camara",
+        "teamId": "haas",
+        "team": "Haas",
+        "slot": 2,
+        "isSubstitute": true
+      },
+      {
+        "driverId": "lawson",
+        "driver": "Liam Lawson",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "lindblad",
+        "driver": "Arvid Lindblad",
+        "teamId": "racing-bulls",
+        "team": "Racing Bulls",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "albon",
+        "driver": "Alexander Albon",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "sainz",
+        "driver": "Carlos Sainz",
+        "teamId": "williams",
+        "team": "Williams",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bortoleto",
+        "driver": "Gabriel Bortoleto",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "hulkenberg",
+        "driver": "Nico Hulkenberg",
+        "teamId": "audi",
+        "team": "Audi",
+        "slot": 2,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "bottas",
+        "driver": "Valtteri Bottas",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 1,
+        "isSubstitute": false
+      },
+      {
+        "driverId": "perez",
+        "driver": "Sergio Perez",
+        "teamId": "cadillac",
+        "team": "Cadillac",
+        "slot": 2,
+        "isSubstitute": false
+      }
+    ]
+  },
+  "exportedAt": "2026-11-06T12:19:37.580Z",
+  "predictions": {
+    "Anthropic": {
+      "predictor": "Claude Opus 5.5",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "Lewis Hamilton",
+        "pole": "Kimi Antonelli"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"No Mercedes driver finishes on the podium.\",\"reasoning\":\"Mercedes have dominated 2026. Antonelli has nine wins and is champion on 380 points, finished third in Mexico, and is the favourite here. Still, there are good reasons to think both cars could miss out. Antonelli has nothing left to race for after the title and was very emotional last weekend. Russell keeps having bad luck: in Mexico a software glitch ruined his start from second on the grid and he dropped to sixth on lap one. Verstappen has won in Mexico, is fighting Hamilton for second in the standings (two points apart) and has won here three times. Ferrari were on pole in Mexico, and McLaren bring a wing and floor upgrade to a track where Norris won from pole last year. Thunderstorms on Saturday and possible showers on Sunday make the grid and the race less predictable, as Interlagos often is. That makes a podium of Red Bull, Ferrari or McLaren drivers unlikely but believable.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari arrive as Mercedes' main challenger after Hamilton's first Ferrari pole and P2 in Mexico, and are seen as podium favourites. But things inside the team look shaky. Hamilton and Leclerc fought hard on the opening lap in Mexico and Leclerc got a 5-second penalty for cutting a corner. Verstappen got past them and won while they were battling, and Hamilton has since publicly questioned Leclerc's 'do-or-die' approach and asked for talks. Leclerc missed Thursday media day because his daughter was born, and Beganovic drives his car in FP1, so Leclerc loses a session of running before a likely wet qualifying. Ferrari also need to stay within three points of Mercedes to stop them clinching the constructors' title. With both cars racing each other, Leclerc short on preparation and changing weather, I expect them to miss the podium or lose points through a clash or strategy mistake, and they could let Mercedes clinch the title here.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Audi\",\"reasoning\":\"Audi go into the weekend in good shape. They scored points in Mexico for the eighth time this season and are only four points behind seventh-placed Haas (27 vs 31). Bortoleto recovered to eighth in Mexico despite barely running in practice, his third P8 of the year, and this is his home race. He is wearing a Senna-tribute helmet and has a big crowd behind him. Hulkenberg is one of the best drivers on the grid at Interlagos: he took pole here in the wet in 2010, led 30 laps in 2012 and has eight top-ten finishes, including P9 last year. He also looked set for points in Mexico before a late red flag. Thunderstorms are forecast for Saturday qualifying (about a 55% chance of rain) and showers are possible on Sunday, and Interlagos usually rewards midfield teams that keep things clean when conditions change. I expect Audi to get both cars into the points and possibly jump Haas, which is more than people expect of a debut works team.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the São Paulo Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Audi car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Ferrari",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Gabriel Bortoleto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Gabriel Bortoleto finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave São Paulo second in the Championship standings?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "DeepSeek": {
+      "predictor": "DeepSeek V4.1 Flash",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lewis Hamilton",
+        "podium_p3": "Lando Norris",
+        "pole": "Lewis Hamilton"
+      },
+      "subjective": {
+        "flop": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari arrives in Brazil with internal tension after Mexico, where Vasseur was unhappy that Hamilton and Leclerc fought each other and cost the team points, and clear-the-air talks were planned. Hamilton and Leclerc are also close in the Drivers' standings, so the risk of another costly inter-team battle or penalty remains high. Mercedes needs only to outscore Ferrari by three points to clinch the Constructors' title, adding pressure. Interlagos' wet forecast and old-school layout can punish mistakes, making Ferrari a plausible underperformer this weekend. Sources: [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren's MCL40 showed strong pace in Mexico even though Lando Norris finished fifth and Oscar Piastri was 13th after a penalty, and the team is bringing front and rear wing upgrades plus floor components to Interlagos. The McLaren preview notes São Paulo has been a good circuit for them and that the upgrades are aimed at closing the 17-point gap to Red Bull for third in the Constructors' Championship. Wet weather and Interlagos' overtaking zones at Turns 1 and 4 could help McLaren convert raw pace into a stronger-than-expected team result. Sources: [mclaren.com](https://www.mclaren.com/racing/formula-1/2026/sao-paulo-grand-prix/preview/), [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x).\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the São Paulo Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Audi car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Gabriel Bortoleto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Gabriel Bortoleto finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave São Paulo second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Google": {
+      "predictor": "Gemini 3.8 Flash",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lewis Hamilton",
+        "podium_p3": "Kimi Antonelli",
+        "pole": "Lewis Hamilton"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Both Ferrari drivers will finish on the podium.\",\"reasoning\":\"Ferrari had superior front-row pace in Mexico, with Hamilton taking pole and both drivers running 1-2 early on before intra-team squabbles cost them victory [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x). Following stern team orders and clear-the-air talks from Fred Vasseur, combined with wet weather forecast across the weekend [espn.com](https://www.espn.com/f1/story/_/id/50321090/sao-paulo-grand-prix-2026-brazil-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions) where Hamilton and Leclerc excel, Ferrari are positioned to execute a clean double podium.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Mercedes\",\"reasoning\":\"Mercedes need just three points over Ferrari to seal the Constructors' Championship, but recent momentum heavily favors the Scuderia, who have outscored them by 34 points across the last four rounds [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x). With newly crowned champion Antonelli riding the emotional wave of his title celebrations and Russell struggling for pace in recent races, Mercedes risk underperforming against rapid Ferrari and Red Bull machinery.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren are introducing a substantial aerodynamic update package for Interlagos, featuring revamped front and rear wings plus floor refinements [mclaren.com](https://www.mclaren.com/racing/formula-1/2026/sao-paulo-grand-prix/preview/). Sitting 17 points behind Red Bull for third in the standings, the undulating, aero-demanding São Paulo track suits their platform well, positioning both Norris and Piastri to outperform recent results and challenge the front-runners.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the São Paulo Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Audi car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Gabriel Bortoleto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Gabriel Bortoleto finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave São Paulo second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Human": {
+      "predictor": "Human",
+      "raceWeekend": {
+        "podium_p1": "Lewis Hamilton",
+        "podium_p2": "George Russell",
+        "podium_p3": "Charles Leclerc",
+        "pole": "George Russell"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "Rafa Camara makes Q2 on debut",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "Max Verstappen",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "Ferrari",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the São Paulo Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Audi car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Gabriel Bortoleto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "15",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Gabriel Bortoleto finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave São Paulo second in the Championship standings?",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "MiniMax": {
+      "predictor": "MiniMax M2.7",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lewis Hamilton",
+        "podium_p3": "Lando Norris",
+        "pole": "Lewis Hamilton"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Mercedes clinches the Constructors' Championship this weekend.\",\"reasoning\":\"Mercedes needs to outscore Ferrari by just three points to clinch the title in Brazil, with a maximum of 172 points still available after this weekend. Ferrari is fractured after their Mexico City drama, with team principal Fred Vasseur publicly furious at his drivers. The forecast predicts thundery showers for Saturday and light rain on race day, conditions that historically favor Mercedes and have caused Ferrari to struggle. With Antonelli already crowned World Champion and the pressure completely off Mercedes while Ferrari crumbles under it, a three-point swing is entirely achievable—especially if Ferrari's internal dysfunction continues into Brazil.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari heads to Brazil in turmoil after their Mexico City collapse, where internal team conflict cost them a potential 43 points when they scored only 30. Team Principal Fred Vasseur publicly criticized his drivers for putting their own fight above the team. The team has 126 points to make up on Mercedes in the Constructors' fight, and the tension between Hamilton and Leclerc, combined with the pressure of needing huge point swings, creates a recipe for further disaster. Interlagos's high-risk overtaking zones and potential wet weather will test driver relationships even more, and Ferrari's recent form suggests they cannot handle that pressure.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Norris\",\"reasoning\":\"Lando Norris dominated at Interlagos last year, winning from pole in a masterclass performance. McLaren is bringing significant upgrades (front wing, rear wing, floor components) to Brazil, and while they struggled in Mexico, the MCL40 showed strong underlying pace. Norris has proven he can perform under pressure at this specific circuit, and the upgrades could help him rediscover that winning form. With McLaren fighting to maintain third in the Constructors' Championship (17 points behind Red Bull), Norris has both the motivation and the track knowledge to deliver a surprise result.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Oscar Piastri",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Lando Norris",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the São Paulo Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Audi car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Fernando Alonso",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Gabriel Bortoleto finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave São Paulo second in the Championship standings?",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "Moonshot": {
+      "predictor": "Kimi K3",
+      "raceWeekend": {
+        "podium_p1": "Lewis Hamilton",
+        "podium_p2": "Max Verstappen",
+        "podium_p3": "Kimi Antonelli",
+        "pole": "Lewis Hamilton"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"No Mercedes or Ferrari driver finishes on the podium.\",\"reasoning\":\"The pieces for a shock podium are in place: Verstappen won in Mexico and recovered from the pit lane to P3 at this very track last year, while Norris dominated Interlagos in 2025 and McLaren arrive with a meaningful aero upgrade package. Thundery showers are forecast for Saturday and light rain for Sunday, and Interlagos weather famously scrambles the order. Ferrari's drivers are under fire from Vasseur after their costly Mexico clash with rules of engagement unresolved, risking another self-inflicted wound, while Antonelli may ride a post-title dip now the pressure is off and Russell was only sixth in Mexico. A Verstappen-Norris-led podium completed by an outsider such as Piastri, Hadjar or Alonso is genuinely live if the rain arrives.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Leclerc\",\"reasoning\":\"Leclerc's Mexico time penalty for the Turn 4 clash with Hamilton triggered a public rebuke from Vasseur, who accused both drivers of putting their private fight above the team. Clear-the-air talks and possible rules of engagement heading into Brazil could clip the wheel-to-wheel aggression that Interlagos' Turn 1/4 zones demand. He's slipped to fifth in the standings, 16 points behind Verstappen in the fight for P2, and carries the weight of Ferrari's fading Constructors' hopes with Mercedes able to clinch this weekend. The combination of team tension, scrutiny and pressure points to another scrappy, error-tinged weekend.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"McLaren bring a substantial upgrade package to Interlagos (front wing, rear wing and floor components per their own preview), and their technical chief calls it a representative track where they've historically gone well. Norris dominated this weekend last year (topped FP1, sprint pole, pole, win), and the MCL40 showed strong underlying pace in Mexico despite the disappointing haul (Norris 5th, Piastri penalised to 13th). They're 17 points behind Red Bull in the fight for P3 in the Constructors' and explicitly targeting a bounce-back, so motivation and track-specific confidence are high. Expect both cars to outscore Red Bull and re-ignite that battle.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the São Paulo Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Audi car will progress in qualifying?",
+          "selection": "Q3",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Gabriel Bortoleto",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Gabriel Bortoleto finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave São Paulo second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "OpenAI": {
+      "predictor": "GPT-6.1 Sol",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Lando Norris",
+        "podium_p3": "George Russell",
+        "pole": "Lando Norris"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Pierre Gasly finishes on the São Paulo Grand Prix podium.\",\"reasoning\":\"A podium is a substantially bolder version of the good-surprise pick. Gasly's Interlagos podiums in 2019 and 2024 provide a concrete historical precedent, while the 2024 Alpine double podium illustrates how dramatically disrupted running can change the competitive order here. This remains a speculative circuit-based call: without live research, I cannot claim that this weekend's weather, Alpine's 2026 pace or recent upgrades support it.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Stroll\",\"reasoning\":\"My subjective pick to finish outside the points. Interlagos places a premium on precision through elevation changes and traction-sensitive corners, with mistakes particularly costly in changeable conditions. Stroll's formation-lap exit in the wet 2024 race is a circuit-specific warning, although one incident is limited evidence. This pick is not based on verified 2026 performance, and I am not assuming rain is forecast.\"}",
+          "isTeam": false
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"Gasly\",\"reasoning\":\"My pick to outperform expectations by challenging for a top-six finish. Gasly finished second at Interlagos in 2019 and third in 2024, demonstrating an ability to capitalize on this circuit's opportunities. Its short lap and overtaking zones can reward opportunistic strategy. I cannot access live news here or verify November 2026 form, upgrades, championship standings or the weekend forecast; this is a historical, circuit-based prediction.\"}",
+          "isTeam": false
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Kimi Antonelli",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Charles Leclerc",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the São Paulo Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Audi car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Lewis Hamilton",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "McLaren",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "18",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Gabriel Bortoleto finish the race?",
+          "selection": "4th - 10th",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave São Paulo second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    },
+    "xAI": {
+      "predictor": "Grok 4.7",
+      "raceWeekend": {
+        "podium_p1": "Max Verstappen",
+        "podium_p2": "Kimi Antonelli",
+        "podium_p3": "Lewis Hamilton",
+        "pole": "Max Verstappen"
+      },
+      "subjective": {
+        "crazy_prediction": {
+          "text": "{\"name\":\"Pierre Gasly finishes on the podium.\",\"reasoning\":\"Alpine has been a clear midfield team in 2026, with Gasly 10th on 42 points and no suggestion of regular podium pace. Interlagos is the exception: Alpine has scored more points there than at any other circuit since 2021 and has scored at every race at the track in that span. Gasly already has podiums here in 2019 and 2024, calls it a special place, and said anything can happen. Official forecasts put significant rain risk on qualifying and about a 40 percent chance on Sunday, with an estimated 80 percent historical safety-car probability, which is exactly the kind of lottery that has produced Alpine results here before.\"}",
+          "isTeam": false
+        },
+        "flop": {
+          "text": "{\"name\":\"Aston Martin\",\"reasoning\":\"Both cars stopped within five laps in Mexico after Honda ERS cooling and MGU-K failures in thin air. Brazil is still a high-altitude race, and the promised hardware and software countermeasures are unproven. The AMR is already last-but-one in the constructors' with seven points all year. A bumpy, energy-heavy Interlagos, plus a real chance of rain and a safety car, is a poor place for a fragile power unit to bounce back.\"}",
+          "isTeam": true
+        },
+        "good_surprise": {
+          "text": "{\"name\":\"McLaren\",\"reasoning\":\"Expectations are low after Mexico (Norris fifth, Piastri outside the points) and Norris calling the MCL40 horrible, with McLaren 17 points behind Red Bull for third in the constructors'. They arrive with a targeted front-wing, rear-wing and floor package aimed at this fight, on a track where the team has historically been strong and Norris won in 2025. Interlagos rewards balance and traction, and a wet or mixed weekend should let the upgrades show up as a points haul above the recent run.\"}",
+          "isTeam": true
+        }
+      },
+      "fantasy": [
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "Lando Norris",
+          "selectionIndex": 2
+        },
+        {
+          "question": "Predict the podium for the 2026 São Paulo Grand Prix.",
+          "selection": "George Russell",
+          "selectionIndex": 3
+        },
+        {
+          "question": "Who'll be the fastest driver in qualifying?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who qualifies highest for the São Paulo Grand Prix?",
+          "selection": "Carlos Sainz",
+          "selectionIndex": 1
+        },
+        {
+          "question": "What is the furthest an Audi car will progress in qualifying?",
+          "selection": "Q2",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Who will set the fastest lap time of the race?",
+          "selection": "Max Verstappen",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which team will set the fastest pitstop time of the race?",
+          "selection": "Red Bull Racing",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver finishes ahead in Grand Prix?",
+          "selection": "Fernando Alonso",
+          "selectionIndex": 1
+        },
+        {
+          "question": "How many classified finishers?",
+          "selection": "17",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Where will Gabriel Bortoleto finish the race?",
+          "selection": "11th - 22nd",
+          "selectionIndex": 1
+        },
+        {
+          "question": "Which driver will leave São Paulo second in the Championship standings?",
+          "selection": "George Russell",
+          "selectionIndex": 1
+        }
+      ]
+    }
+  },
+  "generationLogs": [
+    {
+      "id": 606,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "\n\n{\n  \"pole\": \"hamilton\",\n  \"podium\": [\"verstappen\", \"hamilton\", \"norris\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Hamilton secured pole at Mexico City and Ferrari had the fastest package there, with the SF-26 suited to high-downforce circuits like Interlagos. His honorary citizenship of Brazil and three previous Interlagos victories make him a strong pole candidate. Verstappen won last time out in Mexico and has a strong Interlagos record with remarkable recovery drives; his experience at this track gives him the edge for the win despite starting from pit lane last year. Norris, who won in Brazil last season from pole, should challenge for the podium with McLaren's strong straight-line speed. Weather could shuffle the deck with thundery showers forecast for qualifying, but these three are most likely to dominate.\"\n}",
+      "tokensUsed": 3677,
+      "costUsd": 0.00823081,
+      "createdAt": "2026-11-06T12:12:46.002Z"
+    },
+    {
+      "id": 599,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"hamilton\",\n  \"podium\": [\"verstappen\", \"hamilton\", \"antonelli\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Interlagos features a traditional weekend format this year with no sprint event, alongside a weather forecast warning of potential rain showers on Saturday and Sunday as reported by [dive-bomb.com](https://www.dive-bomb.com/article/formula-one-preview-s%C3%A3o-paulo-grand-prix-1). Lewis Hamilton enters Brazil with strong qualifying form after taking pole in Mexico City and driving a competitive Ferrari package that thrives in undulating, high-downforce layouts as highlighted by [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x). In the race, Max Verstappen's supreme race execution and mastery in wet/mixed conditions make him the favorite to convert for Red Bull following his victory in Mexico according to [espn.com](https://www.espn.com/f1/story/_/id/50321090/sao-paulo-grand-prix-2026-brazil-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions). Newly crowned world champion Kimi Antonelli has the pressure off his shoulders and the Mercedes W17 remains consistently in the hunt for podiums to wrap up the Constructors' Championship.\"\n}",
+      "tokensUsed": 3566,
+      "costUsd": 0.0108445,
+      "createdAt": "2026-11-06T12:12:46.009Z"
+    },
+    {
+      "id": 602,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"hamilton\",\n  \"podium\": [\"hamilton\", \"verstappen\", \"antonelli\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Ferrari arrive at Interlagos with arguably the fastest package, having had the quickest car in Mexico City where Lewis Hamilton took his first Ferrari pole and finished P2; the SF-26's strength at elevation and in high-downforce sections should suit Interlagos' altitude (739m, second-highest of the season) and downforce-demanding Sector 2 [dive-bomb.com](https://www.dive-bomb.com/article/formula-one-preview-s%C3%A3o-paulo-grand-prix-1). Hamilton is an honorary Brazilian citizen with three Interlagos wins and a strong track record here, and with thundery showers forecast for Saturday qualifying and rain likely on Sunday, his wet-weather pedigree adds to his case for pole and the win [espn.com](https://www.espn.com/f1/story/_/id/50321090/sao-paulo-grand-prix-2026-brazil-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions). Max Verstappen won in Mexico (his third victory of 2026), sits P2 in the standings just two points ahead of Hamilton, and is always a threat in changeable conditions, making him the pick for P2 [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x). Newly crowned champion Kimi Antonelli, the youngest title-winner in F1 history, now races with zero pressure and finished P2 at Interlagos last year; with Mercedes pushing to clinch the Constructors' Championship in Brazil (needing to outscore Ferrari by three points), he should complete the podium [espn.com](https://www.espn.com/f1/story/_/id/50321090/sao-paulo-grand-prix-2026-brazil-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions). Ferrari's internal Hamilton-Leclerc tension after their Mexico clash could hamper Leclerc's challenge, while McLaren's 2025 Brazil dominance (Norris pole and win) hasn't translated into 2026 title contention. This is not a sprint weekend, so sprint fields are null [dive-bomb.com](https://www.dive-bomb.com/article/formula-one-preview-s%C3%A3o-paulo-grand-prix-1).\"\n}",
+      "tokensUsed": 4750,
+      "costUsd": 0.033312993,
+      "createdAt": "2026-11-06T12:12:46.010Z"
+    },
+    {
+      "id": 598,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"norris\",\n  \"podium\": [\"verstappen\", \"norris\", \"russell\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Low-confidence prediction: I cannot access live news or verify late-2026 results, upgrades, expert forecasts, weather, or penalties, so this is not a current-research-based forecast. Historically, Norris has demonstrated strong Interlagos qualifying pace, Verstappen exceptional racecraft and wet-weather performance, and Russell race-winning form here. Interlagos rewards traction, aerodynamic efficiency and tyre management, while changeable weather can disrupt the order. The 2026 regulation reset makes historical team performance a particularly uncertain guide.\"\n}",
+      "tokensUsed": 846,
+      "costUsd": 0.003796,
+      "createdAt": "2026-11-06T12:12:46.011Z"
+    },
+    {
+      "id": 600,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"hamilton\",\n  \"podium\": [\"verstappen\", \"hamilton\", \"norris\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"Interlagos hosts Round 20 as a conventional weekend (no Sprint). Key context: Antonelli clinched the 2026 title in Mexico City (P3), while Verstappen won there ahead of Hamilton (P2), Leclerc (P4) and Russell (P6) — and Hamilton took his first Ferrari pole. Ferrari had the fastest package in Mexico and the high-downforce Sector 2 plus altitude at Interlagos should again suit the SF-26, making Hamilton (an honorary Brazilian citizen with three wins here and a strong Interlagos record) a prime pole candidate, especially with thundery showers forecast for Saturday qualifying ([espn.com](https://www.espn.com/f1/story/_/id/50321090/sao-paulo-grand-prix-2026-brazil-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions), [dive-bomb.com](https://www.dive-bomb.com/article/formula-one-preview-s%C3%A3o-paulo-grand-prix-1)). For the race, mixed/wet conditions (light showers Sunday, cool ~17-19°C) favour Verstappen, who is the standout wet-weather driver and arrives on a win, with Red Bull's race pace strong. Ferrari's internal friction (Vasseur's clear-the-air talks after the Mexico Turn 4 clash) is a risk but the car's track fit keeps Hamilton on the podium. Norris/McLaren won dominantly here last year and remain a threat, so I slot Norris third ahead of Antonelli and Leclerc. Mercedes need only outscore Ferrari by three points to seal the Constructors' title, adding strategic tension ([formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x)).\"\n}",
+      "tokensUsed": 4298,
+      "costUsd": 0.00839208,
+      "createdAt": "2026-11-06T12:12:46.011Z"
+    },
+    {
+      "id": 604,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\"pole\":\"antonelli\",\"podium\":[\"verstappen\",\"antonelli\",\"hamilton\"],\"sprint_pole\":null,\"sprint_winner\":null,\"reasoning\":\"Antonelli comes to Interlagos as champion. He became the youngest ever title winner by finishing third in Mexico City (https://racingnews365.com/2026-f1-mexico-city-grand-prix-results) behind Verstappen and Hamilton. Going into Mexico, Mercedes had 607 constructors' points to Ferrari's 474 (https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix), so the Mercedes is still the best car over a lap, and f1-fansite names Antonelli the race favourite (https://www.f1-fansite.com/f1-news/mercedes-set-to-celebrate-another-title-2026-sao-paulo-gp-preview/). That is why I have him on pole. Verstappen is the most in-form driver: he has won three of the last four races and finished on the podium in each of the last seven (https://www.covers.com/f1/sao-paulo-grand-prix-predictions-picks-odds-2026). He also has a strong Interlagos record, including winning from 17th on the grid in the 2024 wet race (https://www.formulaonehistory.com/2026-sao-paulo-grand-prix/). Rain is forecast: there is a 55% chance of thunderstorms for qualifying and 25% for a cool race day (https://www.f1-fansite.com/f1-news/mercedes-set-to-celebrate-another-title-2026-sao-paulo-gp-preview/). Mixed conditions suit Verstappen's racecraft, so I have him winning. Hamilton took pole in Mexico and finished only 0.8s behind Verstappen, and Interlagos has a similar layout (https://www.covers.com/f1/sao-paulo-grand-prix-predictions-picks-odds-2026). Leclerc is a risk because he missed media day for the birth of his daughter and Dino Beganovic is driving his car in FP1 (https://grandepremio.com/en/f1/lance-stroll-and-charles-leclerc-miss-sao-paulo-gp-media-day/). Russell qualified second in Mexico but lost several places at the start to a software glitch (https://www.skysports.com/f1/news/13608315/george-russell-mercedes-driver-questions-frequency-of-atrocious-luck-during-2026-f1-season-after-team-mate-kimi-antonelli-crowned-champion), and his luck has been poor all year. McLaren is bringing upgrades, but Norris has called the car 'horrible' and isn't sure they will help (same Sky Sports article). These picks are from searches made before practice, so no FP1 or FP2 times are factored in.\"}",
+      "tokensUsed": 76285,
+      "costUsd": 0.358164,
+      "createdAt": "2026-11-06T12:12:46.020Z"
+    },
+    {
+      "id": 611,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "race_weekend",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nThis is NOT a Sprint weekend. Set sprint_pole and sprint_winner to null.\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, and any news that might affect the race outcome.",
+      "fullResponse": "{\n  \"pole\": \"verstappen\",\n  \"podium\": [\"verstappen\", \"antonelli\", \"hamilton\"],\n  \"sprint_pole\": null,\n  \"sprint_winner\": null,\n  \"reasoning\": \"After Mexico, Antonelli is already champion (380 pts) with Verstappen (261), Hamilton (259), Russell (250) and Leclerc (245) fighting for the remaining places. Verstappen won Mexico from P5 and has taken three of the last four races, with a strong Interlagos record including a wet win from 17th in 2024. Hamilton took his first Ferrari pole in Mexico and finished second, and he has a long history of strong results in Brazil. Russell takes a five-place ICE grid penalty, which hurts his podium chances on a track that still rewards race pace and overtaking. Official and local forecasts put a roughly 50% chance of significant rain on Saturday afternoon (qualifying window) and about 40% on a cooler Sunday, which favors Verstappen in mixed conditions. Market and preview consensus has him as race favorite ahead of Antonelli, with Hamilton the best value for the final podium step over Leclerc and a penalized Russell.\"\n}",
+      "tokensUsed": 96219,
+      "costUsd": 0.182018,
+      "createdAt": "2026-11-06T12:12:46.021Z"
+    },
+    {
+      "id": 607,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Norris\",\"reasoning\":\"Lando Norris dominated at Interlagos last year, winning from pole in a masterclass performance. McLaren is bringing significant upgrades (front wing, rear wing, floor components) to Brazil, and while they struggled in Mexico, the MCL40 showed strong underlying pace. Norris has proven he can perform under pressure at this specific circuit, and the upgrades could help him rediscover that winning form. With McLaren fighting to maintain third in the Constructors' Championship (17 points behind Red Bull), Norris has both the motivation and the track knowledge to deliver a surprise result.\",\"is_team\":false,\"referenced_id\":\"norris\"},\"flop\":{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari heads to Brazil in turmoil after their Mexico City collapse, where internal team conflict cost them a potential 43 points when they scored only 30. Team Principal Fred Vasseur publicly criticized his drivers for putting their own fight above the team. The team has 126 points to make up on Mercedes in the Constructors' fight, and the tension between Hamilton and Leclerc, combined with the pressure of needing huge point swings, creates a recipe for further disaster. Interlagos's high-risk overtaking zones and potential wet weather will test driver relationships even more, and Ferrari's recent form suggests they cannot handle that pressure.\",\"is_team\":true,\"referenced_id\":\"ferrari\"},\"crazy_prediction\":{\"prediction\":\"Mercedes clinches the Constructors' Championship this weekend.\",\"reasoning\":\"Mercedes needs to outscore Ferrari by just three points to clinch the title in Brazil, with a maximum of 172 points still available after this weekend. Ferrari is fractured after their Mexico City drama, with team principal Fred Vasseur publicly furious at his drivers. The forecast predicts thundery showers for Saturday and light rain on race day, conditions that historically favor Mercedes and have caused Ferrari to struggle. With Antonelli already crowned World Champion and the pressure completely off Mercedes while Ferrari crumbles under it, a three-point swing is entirely achievable—especially if Ferrari's internal dysfunction continues into Brazil.\"}}",
+      "tokensUsed": 4541,
+      "costUsd": 0.0092794,
+      "createdAt": "2026-11-06T12:12:46.042Z"
+    },
+    {
+      "id": 597,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"McLaren are introducing a substantial aerodynamic update package for Interlagos, featuring revamped front and rear wings plus floor refinements [mclaren.com](https://www.mclaren.com/racing/formula-1/2026/sao-paulo-grand-prix/preview/). Sitting 17 points behind Red Bull for third in the standings, the undulating, aero-demanding São Paulo track suits their platform well, positioning both Norris and Piastri to outperform recent results and challenge the front-runners.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"flop\": {\n    \"name\": \"Mercedes\",\n    \"reasoning\": \"Mercedes need just three points over Ferrari to seal the Constructors' Championship, but recent momentum heavily favors the Scuderia, who have outscored them by 34 points across the last four rounds [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x). With newly crowned champion Antonelli riding the emotional wave of his title celebrations and Russell struggling for pace in recent races, Mercedes risk underperforming against rapid Ferrari and Red Bull machinery.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mercedes\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Both Ferrari drivers will finish on the podium.\",\n    \"reasoning\": \"Ferrari had superior front-row pace in Mexico, with Hamilton taking pole and both drivers running 1-2 early on before intra-team squabbles cost them victory [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x). Following stern team orders and clear-the-air talks from Fred Vasseur, combined with wet weather forecast across the weekend [espn.com](https://www.espn.com/f1/story/_/id/50321090/sao-paulo-grand-prix-2026-brazil-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions) where Hamilton and Leclerc excel, Ferrari are positioned to execute a clean double podium.\"\n  }\n}",
+      "tokensUsed": 4347,
+      "costUsd": 0.01210825,
+      "createdAt": "2026-11-06T12:12:46.043Z"
+    },
+    {
+      "id": 612,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"McLaren bring a substantial upgrade package to Interlagos (front wing, rear wing and floor components per their own preview), and their technical chief calls it a representative track where they've historically gone well. Norris dominated this weekend last year (topped FP1, sprint pole, pole, win), and the MCL40 showed strong underlying pace in Mexico despite the disappointing haul (Norris 5th, Piastri penalised to 13th). They're 17 points behind Red Bull in the fight for P3 in the Constructors' and explicitly targeting a bounce-back, so motivation and track-specific confidence are high. Expect both cars to outscore Red Bull and re-ignite that battle.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"flop\": {\n    \"name\": \"Leclerc\",\n    \"reasoning\": \"Leclerc's Mexico time penalty for the Turn 4 clash with Hamilton triggered a public rebuke from Vasseur, who accused both drivers of putting their private fight above the team. Clear-the-air talks and possible rules of engagement heading into Brazil could clip the wheel-to-wheel aggression that Interlagos' Turn 1/4 zones demand. He's slipped to fifth in the standings, 16 points behind Verstappen in the fight for P2, and carries the weight of Ferrari's fading Constructors' hopes with Mercedes able to clinch this weekend. The combination of team tension, scrutiny and pressure points to another scrappy, error-tinged weekend.\",\n    \"is_team\": false,\n    \"referenced_id\": \"leclerc\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"No Mercedes or Ferrari driver finishes on the podium.\",\n    \"reasoning\": \"The pieces for a shock podium are in place: Verstappen won in Mexico and recovered from the pit lane to P3 at this very track last year, while Norris dominated Interlagos in 2025 and McLaren arrive with a meaningful aero upgrade package. Thundery showers are forecast for Saturday and light rain for Sunday, and Interlagos weather famously scrambles the order. Ferrari's drivers are under fire from Vasseur after their costly Mexico clash with rules of engagement unresolved, risking another self-inflicted wound, while Antonelli may ride a post-title dip now the pressure is off and Russell was only sixth in Mexico. A Verstappen-Norris-led podium completed by an outsider such as Piastri, Hadjar or Alonso is genuinely live if the rain arrives.\"\n  }\n}",
+      "tokensUsed": 10760,
+      "costUsd": 0.123997948,
+      "createdAt": "2026-11-06T12:12:46.043Z"
+    },
+    {
+      "id": 605,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"Gasly\",\n    \"reasoning\": \"My pick to outperform expectations by challenging for a top-six finish. Gasly finished second at Interlagos in 2019 and third in 2024, demonstrating an ability to capitalize on this circuit's opportunities. Its short lap and overtaking zones can reward opportunistic strategy. I cannot access live news here or verify November 2026 form, upgrades, championship standings or the weekend forecast; this is a historical, circuit-based prediction.\",\n    \"is_team\": false,\n    \"referenced_id\": \"gasly\"\n  },\n  \"flop\": {\n    \"name\": \"Stroll\",\n    \"reasoning\": \"My subjective pick to finish outside the points. Interlagos places a premium on precision through elevation changes and traction-sensitive corners, with mistakes particularly costly in changeable conditions. Stroll's formation-lap exit in the wet 2024 race is a circuit-specific warning, although one incident is limited evidence. This pick is not based on verified 2026 performance, and I am not assuming rain is forecast.\",\n    \"is_team\": false,\n    \"referenced_id\": \"stroll\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Pierre Gasly finishes on the São Paulo Grand Prix podium.\",\n    \"reasoning\": \"A podium is a substantially bolder version of the good-surprise pick. Gasly's Interlagos podiums in 2019 and 2024 provide a concrete historical precedent, while the 2024 Alpine double podium illustrates how dramatically disrupted running can change the competitive order here. This remains a speculative circuit-based call: without live research, I cannot claim that this weekend's weather, Alpine's 2026 pace or recent upgrades support it.\"\n  }\n}",
+      "tokensUsed": 1901,
+      "costUsd": 0.0105635,
+      "createdAt": "2026-11-06T12:12:46.044Z"
+    },
+    {
+      "id": 614,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"McLaren\",\"reasoning\":\"McLaren's MCL40 showed strong pace in Mexico even though Lando Norris finished fifth and Oscar Piastri was 13th after a penalty, and the team is bringing front and rear wing upgrades plus floor components to Interlagos. The McLaren preview notes São Paulo has been a good circuit for them and that the upgrades are aimed at closing the 17-point gap to Red Bull for third in the Constructors' Championship. Wet weather and Interlagos' overtaking zones at Turns 1 and 4 could help McLaren convert raw pace into a stronger-than-expected team result. Sources: [mclaren.com](https://www.mclaren.com/racing/formula-1/2026/sao-paulo-grand-prix/preview/), [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-sao-paulo-grand-prix.6Pvk4v10hKccs7IS4X667x).\",\"is_team\":true,\"referenced_id\":\"mclaren\"},\"flop\":{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari arrives in Brazil with internal tension after Mexico, where Vasseur was unhappy that Hamilton and Leclerc fought each other and cost the team points, and clear-the-air talks were planned. Hamilton and Leclerc are also close in the Drivers' standings, so the risk of another costly inter-team battle or penalty remains high. Mercedes needs only to outscore Ferrari by three points to clinch the Constructors' title, adding pressure. Interlagos' wet forecast and old-school layout can punish mistakes, making Ferrari a plausible underperformer this weekend. Sources: [formula1.com](https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about\"}}",
+      "tokensUsed": 8674,
+      "costUsd": 0.009063998,
+      "createdAt": "2026-11-06T12:12:46.044Z"
+    },
+    {
+      "id": 609,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\"good_surprise\":{\"name\":\"Audi\",\"reasoning\":\"Audi go into the weekend in good shape. They scored points in Mexico for the eighth time this season and are only four points behind seventh-placed Haas (27 vs 31). Bortoleto recovered to eighth in Mexico despite barely running in practice, his third P8 of the year, and this is his home race. He is wearing a Senna-tribute helmet and has a big crowd behind him. Hulkenberg is one of the best drivers on the grid at Interlagos: he took pole here in the wet in 2010, led 30 laps in 2012 and has eight top-ten finishes, including P9 last year. He also looked set for points in Mexico before a late red flag. Thunderstorms are forecast for Saturday qualifying (about a 55% chance of rain) and showers are possible on Sunday, and Interlagos usually rewards midfield teams that keep things clean when conditions change. I expect Audi to get both cars into the points and possibly jump Haas, which is more than people expect of a debut works team.\",\"is_team\":true,\"referenced_id\":\"audi\"},\"flop\":{\"name\":\"Ferrari\",\"reasoning\":\"Ferrari arrive as Mercedes' main challenger after Hamilton's first Ferrari pole and P2 in Mexico, and are seen as podium favourites. But things inside the team look shaky. Hamilton and Leclerc fought hard on the opening lap in Mexico and Leclerc got a 5-second penalty for cutting a corner. Verstappen got past them and won while they were battling, and Hamilton has since publicly questioned Leclerc's 'do-or-die' approach and asked for talks. Leclerc missed Thursday media day because his daughter was born, and Beganovic drives his car in FP1, so Leclerc loses a session of running before a likely wet qualifying. Ferrari also need to stay within three points of Mercedes to stop them clinching the constructors' title. With both cars racing each other, Leclerc short on preparation and changing weather, I expect them to miss the podium or lose points through a clash or strategy mistake, and they could let Mercedes clinch the title here.\",\"is_team\":true,\"referenced_id\":\"ferrari\"},\"crazy_prediction\":{\"prediction\":\"No Mercedes driver finishes on the podium.\",\"reasoning\":\"Mercedes have dominated 2026. Antonelli has nine wins and is champion on 380 points, finished third in Mexico, and is the favourite here. Still, there are good reasons to think both cars could miss out. Antonelli has nothing left to race for after the title and was very emotional last weekend. Russell keeps having bad luck: in Mexico a software glitch ruined his start from second on the grid and he dropped to sixth on lap one. Verstappen has won in Mexico, is fighting Hamilton for second in the standings (two points apart) and has won here three times. Ferrari were on pole in Mexico, and McLaren bring a wing and floor upgrade to a track where Norris won from pole last year. Thunderstorms on Saturday and possible showers on Sunday make the grid and the race less predictable, as Interlagos often is. That makes a podium of Red Bull, Ferrari or McLaren drivers unlikely but believable.\"}}",
+      "tokensUsed": 157295,
+      "costUsd": 0.73118,
+      "createdAt": "2026-11-06T12:12:46.045Z"
+    },
+    {
+      "id": 616,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "subjective",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make subjective predictions for the São Paulo Grand Prix (Round 20, 2026-11-08) at São Paulo, Brazil.\n\nResearch current F1 news, recent and season-long performance, circuit characteristics, upgrades, weather, and championship context. For the crazy prediction, choose one unlikely but credible outcome supported by this weekend's evidence. A shared outcome may cover multiple drivers, teams, or sessions. Express it as one short, self-contained claim without stacking separate surprises or adding unnecessary conditions. Explain the evidence in reasoning.",
+      "fullResponse": "{\n  \"good_surprise\": {\n    \"name\": \"McLaren\",\n    \"reasoning\": \"Expectations are low after Mexico (Norris fifth, Piastri outside the points) and Norris calling the MCL40 horrible, with McLaren 17 points behind Red Bull for third in the constructors'. They arrive with a targeted front-wing, rear-wing and floor package aimed at this fight, on a track where the team has historically been strong and Norris won in 2025. Interlagos rewards balance and traction, and a wet or mixed weekend should let the upgrades show up as a points haul above the recent run.\",\n    \"is_team\": true,\n    \"referenced_id\": \"mclaren\"\n  },\n  \"flop\": {\n    \"name\": \"Aston Martin\",\n    \"reasoning\": \"Both cars stopped within five laps in Mexico after Honda ERS cooling and MGU-K failures in thin air. Brazil is still a high-altitude race, and the promised hardware and software countermeasures are unproven. The AMR is already last-but-one in the constructors' with seven points all year. A bumpy, energy-heavy Interlagos, plus a real chance of rain and a safety car, is a poor place for a fragile power unit to bounce back.\",\n    \"is_team\": true,\n    \"referenced_id\": \"aston-martin\"\n  },\n  \"crazy_prediction\": {\n    \"prediction\": \"Pierre Gasly finishes on the podium.\",\n    \"reasoning\": \"Alpine has been a clear midfield team in 2026, with Gasly 10th on 42 points and no suggestion of regular podium pace. Interlagos is the exception: Alpine has scored more points there than at any other circuit since 2021 and has scored at every race at the track in that span. Gasly already has podiums here in 2019 and 2024, calls it a special place, and said anything can happen. Official forecasts put significant rain risk on qualifying and about a 40 percent chance on Sunday, with an estimated 80 percent historical safety-car probability, which is exactly the kind of lottery that has produced Alpine results here before.\"\n  }\n}",
+      "tokensUsed": 85119,
+      "costUsd": 0.16639,
+      "createdAt": "2026-11-06T12:12:46.045Z"
+    },
+    {
+      "id": 610,
+      "predictorId": "minimax-m2.7",
+      "predictorName": "MiniMax M2.7",
+      "companyName": "MiniMax",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"São Paulo Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"201\":[1982,1983,1988],\"202\":[2008],\"203\":[2024],\"204\":[2027],\"205\":[2029],\"206\":[2050],\"207\":[2062],\"208\":[2069],\"209\":[2074],\"210\":[2077]},\"reasoning\":\"For the 2026 São Paulo GP at Interlagos, I'm targeting a mix of high-value and strategic picks. Podium: Max Verstappen (clear championship leader, strong Interlagos history), Kimi Antonelli (Mercedes showing strong pace, rookie value at 8pts), Oscar Piastri (McLaren continues to improve, lower risk than Norris at 18pts). Qualifying: Lando Norris (McLaren's qualifying form has been excellent). Williams: Carlos Sainz (experienced, Williams has shown improvements). Audi: Q2 (realistic target, both cars have made Q2 recently but Q3 remains a stretch). Fastest Lap: Max Verstappen (Red Bull's race pace advantage, especially at Interlagos). Pitstop: Red Bull Racing (consistently one of the fastest pit crews). Midfield battle: Fernando Alonso (Aston Martin's improved pace and his ability to maximize race situations). Classified finishers: 18 (realistic expectation with 2-3 retirements typical). Bortoleto: 11th-22nd (home race motivation but Audi still lacks pace). Championship: Lewis Hamilton second (Ferrari showing strong form, has the experience to capitalize on Russell's potential issues).\"}",
+      "tokensUsed": 5091,
+      "costUsd": 0.00906703,
+      "createdAt": "2026-11-06T12:12:46.390Z"
+    },
+    {
+      "id": 596,
+      "predictorId": "google-gemini-3.8-flash-422e5ba8",
+      "predictorName": "Gemini 3.8 Flash",
+      "companyName": "Google",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"São Paulo Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"201\": [1982, 1983, 1984],\n    \"202\": [2003],\n    \"203\": [2024],\n    \"204\": [2027],\n    \"205\": [2029],\n    \"206\": [2050],\n    \"207\": [2061],\n    \"208\": [2068],\n    \"209\": [2074],\n    \"210\": [2076]\n  },\n  \"reasoning\": \"Max Verstappen and Red Bull remain dominant forces at Interlagos, making Verstappen the prime pick for race win, pole position, and fastest lap. Mercedes with Antonelli and Russell show very strong competitive balance for the remaining podium spots. Sainz is favored over Albon at Williams, Audi is expected to peak around Q2, Red Bull leads pit stop consistency, and classified finishers are expected around 17 given historical attrition rates.\"\n}",
+      "tokensUsed": 4292,
+      "costUsd": 0.01096,
+      "createdAt": "2026-11-06T12:12:46.392Z"
+    },
+    {
+      "id": 613,
+      "predictorId": "moonshot-kimi-k3-9e460c49",
+      "predictorName": "Kimi K3",
+      "companyName": "Moonshot",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"São Paulo Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "{\n  \"answers\": {\n    \"201\": [1982, 1983, 1984],\n    \"202\": [2003],\n    \"203\": [2024],\n    \"204\": [2026],\n    \"205\": [2033],\n    \"206\": [2050],\n    \"207\": [2061],\n    \"208\": [2068],\n    \"209\": [2073],\n    \"210\": [2076]\n  },\n  \"reasoning\": \"Based on the implied 2026 competitive order from the odds and recent form: Red Bull and Verstappen remain the benchmark, with Mercedes (Antonelli/Russell) the closest challengers and Ferrari showing strong race pace via their ongoing fastest-lap streak. For the podium I take Verstappen P1 (clear favorite), Antonelli P2 (strong sophomore form, Mercedes quick at Interlagos' high-downforce, high-altitude layout), and Russell P3 (consistent podium threat and favorite to hold P2 in the championship). Verstappen is the safest pole pick given Red Bull's one-lap edge. Sainz has generally had the measure of Albon at technical tracks like Interlagos, so I back him in the Williams head-to-head. Audi (ex-Sauber) have been regular Q2 visitors and Hulkenberg is a qualifying specialist — with both cars reaching Q2 in Mexico, I boldly back a Q3 appearance worth 20 pts. Ferrari's fastest-lap streak and Hamilton's late-race tire gambles make him my fastest lap pick over favorite Verstappen. Red Bull's pit crew remains the gold standard for the fastest stop. Bortoleto at home, in an Audi that has been the best of the midfield group among these options, should beat Alonso, Sainz and Perez, and I back the home hero to ride the crowd to a points finish (4th-10th). Interlagos typically produces a few retirements (weather, first-lap incidents at the Senna S, new-team reliability for Cadillac/Audi), so 17 classified finishers from 22 starters is the modal outcome. Finally, Russell is the bookmakers' favorite to leave São Paulo second in the standings, suggesting Verstappen or Antonelli leads the title race.\"\n}",
+      "tokensUsed": 8353,
+      "costUsd": 0.05962075,
+      "createdAt": "2026-11-06T12:12:46.392Z"
+    },
+    {
+      "id": 601,
+      "predictorId": "openai-gpt-6.1-sol-0f7beea5",
+      "predictorName": "GPT-6.1 Sol",
+      "companyName": "OpenAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"São Paulo Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"201\": [1982, 1983, 1985],\n    \"202\": [2005],\n    \"203\": [2024],\n    \"204\": [2027],\n    \"205\": [2033],\n    \"206\": [2054],\n    \"207\": [2063],\n    \"208\": [2069],\n    \"209\": [2073],\n    \"210\": [2076]\n  },\n  \"reasoning\": \"I could not independently verify live 2026 news, standings, weather or penalties, so these picks use the supplied form clues, option pricing and historical Interlagos performance. Verstappen's proven strength here supports the win, with Antonelli's favorable pricing suggesting podium-level pace. Leclerc is the bolder third-place pick. Russell's previous Interlagos qualifying success supports a pole upset. Ferrari's stated fastest-lap streak favors Hamilton, while McLaren's historically quick pit crew offers an alternative to Red Bull. Sainz gets the Williams qualifying nod and the midfield race pick. Audi reaching Q2 remains the baseline, although Bortoleto could convert strategy and attrition into a home points finish. Eighteen classified finishers allows for some Interlagos attrition without assuming extreme weather. Russell is the conservative championship runner-up selection, subject to the unavailable points gaps.\"\n}",
+      "tokensUsed": 3302,
+      "costUsd": 0.012476,
+      "createdAt": "2026-11-06T12:12:46.393Z"
+    },
+    {
+      "id": 603,
+      "predictorId": "deepseek-deepseek-v4.1-flash-99183a5b",
+      "predictorName": "DeepSeek V4.1 Flash",
+      "companyName": "DeepSeek",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"São Paulo Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\n  \"answers\": {\n    \"201\": [1982, 1983, 1984],\n    \"202\": [2003],\n    \"203\": [2024],\n    \"204\": [2027],\n    \"205\": [2029],\n    \"206\": [2050],\n    \"207\": [2061],\n    \"208\": [2068],\n    \"209\": [2074],\n    \"210\": [2076]\n  },\n  \"reasoning\": \"Interlagos (Autódromo José Carlos Pace) is a short, high-altitude, low-grip circuit where outright car pace and tyre management matter, and where the field historically spreads out less than at power tracks — so midfield and reliability questions are genuinely open. The fantasy point values imply the market's view of 2026 form: Verstappen (5 pts) is the clear favourite, with Mercedes' Antonelli (8) and Russell (10) next, ahead of the Ferraris and McLarens. That ordering drives most picks. Podium (Q201): Verstappen P1, Antonelli P2, Russell P3 — the three lowest-priced options and the strongest package combination. Qualifying (Q202): Verstappen, the single lowest-priced pole option. Q203: Sainz (10) is favoured over Albon (15) at Williams, consistent with Sainz's stronger qualifying record. Q204: Audi (Bortoleto/Hulkenberg) reached Q2 last weekend, and Q2 (10 pts) is the market's most likely outcome — cracking Q3 at Interlagos is a stretch for the current Audi package. Q205: Fastest lap — Verstappen (10) is favoured despite Ferrari's recent fastest-lap streak; a late-stopping front-runner usually takes it. Q206: Fastest pit stop — Red Bull (10) remains the benchmark crew despite some slow stops in Mexico. Q207: Bortoleto (10) is favoured to out-race Alonso, Sainz and Perez in the midfield scrap, helped by home support. Q208: 17 classified finishers (10 pts) is the modal outcome, though Interlagos reliability is always a risk. Q209: Bortoleto to finish 11th-22nd (10 pts) — points-scoring pace but not a podium threat. Q210: Russell (10) is favoured to hold/claim second in the championship after São Paulo. Historical Interlagos fantasy context (tier/salary rankings) supports treating the top teams' lead drivers as the safest anchors: [fantraxhq.com](https://fantraxhq.com/formula-1-fantasy-2024-sao-paulo-grand-prix-tier-and-salary-cap-rankings/).\"\n}",
+      "tokensUsed": 7046,
+      "costUsd": 0.0096975,
+      "createdAt": "2026-11-06T12:12:46.393Z"
+    },
+    {
+      "id": 608,
+      "predictorId": "anthropic-claude-opus-5.5-0a9d29c4",
+      "predictorName": "Claude Opus 5.5",
+      "companyName": "Anthropic",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"São Paulo Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.",
+      "fullResponse": "{\"answers\":{\"201\":[1982,1983,1986],\"202\":[2005],\"203\":[2024],\"204\":[2027],\"205\":[2032],\"206\":[2053],\"207\":[2061],\"208\":[2069],\"209\":[2074],\"210\":[2078]},\"reasoning\":\"Context: this is Round 20 of the 2026 season. Antonelli clinched the drivers' title in Mexico by finishing P3. Verstappen won that race, his third win in four rounds, and moved to 261 points. Hamilton is on 259, Russell 250 and Leclerc 245. Ferrari had the fastest car in Mexico, with Hamilton taking his first Ferrari pole, but Hamilton and Leclerc fought each other on lap one and lost the win. The forecast gives a 55-60% chance of rain for Saturday qualifying and light showers or cool weather on Sunday. That favours Verstappen. Leclerc missed Thursday media for the birth of his daughter, and Dino Beganovic drives his car in FP1. McLaren bring upgrades but have been inconsistent. Picks: Podium is Verstappen (best form, very strong at Interlagos and in changeable conditions), then Antonelli (pre-race favourite and the most consistent driver, with 16 podiums), then Hamilton (Ferrari pace from Mexico, and he is fighting for P2 in the standings). For pole I took Russell as a value pick. He missed Mexico pole by only 0.009s, has taken pole at Interlagos before (2022), and Mercedes are strong over one lap. Sainz has been out-qualifying Albon, including in Mexico. Audi keep getting one car to around P11 and both reached Q2 last time, so Q2 is the likeliest. Fastest lap goes to Leclerc to back Ferrari's fastest-lap streak at 15 points. Ferrari for fastest pit stop is a medium-risk pick. In the midfield head-to-head, Bortoleto is best placed: Audi are a Q2-level car, Aston Martin have Honda reliability problems, Sainz has struggled for pace and Cadillac have scored no points. For classified finishers I picked 18, because rain, 2026 reliability problems (Honda, Cadillac) and a debutant (Camara) make a few DNFs likely. Bortoleto most likely finishes 11th-22nd, given the Audi's normal pace around P11-14. For P2 in the championship I chose Verstappen: he leads Hamilton by 2 points and is in the best form.\"}",
+      "tokensUsed": 179700,
+      "costUsd": 0.813696,
+      "createdAt": "2026-11-06T12:12:46.394Z"
+    },
+    {
+      "id": 615,
+      "predictorId": "xai-grok-4.7-5d9fc1a7",
+      "predictorName": "Grok 4.7",
+      "companyName": "xAI",
+      "category": "fantasy",
+      "status": "success",
+      "errorMessage": null,
+      "promptUsed": "Make your picks for: \"São Paulo Grand Prix Fantasy\"\n\nResearch the current state of Formula 1 before making your predictions. Consider recent form, track characteristics, team performance, and any breaking news that might affect the outcomes. Be bold but informed — don't just pick the favorites for every question.\n\nThe previous attempt did not produce parseable output. Return exactly one valid JSON object matching the requested schema. Do not include markdown fences, citations, commentary, or text outside the JSON object.",
+      "fullResponse": "{\"answers\": {\"201\": [1982, 1987, 1984], \"202\": [2003], \"203\": [2024], \"204\": [2027], \"205\": [2029], \"206\": [2050], \"207\": [2062], \"208\": [2068], \"209\": [2074], \"210\": [2076]}, \"reasoning\": \"2026 Interlagos is a high-degradation, overtaking-friendly circuit that historically rewards race pace and tire management over pure one-lap speed. Recent form and the confirmed lineup point to Verstappen as the most complete package for pole and the win, with Norris the closest race threat and Russell the best of the rest on Mercedes race pace. Sainz edges Albon on qualifying consistency; Audi is more likely to reach Q2 than Q3; Red Bull remains the pit-stop benchmark; Alonso is the strongest of the listed midfield finishers; a typical Interlagos attrition rate lands near 17 classified cars; Bortoleto’s realistic range is 11th–22nd; Russell is the most likely driver to leave the weekend second in the championship.\"}",
+      "tokensUsed": 5438,
+      "costUsd": 0.004864,
+      "createdAt": "2026-11-06T12:12:46.400Z"
+    }
+  ]
+}
